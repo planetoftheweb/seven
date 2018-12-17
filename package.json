@@ -1,6 +1,6 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "4.0.2",
+  "name": "seven-base-blog",
+  "version": "1.0.0",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
     "build": "npx eleventy",
@@ -9,18 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "git://github.com/planetoftheweb/seven.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Ray Villalobos",
+    "email": "ray@planetoftheweb.com",
+    "url": "https://raybo.org/"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.5.4",
     "@11ty/eleventy-plugin-rss": "^1.0.3",
