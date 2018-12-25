@@ -5,9 +5,7 @@
           <div class="row no-gutters">
             {% if post.data.thumb %}
             <div class="col-6 col-md-3">
-                <a href="{% if post.data.links[0] %}{{ post.data.links[0].object.keys([0]) }}{% endif %}">
                   <img class="w-100 img-fluid rounded" src="{{ post.data.thumb }}" alt="{{ post.data.title }} photo">
-                </a>
               </div>
             {% endif %}
 
