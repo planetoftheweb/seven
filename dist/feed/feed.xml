@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Seven11</title>
+	<subtitle></subtitle>
+	<link href="https://raybo.org/seven/feed/feed.xml" rel="self"/>
+	<link href="https://raybo.org/seven"/>
+	<updated>2018-10-12T00:00:00-05:00</updated>
+	<id>https://raybo.org/seven</id>
+	<author>
+		<name>Ray Villalobos</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>Chrome Developer Extensions for Designers / Developers</title>
+		<link href="https://raybo.org/posts/2015-02-07-Best-Google-Chrome-Extensions-for-Web-Designers-or-Developers/"/>
+		<updated>2015-02-07T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-02-07-Best-Google-Chrome-Extensions-for-Web-Designers-or-Developers/</id>
+		<content type="html">&lt;h2 id=&quot;responsive-inspector&quot;&gt;Responsive Inspector &lt;a class=&quot;direct-link&quot; href=&quot;#responsive-inspector&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim&quot;&gt;&lt;img src=&quot;http://i.imgur.com/bw2QkXh.png&quot; alt=&quot;Responsive Inspector&quot;&gt;&lt;/a&gt;&lt;br&gt;
+Awesome for responsive design projects. This extension automatically analyzes a current website and shows you the media query breakpoints on that page in a nice visual display.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ylMHAj0OU10&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Clicking on the bars changes your window to that size and lets you see how the layout of your site is affected by the new size. When you don&#39;t know or aren&#39;t sure what the media query points are or just don&#39;t remember, this is the best way to quickly peek into a site&#39;s layouts.&lt;/p&gt;
+&lt;p&gt;Although the Chrome Developer tools now offer their own media query inspector, it requires a page reload and resizes your page. Plus it takes a lot of clicks to get to the right place, so sometimes, simpler is better and this extension does the job quickly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Get it on Chrome Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://outof.me/responsive-inspector/&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Developer site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;what-font%3F&quot;&gt;What Font? &lt;a class=&quot;direct-link&quot; href=&quot;#what-font%3F&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm&quot;&gt;&lt;img src=&quot;http://i.imgur.com/ow5n3CS.png&quot; alt=&quot;What Font image&quot;&gt;&lt;/a&gt;&lt;br&gt;
+When you&#39;re navigating through different sites to take a look at font combinations, digging through the different DevTools screens to get to a font is too cumbersome. This extension makes it easy to identify fonts on sites by simply rolling your mouse over them. Clicking gives you more information about the font.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Get it on Chrome Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://chengyinliu.com/whatfont.html&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Developer site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;validator&quot;&gt;Validator &lt;a class=&quot;direct-link&quot; href=&quot;#validator&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm&quot;&gt;&lt;img src=&quot;http://i.imgur.com/RuDWEFW.png&quot; alt=&quot;Validator&quot;&gt;&lt;/a&gt;&lt;br&gt;
+Alghough validation is something that can be handled in many places, this extension gives you one click access to the W3C Validator. It will help you quickly find errors which can potentially affect your scripts or CSS.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Get it on Chrome Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://robertnyman.com/html-validator/&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Developer site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;##Clear Cache&lt;br&gt;
+&lt;a href=&quot;https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&amp;amp;gl=US&quot;&gt;&lt;img src=&quot;http://i.imgur.com/VtAhYdX.png&quot; alt=&quot;Clear Cache&quot;&gt;&lt;/a&gt;&lt;br&gt;
+To test some applications properly, it&#39;s often necessary to clear things like cookies and site caches, but the process for doing so in Chrome takes a long time. This extension is a one click solution to quickly removing your site cache...set up some defaults and you&#39;re ready to go. Hit the button and the defaults will be applied immediately without confirmation (so be careful with this).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en&amp;amp;gl=US&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Get it on Chrome Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://benjaminbojko.com/work/side-projects&quot;&gt;&lt;i class=&quot;fa fa-external-link-square&quot;&gt;&lt;/i&gt; Developer site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Horizontally Centered Navigation Menu with CSS</title>
+		<link href="https://raybo.org/posts/2015-02-11-Perfectly-centered-navigation-menu-with-links-and-anchor-tags/"/>
+		<updated>2015-02-11T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-02-11-Perfectly-centered-navigation-menu-with-links-and-anchor-tags/</id>
+		<content type="html">&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+&lt;iframe class=&quot;embed-responsive-item&quot; width=&quot;700&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/RT64aSNXnzY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;One of the first things you try to do when you learn CSS is to create a centered navigation menu, but it&#39;s not as straightforward as it should be. You&#39;d think that there was some sort of center command and in the future, something like &lt;a href=&quot;http://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;&gt;flexbox&lt;/a&gt; will make it a lot easier. But even flexbox is no magic bullet with poor browser support in older browsers and frankly, a somewhat confusing syntax.&lt;/p&gt;
+&lt;p&gt;My current approach is to do something that ends up looking like this.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;jsbin-embed&quot; href=&quot;http://jsbin.com/popalu/11/embed?output&quot;&gt;JS Bin&lt;/a&gt;&lt;script src=&quot;http://static.jsbin.com/js/embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-trick&quot;&gt;The Trick &lt;a class=&quot;direct-link&quot; href=&quot;#the-trick&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Since you can just read the code above or watch the video, I&#39;ll give you the highlights so you can catch the critical part.&lt;/p&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;nav&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;sitemenu&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;navwrapper&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; MySite&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; Home&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;about us&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;a&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;#&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; contact us&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;	  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;nav&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I&#39;ve simplified it a bit here for clarity. The key extra item here is the addition of a wrapper div with a class navwrapper. In order to get this to work you&#39;ll need this extra piece of HTML.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.sitemenu&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 100%&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; #a2cea5&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Droid Sans&#39;&lt;/span&gt;, serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;border-top&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 8px solid #126758&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##Set the width of main container&lt;br&gt;
+The main thing here is the &lt;code&gt;width: 100%;&lt;/code&gt; on the nav with the sitemenu class. You should have a container here that makes the width of the navigation container go full width. If you examine the code (by clicking on the HTML tab in the code window).&lt;/p&gt;
+&lt;h2 id=&quot;enter-the-table-style&quot;&gt;Enter the table style &lt;a class=&quot;direct-link&quot; href=&quot;#enter-the-table-style&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;next, you need to have another container inside the first one that sets its display to show up as if it were a table.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.sitemenu &gt; .navwrapper&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; table&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0 auto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The code that actually centers the table is the &lt;code&gt;margin: 0 auto;&lt;/code&gt; line. This item will be the width of the menus, regardless of their size. Normally to center an element, you have to know its width, but setting the display to table here bypasses that.&lt;/p&gt;
+&lt;p&gt;Honestly, the rest is just window dressing and pretty easy to follow from the code, so &lt;a href=&quot;http://jsbin.com/popalu/9/&quot;&gt;take a look at the jsbin&lt;/a&gt; to learn more.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Understanding Data Formats used for Visualization Applications</title>
+		<link href="https://raybo.org/posts/2015-02-19-Understanding-Data-Formats/"/>
+		<updated>2015-02-19T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-02-19-Understanding-Data-Formats/</id>
+		<content type="html">&lt;h1 id=&quot;common-data-viz-formats&quot;&gt;Common Data-Viz Formats &lt;a class=&quot;direct-link&quot; href=&quot;#common-data-viz-formats&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Data Visualization via computers means that you take some existing data and use a computer to process the information that you have gathered. In order to create visualizations, the data has to be converted (or parsed) into a format that is easy for computers to understand. There are many formats available, but some are better than others depending on what you&#39;re using to process. Let&#39;s take a look at some of our options.&lt;/p&gt;
+&lt;h2 id=&quot;microsoft-excel&quot;&gt;Microsoft Excel &lt;a class=&quot;direct-link&quot; href=&quot;#microsoft-excel&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/qeKvuau.png&quot; alt=&quot;Microsoft Excel&quot;&gt;&lt;br&gt;
+The most common format that people will use to process and sometimes visualize data is Microsoft Excel. Developed by Microsoft for Macintosh computers in 1988. Microsoft Excel is one of the most popular office productivity applications used in offices throughout the world.&lt;/p&gt;
+&lt;p&gt;Each version of Excel by default uses a proprietary format that although ubiquitous, is not compatible with other software. However, the program is so popular that it has become a standard for delivering data in many places. Excel does allow you export in more common formats like CSV (comma separated Values), Tab Delimited Text, XML and even has options to save as web pages. However because of the complexity of the application and its use as a presentation tool, some of these exports produce files that can be complex and tough for computers to parse.&lt;/p&gt;
+&lt;h3 id=&quot;advantages&quot;&gt;Advantages &lt;a class=&quot;direct-link&quot; href=&quot;#advantages&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubiquitous&lt;/li&gt;
+&lt;li&gt;Powerful presentation&lt;/li&gt;
+&lt;li&gt;Can perform some visualizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;disadvantages&quot;&gt;Disadvantages &lt;a class=&quot;direct-link&quot; href=&quot;#disadvantages&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proprietary format&lt;/li&gt;
+&lt;li&gt;Complex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;csv-(and-other-text-based-formats)&quot;&gt;CSV (and other text-based formats) &lt;a class=&quot;direct-link&quot; href=&quot;#csv-(and-other-text-based-formats)&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The most compatible format for sharing information in almost all cases is just a simple text file and just about any application that needs information will read some version of a text format, however structured data like the type you need to visualize often needs to contain information about rows and columns that is not easily expressed through a text file.&lt;/p&gt;
+&lt;p&gt;One of the oldest and most common formats for saving data is the CSV file. It predates personal computers and has been used since the 1960s in just about every computer language. CSV stands for Comma Separated Values and, as the name implies, lets you express data by separating it with commas.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Name,Address,City,Sales
+&amp;quot;Burke, Carlos P.&amp;quot;,287-2469 Felis Rd.,Höchst,$8012.98
+&amp;quot;Fuller, Jane A.&amp;quot;,6421 Nibh. St.,Juneau,$9386.38
+&amp;quot;Cunningham, Meghan C.&amp;quot;,Ap #944-5884 Tellus St.,Milwaukee,$9102.62
+&amp;quot;Lewis, Abraham B.&amp;quot;,&amp;quot;3221 Tortor, Avenue&amp;quot;,Meduno,$5486.26
+&amp;quot;Henson, Conan C.&amp;quot;,&amp;quot;P.O. Box 598, 6850 Nec, Rd.&amp;quot;,Alcalá de Henares,$7196.31
+&amp;quot;Dodson, Camden Q.&amp;quot;,Ap #460-7854 Sed Rd.,Hohenems,$2870.35
+&amp;quot;Ayala, Colin C.&amp;quot;,Ap #354-8456 Rutrum Rd.,Borgerhout,$7019.71
+&amp;quot;Vaughn, Charles J.&amp;quot;,&amp;quot;P.O. Box 378, 232 Lobortis Avenue&amp;quot;,Roccanova,$6536.85
+&amp;quot;Hunter, Paki P.&amp;quot;,&amp;quot;P.O. Box 739, 2611 Pede. Rd.&amp;quot;,Beaumont,$9606.43
+&amp;quot;Swanson, Cheyenne X.&amp;quot;,Ap #963-5065 Massa. Rd.,Kapelle-op-den-Bos,$3322.18
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;CSV is a very loose format and because of that, there is no official standard. Therefore, the implementations sometimes vary. One attempt at a standard has been &lt;a href=&quot;https://tools.ietf.org/html/rfc4180&quot;&gt;rfc4180&lt;/a&gt;, although often the specifics of how numbers are read are left to the application reading the format.&lt;/p&gt;
+&lt;p&gt;CSV format is very easy to understand, each column on a table is separated by commas, any string data is written in single or double quotes, numeric values need no quotations. The first row of data is usually reserved for the column names. Also, although commas are traditionally used, because this is a text format, people often use other delimiters. Therefore, you&#39;ll find variations of this format as TSV (Tab Separated Values).&lt;/p&gt;
+&lt;h3 id=&quot;advantages-2&quot;&gt;Advantages &lt;a class=&quot;direct-link&quot; href=&quot;#advantages-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubiquitous&lt;/li&gt;
+&lt;li&gt;Compatible with all computer systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;disadvantages-2&quot;&gt;Disadvantages &lt;a class=&quot;direct-link&quot; href=&quot;#disadvantages-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Data has to be simple tables&lt;/li&gt;
+&lt;li&gt;Cannot understand complex relations&lt;/li&gt;
+&lt;li&gt;Lack of Standard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;resources&quot;&gt;Resources &lt;a class=&quot;direct-link&quot; href=&quot;#resources&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc4180&quot;&gt;rfc4180 Specification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.convertcsv.com/&quot;&gt;CSV Conversion Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.convertcsv.com/generate-test-data.htm&quot;&gt;CSV Data Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.zamzar.com/convert/xls-to-csv/&quot;&gt;XLS to CSV Conversion tool&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;xml&quot;&gt;XML &lt;a class=&quot;direct-link&quot; href=&quot;#xml&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;XML stands for eXtensible Markup Language. A markup language defines a set of rules that you can apply inside a text file that are designed to communicate rich data. The format works by creating a series of tags that area inside less than (&amp;lt;) and greater than signs (&amp;gt;). Inside these tags you can add attributes that let you add additional information to the data.&lt;/p&gt;
+&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;facility&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Prop_ID&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;X092&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Prop_ID&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Van Cortlandt Nature Center&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Location&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;246th Street and Broadway&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Location&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Phone&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;(718) 548-0912&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Phone&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Hours&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;April 1 - Memorial Day and Labor Day to October 31: open to the public Saturday and Sunday 12:00 noon - 4:00 pm, and for registered and scheduled activities at all other times.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Hours&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Directions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;emphasislittle&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;By car:&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;span&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; Take the Major Deegan/I-87 to Van Cortlandt Park South exit. Take the off ramp to the extreme right to the stoplight. Continue through the stop light then stay right and continue to the stop sign next to the park. Follow the road to a yellow gate just north of the end of an elevated train. Enter the yellow gate and continue on the road to the black fence. Enter the yellow gate and continue on the road to the black fence. Make a left turn at the black fence and park in the small lot. The Nature Center is the building with the orange front door.&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;span&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;emphasislittle&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Public transportation:&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;span&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; Take the 1 or 9 train to the 242nd Street stop. Walk north on Broadway. Enter the park at W.246th Street and follow the signs to the center.&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;br&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt; Take the Bx9 bus to the 242nd Street stop. Walk north on Broadway. Enter the park at W.246th Street and follow the signs to the center.&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Directions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Accessible&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;facility&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you&#39;re familiar with HTML you&#39;ll note that it is very similar and is derived from XML. XML is often used to deliver data that is easily readable and displayed on websites. Unlike HTML, XML has a very rigid set of rules that make it much more structured and reliable than HTML, but also much more difficult to write.&lt;/p&gt;
+&lt;h3 id=&quot;basic-rules&quot;&gt;Basic Rules &lt;a class=&quot;direct-link&quot; href=&quot;#basic-rules&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You create beginning and ending markup elements as in&lt;/p&gt;
+&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Bob&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can add attributes in any order inside the tags. Every attribute begins with a name followed by an equal sign and a value in quotations &amp;quot;&amp;quot;. Therefore you can add a n&lt;strong&gt;age&lt;/strong&gt; attribute using&lt;/p&gt;
+&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;name&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;36&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Bob&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;`.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You could also express this same information using this type of notation.&lt;/p&gt;
+&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Bob&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;36&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Which format you use is up to you because XML is structure agnostic. You can define your own tags and as long as you follow the syntax of the language, it doesn&#39;t matter what your parameters are called or if you use tags instead of parameters.&lt;/p&gt;
+&lt;p&gt;That&#39;s just a quick sample of what XML rules are like, for a more complete set of rules, take a look at the official &lt;a href=&quot;http://www.w3.org/TR/REC-xml/&quot;&gt;XML documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The rules for XML are fairly simple, but the implementation of parsing of this language can be very complex. Because the language uses lots of punctuation and is very verbose, it means that expressing simple data often takes a lot more room than is necessary. Also, because attributes can be written in no particular order, parsing or translating this language can be challenging.&lt;/p&gt;
+&lt;p&gt;XML&#39;s lack of pre-defined tags is one of its strengths. Several sub-formats which use XML have emerged like RSS, Atom, ML, XHTML and others.&lt;/p&gt;
+&lt;h3 id=&quot;advantages-3&quot;&gt;Advantages &lt;a class=&quot;direct-link&quot; href=&quot;#advantages-3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Popular Web Language&lt;/li&gt;
+&lt;li&gt;Easy to read and understand&lt;/li&gt;
+&lt;li&gt;Well supported online&lt;/li&gt;
+&lt;li&gt;No pre-defined structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;disadvantages-3&quot;&gt;Disadvantages &lt;a class=&quot;direct-link&quot; href=&quot;#disadvantages-3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extremely verbose&lt;/li&gt;
+&lt;li&gt;Generates file larger than necessary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;json&quot;&gt;JSON &lt;a class=&quot;direct-link&quot; href=&quot;#json&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/l6HAmZh.png&quot; alt=&quot;JSON Online Editor&quot;&gt;&lt;br&gt;
+JSON stands for JavaScript Online Notation, but don&#39;t let its name deceive you, it is another text format for storing structured data which is very popular on the web because of its similarity to JavaScript Objects. JSON is very easy to parse and fairly easy for humans to read and write. It has minimal punctuation, so adding the syntax to the data doesn&#39;t significantly increase the size of the file. It is sometimes jokingly referred to the &lt;a href=&quot;http://www.json.org/fatfree.html&quot;&gt;Fat-Free alternative to XML&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;&quot;distribution&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;@type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dcat:Distribution&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;downloadURL&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas.aspx&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;mediaType&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;text/html&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Interactive map&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;@type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dcat:Distribution&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;accessURL&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http://gis.ers.usda.gov/arcgis/rest/services/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;See http://www.ers.usda.gov/developer/geospatial-apis.aspx for more information.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;format&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;API&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;mediaType&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;application/json&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;GIS API Services&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;@type&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;dcat:Distribution&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;downloadURL&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;http://www.ers.usda.gov/datafiles/Food_Access_Research_Atlas/Download_the_Data/Current_Version/DataDownload.xlsx&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;mediaType&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Data file&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Although JSON has its roots in the JavaScript language, it is language independent and has extensive support in most other programming languages. JSON allows you to easily express objects, arrays and values, so although the rules are simple, the variety of data that can be expressed is comprehensive.&lt;/p&gt;
+&lt;p&gt;One of the issues with JSON is that although it is fairly easy to read and write, humans can easily make mistakes because larger data sets will have a lot of punctuation. In JSON, the keys must be surrounded by quotations, followed by a colon (:) and then a value which can a string (in quotes), a number (without quotes), a boolean (without quotes), an array (using brackets []) or an object (using curly brackets {}).&lt;/p&gt;
+&lt;h3 id=&quot;advantages-4&quot;&gt;Advantages &lt;a class=&quot;direct-link&quot; href=&quot;#advantages-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Broad support in programming languages&lt;/li&gt;
+&lt;li&gt;Extremely web friendly&lt;/li&gt;
+&lt;li&gt;Easy to read and Write&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;disadvantages-4&quot;&gt;Disadvantages &lt;a class=&quot;direct-link&quot; href=&quot;#disadvantages-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to make mistakes&lt;/li&gt;
+&lt;li&gt;Punctuation can be overwhelming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;yaml&quot;&gt;YAML &lt;a class=&quot;direct-link&quot; href=&quot;#yaml&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;http://i.imgur.com/jhsDlkX.png&quot; alt=&quot;This YAML parser is a great way to work with YAML and explore it&#39;s syntax&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;JSON&#39;s overwhelming amount of punctuation sometimes makes it difficult for humans to type and some different sub-formats like CSON and YAML were developed to address. YAML is one of the more popular approaches to this and it&#39;s much easier to type than JSON. YAML is a recursive acronym that means &amp;quot;YAML ain&#39;t Markup Language&amp;quot;&lt;/p&gt;
+&lt;p&gt;You can express simple name and value pairs like this:&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;Company&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Elit Aliquam Institute&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;Revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;358.55&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;Country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Philippines&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here&#39;s a more complex set of array data:&lt;/p&gt;
+&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;Companies&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Libero Dui Corporation&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;075.41&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Turkmenistan&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Elit Aliquam Institute&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $3&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;358.55&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Philippines&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Risus At Consulting&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $7&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;987.82&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Kuwait&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Cras Eu Ltd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;149.92&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Australia&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Nibh Phasellus Nulla Consulting&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $4&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;902.60&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Norfolk Island&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Lobortis Quam A LLP&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;revenue&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $2&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;616.62&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token key atrule&quot;&gt;country&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Taiwan&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice how beautiful that is to read. If you were to give this to someone to type in a text editor, it would be fairly easy for even someone without YAML experience to stick to the rules. Unlike with JSON, strings do not have to be quoted. Also, notice that although the whitespace is relevant, in YAML, we&#39;re adding tabs to make things align and make them more readable. Here&#39;s what that data would look like expressed as JSON.&lt;/p&gt;
+&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token property&quot;&gt;&quot;Companies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Libero Dui Corporation&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;revenue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$3,075.41&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;country&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Turkmenistan&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Elit Aliquam Institute&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;revenue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$3,358.55&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;country&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Philippines&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Risus At Consulting&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;revenue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$7,987.82&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;country&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Kuwait&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cras Eu Ltd&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;revenue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$2,149.92&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;country&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Australia&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Nibh Phasellus Nulla Consulting&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;revenue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$4,902.60&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;country&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Norfolk Island&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Lobortis Quam A LLP&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;revenue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$2,616.62&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;      &lt;span class=&quot;token property&quot;&gt;&quot;country&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Taiwan&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;YAML is a great format for typing data, but it is not readily understood or parsed by most programming languages. It usually has to be converted into JSON, and different libraries exist to do this.&lt;/p&gt;
+&lt;h3 id=&quot;advantages-5&quot;&gt;Advantages &lt;a class=&quot;direct-link&quot; href=&quot;#advantages-5&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Easiest format to read&lt;/li&gt;
+&lt;li&gt;Very concise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;disadvantages-5&quot;&gt;Disadvantages &lt;a class=&quot;direct-link&quot; href=&quot;#disadvantages-5&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Tough to learn at first&lt;/li&gt;
+&lt;li&gt;Poor support&lt;/li&gt;
+&lt;li&gt;Needs to be converted&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Principles of online graphic formats</title>
+		<link href="https://raybo.org/posts/2015-03-01-Principles-of-online-graphic-formats/"/>
+		<updated>2015-03-01T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-03-01-Principles-of-online-graphic-formats/</id>
+		<content type="html">&lt;h1 id=&quot;understanding-bitmap-graphic-formats&quot;&gt;Understanding Bitmap Graphic Formats &lt;a class=&quot;direct-link&quot; href=&quot;#understanding-bitmap-graphic-formats&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;There are many types of graphic formats, but for creating visualizations, some are better than others. Let&#39;s take a look at traditional online formats and the advantages some have over others for visualizations.&lt;/p&gt;
+&lt;h2 id=&quot;bitmaps&quot;&gt;Bitmaps &lt;a class=&quot;direct-link&quot; href=&quot;#bitmaps&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There are two ways of expressing graphics on devices, as either bitmaps or vectors. A bitmap, which is also known as a raster graphic is a grid of pixels (or a map of the computer bits used to describe the image, hence the term bitmap). Each grid has three dimensions: width, height and depth. The width and height are pretty obvious, but the depth needs some explaining.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/bQw8zuG.png&quot; alt=&quot;An image in photoshop with zoomed in pixels&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you zoom into any image on your monitor, eventually you&#39;ll notice that it is built out of a grid of pixels. Even colors that appear to be the same are actually slight variations of the same color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The depth in a bitmap refers to the amount of information required to describe each pixel, which determines the number of colors that each pixel can have. Practically, this means how many bits we use to describe the color in each pixel. A bit is the single unit of information that a computer can store and it is stored as either a 1 or a 0. Practically, to represent black you can use 0, which means the pixel on the screen is on and a 1 would mean that the pixel is off and therefore white.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/xgiVLiv.png&quot; alt=&quot;BW Image&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In a black and white image like this, the pixels can be stored as single bits (1&#39;s or 0&#39;s) of data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The more bits you put together, the more information you can store. If you only use 1-bit to store information about pixels, you can only represent two colors (black and white or off and on). If you add more bits, you can represent more colors. If, for example, you have two bits, you can represent 4 colors (2 to the 2nd power), with 8-bits, you can represent 256 colors (2 to the 8th power) and so on and so forth.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Colors&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;B/W&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8 bits&lt;/td&gt;
+&lt;td&gt;Indexed/Grayscale&lt;/td&gt;
+&lt;td&gt;256&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24-bits&lt;/td&gt;
+&lt;td&gt;True Color&lt;/td&gt;
+&lt;td&gt;Thousands&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;32-bit&lt;/td&gt;
+&lt;td&gt;True Color with Transparency&lt;/td&gt;
+&lt;td&gt;Thousands plus Transparency&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Because computers are built to emulate how humans see things, representing color means storing information for red, green and blue channels. That matches human beings&#39; 3 types of color receptors. Traditionally, computers store this information in &lt;strong&gt;channels&lt;/strong&gt;, so that we refer to the data as in the &lt;strong&gt;red&lt;/strong&gt; channel, the &lt;strong&gt;green&lt;/strong&gt; channel or the &lt;strong&gt;blue&lt;/strong&gt; channel.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/dXDO1FR.png&quot; alt=&quot;Red Green and Blue Channels&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most images are stored as three 8-bit channels of information each mirroring the way humans see through 3 different red, green and blue color receptors.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In most formats, like JPEG, that information is stored with 8 bits (256 colors) and because you use three channels, you end up with 24-bits of information per pixel, which is known as &lt;strong&gt;true color&lt;/strong&gt;. True color is called that because with 24 bits of information, you can store 16,777,216 different variations of colors, but humans can distinguish the difference between about 10 million colors.&lt;/p&gt;
+&lt;p&gt;Because we often need to add another layer to store information about transparency in an image an additional 8-bits are often added to the 24-bit to store that information as a separate channel so you often see image information stored as 32 bits.&lt;/p&gt;
+&lt;p&gt;Although 8-bits of information per channel is traditionally used, equipment like cameras can capture a lot more detail than can be stored in 8-bits. Sometimes that detail can be useful in order to improve and control the amount of visible detail in some images. Therefore some graphic formats allow you to store more than 8-bits per channel of data and 16-bits or even 32-bits per channel are sometimes used. Both of those are impractical for web use since the file sizes for those formats can become unwieldly.&lt;/p&gt;
+&lt;h2 id=&quot;managing-bitmap-file-sizes&quot;&gt;Managing Bitmap File Sizes &lt;a class=&quot;direct-link&quot; href=&quot;#managing-bitmap-file-sizes&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Of course, the total amount of pixels in an image can have a dramatic effect on the size of the image. Take, for example the following chart of common megapixel sizes you might find on photos from a digital camera.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Dimensions&lt;/th&gt;
+&lt;th&gt;Megapixels&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1,920 x 1,080&lt;/td&gt;
+&lt;td&gt;2.1MP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2,592 x 1944&lt;/td&gt;
+&lt;td&gt;5MP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3,264 x 2,448&lt;/td&gt;
+&lt;td&gt;8MP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3,648 x 2,736&lt;/td&gt;
+&lt;td&gt;10MP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4,288 x 3,216&lt;/td&gt;
+&lt;td&gt;14MP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The first item is what we call an HD image 2.1 megapixels. That ends up being 2,073,600 pixels and each one of those pixels can use at least 24 bits of color information.&lt;/p&gt;
+&lt;p&gt;2.1 megapixels would be considered a very low resolution for a digital camera. Modern cameras easily exceed that resolution with 20-30 Megapixels more than common today. Even phones commonly produced bigger images, but compare this with average monitor sizes visiting one of my websites and you can tell that even a very low resolution camera today can take an image that is much bigger than would be required for even the bigger screens.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Screen Dimensions&lt;/th&gt;
+&lt;th&gt;% of traffic&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1366x768&lt;/td&gt;
+&lt;td&gt;28.50%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1920x1080&lt;/td&gt;
+&lt;td&gt;19.38%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1440x900&lt;/td&gt;
+&lt;td&gt;8.30%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1600x900&lt;/td&gt;
+&lt;td&gt;6.52%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1280x1024&lt;/td&gt;
+&lt;td&gt;6.16%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1280x800&lt;/td&gt;
+&lt;td&gt;5.96%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1680x1050&lt;/td&gt;
+&lt;td&gt;5.08%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1920x1200&lt;/td&gt;
+&lt;td&gt;3.68%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2560x1440&lt;/td&gt;
+&lt;td&gt;2.52%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1024x768&lt;/td&gt;
+&lt;td&gt;2.32%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;This means that when creating graphics for the web, designers and developers have to learn to control the size of the files and that can be done in an number of ways.&lt;/p&gt;
+&lt;p&gt;First, of course, is cropping the images so that they have fewer pixels. The second way is to down-sample the image. That means saving it at a lower resolution. You can easily do that with a program like Adobe Photoshop and you should for every image you use for web consumption.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/kZzaVQe.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The easiest way to reduce the size of an image for online consumption is to reduce the amount of pixels in the image. You can do that easily with Photoshop&#39;s save for web panel. For even the biggest monitors, your image should almost never be any bigger than about 2000 pixels wide.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can also reduce the color depth of the image. If an image uses fewer bits to describe the color in every pixel, then the file will be smaller. The final way to reduce the file size is to compress the image. Compressing involves passing the image through different filters that reduce the amount of data needed to store the image.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Vector Graphic Formats Used for data visualizations</title>
+		<link href="https://raybo.org/posts/2015-03-02-Vector-Graphic-Formats-Used-in-data-visualizations/"/>
+		<updated>2015-03-02T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-03-02-Vector-Graphic-Formats-Used-in-data-visualizations/</id>
+		<content type="html">&lt;h2 id=&quot;vector-graphics&quot;&gt;Vector Graphics &lt;a class=&quot;direct-link&quot; href=&quot;#vector-graphics&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Vector graphics are different than bitmaps because instead of storing information for each pixel in an image, mathematical formulas for each element in an image is stored in a programming language that can rebuild the image on any screen at the best resolution available.&lt;/p&gt;
+&lt;p&gt;A mathematical calculation is often smaller than a bitmap. Take a look at the graphic below and scroll through the code. You can see that it isn&#39;t just a series of pixels, but a mathematical definition of the lines, strokes and colors of shapes.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;jsbin-embed&quot; href=&quot;http://jsbin.com/hotaqe/2/embed?html,output&quot;&gt;&lt;/a&gt;&lt;script src=&quot;http://static.jsbin.com/js/embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Because they&#39;re mathematical definitions instead of pixels, it means that no matter what size or the resolution of the device, the image will always look the same. This image is only 3k...a fraction of what it would take a bitmap of a similar size.&lt;/p&gt;
+&lt;p&gt;This, of course, is a huge advantage over bitmaps, but vectors are only good for certain types of images. They&#39;re not great for representing photographic images or things that can best be expressed solely as bitmaps. However, they are excellent for interactive web graphics and even better for web animations, especially data visualizations.&lt;/p&gt;
+&lt;h2 id=&quot;common-web-formats-and-visualization&quot;&gt;Common Web formats and visualization &lt;a class=&quot;direct-link&quot; href=&quot;#common-web-formats-and-visualization&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Online graphics are usually served in just a few formats. The most common bitmap formats are GIF, JPEG and PNG. Because these formats are, for the most part, static (with the exception of GIF), they are not best for representing data for visualizations. In addition to being difficult to animate, individual data points or elements are not accessible through JavaScript.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Format&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;GIF&lt;/td&gt;
+&lt;td&gt;256 colors max&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;JPEG&lt;/td&gt;
+&lt;td&gt;24-Bit True color&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PNG&lt;/td&gt;
+&lt;td&gt;Up to 64-bit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;vector-graphics-online&quot;&gt;Vector Graphics Online &lt;a class=&quot;direct-link&quot; href=&quot;#vector-graphics-online&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For vector graphics on web projects and visualizations, there&#39;s three options available. Using HTML/CSS, HTML/Canvas or SVG.&lt;/p&gt;
+&lt;h3 id=&quot;html%2Fcss-vector-graphics&quot;&gt;HTML/CSS Vector Graphics &lt;a class=&quot;direct-link&quot; href=&quot;#html%2Fcss-vector-graphics&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The first, CSS, is probably the easiest to get started with, but also the most complex and least flexible. CSS has very few primitives (simple shapes) and lets you create rectangles with rounded edges that you can draw with as well as some lines, but that&#39;s not nearly enough primitives for complex graphics. Although some people have managed to create fairly complex images with CSS (see figure below) it&#39;s not considered a viable option for anything other than simple visualizations.&lt;/p&gt;
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;faJpv&quot; data-default-tab=&quot;result&quot; data-user=&quot;jacksaidwhat&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/jacksaidwhat/pen/faJpv/&quot;&gt;Pure CSS Totoro&lt;/a&gt; by Jack Parsons (&lt;a href=&quot;http://codepen.io/jacksaidwhat&quot;&gt;@jacksaidwhat&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io/&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;h3 id=&quot;the-html-%3Ccanvas%3E-element&quot;&gt;The HTML &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; Element &lt;a class=&quot;direct-link&quot; href=&quot;#the-html-%3Ccanvas%3E-element&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Second, there&#39;s a way to create graphics through an HTML element called &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt;. Canvas is part of the HTML5 specification, the language that makes up modern web pages. To create a graphic, you create a &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; tag in your HTML, give it an ID and then use javascript to write with a rich graphics language.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;jsbin-embed&quot; href=&quot;http://jsbin.com/zoxoke/2/embed?js,output&quot;&gt;JS Bin&lt;/a&gt;&lt;script src=&quot;http://static.jsbin.com/js/embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;The browser will take that data, and convert it to a bitmap that renders within a specified area.&lt;/p&gt;
+&lt;p&gt;When you generate a canvas element, what gets placed in your HMTL document is a bitmap image. The vector instructions are interpreted, but then quickly converted to a bitmap and that&#39;s what you see in the browser. This is the equivalent of placing a PNG graphic, except that you can program that graphic with JavaScript to do things. This is a bit different than what happens in SVG which generates individual shapes that remain a vector in the browser and become part of your HTML document.&lt;/p&gt;
+&lt;p&gt;The commands for drawing are also more like commands than objects. Here&#39;s an example of what it would take to draw a rectangle on the screen.&lt;/p&gt;
+&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;drawRect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; canvas &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;rect&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; canvas&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;2d&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fillStyle &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;rgb(233,192,117)&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;  context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;fillRect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Using canvas feels more like programming and is very fast. Most of the time this language is too difficult to use for visualizations manually. Some sort of compiler will generate the code for you. This is a very good format in a lot of cases and performs better when you have a lot of elements in your visualization because it will be faster, but it&#39;s definitely a bit harder to work with the original elements.&lt;/p&gt;
+&lt;h3 id=&quot;svg-graphics&quot;&gt;SVG Graphics &lt;a class=&quot;direct-link&quot; href=&quot;#svg-graphics&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;SVG Stands for Scalable Vector Graphics and it is an XML based format for drawing two dimensional graphics. Because it is based on XML, it&#39;s very similar to the language that most people use to create webpages.&lt;/p&gt;
+&lt;p&gt;The fact that it is XML gives it another advantage over other formats. The graphic becomes part of the DOM (the Document Object Model that the browser generates when it reads an HTML page.)&lt;/p&gt;
+&lt;p&gt;That means that every element in an SVG file is accessible as an individual item after it gets drawn. It&#39;s easier to get to these elements with JavaScript because they are each a node in the DOM just like any other HTML element. Take a look at some sample code for generating a square in SVG.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;jsbin-embed&quot; href=&quot;http://jsbin.com/nopeki/2/embed?html,output&quot;&gt;JS Bin&lt;/a&gt;&lt;script src=&quot;http://static.jsbin.com/js/embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;Even if you don&#39;t know how to write HTML, you can easily see that this format is more human readable than the canvas version. If you know HTML, you&#39;ll notice that to color the background as well as the object we&#39;re using a &lt;code&gt;style&lt;/code&gt; attribute on each tag...just like we could do with HTML. You can change the style of SVG elements with CSS commands.&lt;/p&gt;
+&lt;p&gt;This makes the format more accessible than canvas, easier to write and style. However because all of the objects remain individual elements, the SVG format can be slow.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Canvas&lt;/th&gt;
+&lt;th&gt;SVG&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Pixel Output&lt;/td&gt;
+&lt;td&gt;Shape Output&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Single Bitmap Element&lt;/td&gt;
+&lt;td&gt;Multiple elements which become part of your page and can be programmed individually&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Modified through script&lt;/td&gt;
+&lt;td&gt;Modified through script or through CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Better performance for large number of objects&lt;/td&gt;
+&lt;td&gt;Better performance with small number of objects&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Getting started creating SVG Graphics</title>
+		<link href="https://raybo.org/posts/2015-03-03-Getting-started-creating-SVG-Graphics/"/>
+		<updated>2015-03-03T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-03-03-Getting-started-creating-SVG-Graphics/</id>
+		<content type="html">&lt;h2 id=&quot;svg-graphic-fundamentals&quot;&gt;SVG Graphic Fundamentals &lt;a class=&quot;direct-link&quot; href=&quot;#svg-graphic-fundamentals&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Visualization tools like D3.js or C3.js use the SVG (Scalable Vector Graphics) format by default, so it&#39;s important to understand how that format uses XML style commands to generate graphics. Let&#39;s dive straight into some code.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;jsbin-embed&quot; href=&quot;http://jsbin.com/bidevi/3/embed?html,output&quot;&gt;JS Bin&lt;/a&gt;&lt;script src=&quot;http://static.jsbin.com/js/embed.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;SVG is pretty easy to read and if you know HTML it should be even easier. An SVG graphic begins and ends with the &lt;code&gt;&amp;lt;svg&amp;gt;&amp;lt;/svg&amp;gt;&lt;/code&gt; tags like many other HTML elements and you can add different attributes like the width and height of the graphic. As a matter of fact, the very first thing you do with SVG is specify the canvas that the rest of the graphics will be using.&lt;/p&gt;
+&lt;p&gt;Just like with any other HTML tag we can add a style attribute and pass it common CSS commands, here we&#39;ve set the color of the background to a bluish medium gray.&lt;/p&gt;
+&lt;p&gt;Inside the SVG tag, you can create additional elements that generate graphics. Here&#39;s a comprehensive reference to all of the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG&quot;&gt;SVG elements that you can create&lt;/a&gt;. Common elements (with examples) include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect&quot;&gt;Rectangle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle&quot;&gt;Circle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse&quot;&gt;Ellipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line&quot;&gt;Line&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path&quot;&gt;Paths&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon&quot;&gt;Polygon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline&quot;&gt;Polyline&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;|&lt;code&gt;&amp;lt;path d=&amp;quot;M 100 100 L 300 100 L 200 300 z&amp;quot; fill=&amp;quot;orange&amp;quot; stroke=&amp;quot;black&amp;quot; stroke-width=&amp;quot;3&amp;quot; /&amp;gt;&lt;/code&gt; | &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path&quot;&gt;Paths&lt;/a&gt; |&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text&quot;&gt;Text&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you come from an HTML background, there are some important things to note about this code. First, you&#39;ll notice that the tags use a self closing style when they are single tags. So instead of writing something like &lt;code&gt;&amp;lt;rect&amp;gt;&amp;lt;/rect&amp;gt;&lt;/code&gt; you can write something like &lt;code&gt;&amp;lt;rect&amp;gt; /&amp;gt;&lt;/code&gt;. SGV looks like HTML, but it isn&#39;t exactly HTML, so an XHTML style is used for the tags. Although most browsers will be forgiving on some traditional XML rules like capitalization, punctuation and quotes around attributes, the format itself is more strict.&lt;/p&gt;
+&lt;p&gt;For example, technically, the &lt;code&gt;&amp;lt;svg&amp;gt;&lt;/code&gt; tag should include an SVG namespace declaration specifying the version and format of the library you&#39;re using.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;	&amp;lt;svg xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot; …&amp;gt;
+  	&amp;lt;rect …/&amp;gt;
+	&amp;lt;/svg&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here&#39;s where you can &lt;a href=&quot;http://www.w3.org/Graphics/SVG/&quot;&gt;learn more about the SVG specification&lt;/a&gt; and format.&lt;/p&gt;
+&lt;p&gt;You might also notice that like with HTML we can use the style attribute and use CSS.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Getting the Right Social Media Followers</title>
+		<link href="https://raybo.org/posts/2015-08-13-Getting-the-Right-Social-Media-Followers/"/>
+		<updated>2015-08-13T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2015-08-13-Getting-the-Right-Social-Media-Followers/</id>
+		<content type="html">&lt;p&gt;People are usually surprised when they find out that I&#39;m an introvert. I think it&#39;s because I love meeting people at web conferences. I&#39;m almost addicted to it. I recently went to the An Event Apart conference in DC, and although I&#39;m trying to watch what I eat, I religiously went to the lunches and Special events; just to meet the people.&lt;/p&gt;
+&lt;p&gt;The thing is, I&#39;m a real introvert, the type that never goes to parties, feels awkward in a crowd, and has to retire from social activities after more than a couple of hours. However, I love meeting folks at these events...which is weird. At one of the tables during lunch, I mentioned that going to these conferences is like attending an awesome high school that I always wish existed when I was a kid.&lt;/p&gt;
+&lt;p&gt;It&#39;s because these people are just like me. It&#39;s easy to talk to someone with whom you have lots in common. And evidently, all my social clones assemble and aggregate at these events. I can walk up to just about anyone and geek out and laugh about the same topics. I don&#39;t have to explain what kerning or leading is, everyone gets what Twitter is, and I don&#39;t have to explain what a phaser is. People walk up to me and say &amp;quot;Why, is that a Github shirt?&amp;quot; and I&#39;m like, &amp;quot;YES!!! You&#39;re from my same planet...planet awesome.&amp;quot; In contrast, I feel like I can only post pictures of my kids on Facebook, because those friends don&#39;t know what I&#39;m talking about. Might as well be speaking Klingon.&lt;/p&gt;
+&lt;p&gt;It&#39;s not that I was super unpopular growing up, it&#39;s just that I could never really relate to everyone. I got along with the nerdy outcasts in high school better than everyone else, mostly because I was one myself. I was the classic computer lab aide who quit the basketball team to learn about computers (I&#39;m sure you&#39;re making a mental picture of this). People who are different are really interesting. Sometimes those who don&#39;t make a lot of friends can make the best friends.&lt;/p&gt;
+&lt;p&gt;Back to the social media friends thing...So it bothers me that people in the industry judge you by how many connections they have. Trust me, I do it too. I peek at the number of followers I have and compare it with how my associates are doing. I feel ashamed about this because my best friends have always been the people with the least friends, not the most.&lt;/p&gt;
+&lt;p&gt;At that lunch table, I was really engrossed in a conversation about social media with someone about how to gain followers. I talked about the importance of providing value with your tweets...I try to tweet only when I think I have something interesting or relevant to say. I talked about following the right people who retweet and engage with your conversations and even about making sure your avatars look like a real person to appear authentic. In the meantime, in my peripheral vision, I noticed everyone else in the table had pulled their phone out suddenly.&lt;/p&gt;
+&lt;p&gt;So I had to stop to find out what was happening. Another tech bubble? Something newer than Periscope? Nope...they were just busy friending each other. What a concept! Here I was talking about how to get followers and I forgot about the importance of making friends. Not just any friends, but the kind that you can relate to. The type of people that I literally friended when I was growing up...the ones just like me.&lt;/p&gt;
+&lt;p&gt;There&#39;s nothing wrong with getting people to follow you, especially when you need to be able to engage with people to help them, which I need to do for my job. But the amount of followers shouldn&#39;t be that important. I&#39;d rather connect with someone like my old friends. People who can really enrich my life because of who they are and not how many followers they have.&lt;/p&gt;
+&lt;p&gt;It&#39;s really important we start focusing on making the right type of social connection. One that&#39;s centered on the right kind of people. The type of people you can start a conversation with...because it&#39;s great to be more than liked, friended or plussed. It&#39;s better to meet people you can relate to and talk to about the things your parents don&#39;t get (in my case...the internet), but that you love. Then it won&#39;t matter how many followers you have. A friend you can geek out with, is worth a billion followers. If you&#39;re from planet awesome, I want to meet you.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Before your learn a new JavaScript framework, make sure you&#39;ve mastered these essential techniques</title>
+		<link href="https://raybo.org/posts/2015-12-16-11-Before-you-learn-a-new-JavaScript-framework-make-sure-youve-mastered-these-essential-techniques/"/>
+		<updated>2015-12-16T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-12-16-11-Before-you-learn-a-new-JavaScript-framework-make-sure-youve-mastered-these-essential-techniques/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>6 JavaScript technologies Front-end developers should already know</title>
+		<link href="https://raybo.org/posts/2015-12-21-JavaScript%20Technologies%20Front%20End%20Developers%20should%20already%20know/"/>
+		<updated>2015-12-21T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2015-12-21-JavaScript%20Technologies%20Front%20End%20Developers%20should%20already%20know/</id>
+		<content type="html">&lt;h2 id=&quot;jquery&quot;&gt;jQuery &lt;a class=&quot;direct-link&quot; href=&quot;#jquery&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://jquery.com/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/OtX9CNp.png&quot; alt=&quot;jQuery&quot;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt; has gotten a bad rap lately, and that&#39;s largely because where in the past it solved a lot of problems with backwards compatibility, those issues have disappeared up to a point in modern browsers. However, it&#39;s so prevalent and already installed in most websites that you should be familiar with the framework, especially how the $ selector engine works, chaining and complex selectors. If jQuery is already installed on your site (and chances are, if you&#39;re using either &lt;a href=&quot;https://wordpress.org/&quot;&gt;WordPress&lt;/a&gt; or &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;, it already is), then you&#39;re doing yourself a disservice by not knowing where it can save you time and add some backwards compatibility when you must support older browsers.&lt;/p&gt;
+&lt;h2 id=&quot;!jquery&quot;&gt;!jQuery &lt;a class=&quot;direct-link&quot; href=&quot;#!jquery&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On the flipside, you need to learn when jQuery is unnecessary and if it&#39;s not preinstalled in the stack you&#39;re using, then you&#39;re doing a disservice to your site by adding it just because you need a simple AJAX call or want to add form validation or some other pre-built feature. You need to know things like the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector&quot;&gt;querySelector&lt;/a&gt;, how to clone or destroy nodes manually so that you don&#39;t end up loading a huge library, when a straightforward DOM selector already exists.&lt;/p&gt;
+&lt;p&gt;jQuery&#39;s features are like the dark side of the force, seductive and easier, but you&#39;ll be a stronger developer if you force yourself to learn how to work without them. It&#39;s up to you to figure out when it makes more sense to use jQuery, but be strong enough to know when you should stay away.&lt;/p&gt;
+&lt;h2 id=&quot;nodejs-%26-npm&quot;&gt;NodeJS &amp;amp; NPM &lt;a class=&quot;direct-link&quot; href=&quot;#nodejs-%26-npm&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/KVJybSQ.png&quot; alt=&quot;NodeJS&quot;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;NodeJS&lt;/a&gt; has changed the way front end developers work, and sometimes in a rather subtle way. It drives workflow technologies like &lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;, &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;, &lt;a href=&quot;https://github.com/postcss/postcss&quot;&gt;PostCSS&lt;/a&gt;, &lt;a href=&quot;https://webpack.github.io/&quot;&gt;Webpack&lt;/a&gt; and others that can help you make your life easier, so you owe it to yourself to spend some time learning how to program with Node. Learning the node way of doing things will make you a better developer by making you learn best practices and think about modules,learn about routes and other techniques. Even if you don&#39;t end up developing a site so that it runs on a node server, you&#39;ll still benefit from the structure and process of creating node apps or modules.&lt;/p&gt;
+&lt;p&gt;At the very least, learn how to work with &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;NPM&lt;/a&gt;, the Node Package Manager. It&#39;s crucial in understanding how to use workflow management apps. You also need to understand what a &lt;a href=&quot;http://browsenpm.org/package.json&quot;&gt;package.json&lt;/a&gt; file is and how to install, remove and manage node modules.&lt;/p&gt;
+&lt;h2 id=&quot;workflows&quot;&gt;Workflows &lt;a class=&quot;direct-link&quot; href=&quot;#workflows&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://gulpjs.com/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/vAjOLYL.png&quot; alt=&quot;GulpJS&quot;&gt;&lt;/a&gt;&lt;br&gt;
+Learning to code is great, but we all make mistakes and could use a little help, so creating workflows is how you get things done with a minimal amount of errors and with future or modern features that can compile to be compatible with older browsers.&lt;/p&gt;
+&lt;p&gt;Some editors IDE&#39;s like &lt;a href=&quot;https://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx&quot;&gt;Visual Studio&lt;/a&gt; and &lt;a href=&quot;https://www.jetbrains.com/webstorm/&quot;&gt;Webstorm&lt;/a&gt; will help you with tasks like code completion, linting, transpiling and pre-processing, but only if you know how to use them. Spending some time mastering your editor is way more important than trying to find the perfect editor. Get better with what you know and if you&#39;re like me and want something more configurable, look for NodeJS based tools like &lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;, &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt; or &lt;a href=&quot;https://webpack.github.io/&quot;&gt;Webpack&lt;/a&gt; that will help you work well in a shared environment and give you some of those same capabilities without the overhead. Within a team, you can develop coding standards and styles that can be shared so the team is on the same page.&lt;/p&gt;
+&lt;p&gt;Creating a Workflow is about building a set of processes that make your life easier. It&#39;s guaranteed to help you code faster, with added features and less errors. Who wouldn&#39;t want that?&lt;/p&gt;
+&lt;h2 id=&quot;git-%26-github&quot;&gt;Git &amp;amp; Github &lt;a class=&quot;direct-link&quot; href=&quot;#git-%26-github&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/planetoftheweb&quot;&gt;&lt;img src=&quot;http://i.imgur.com/GFLj4ag.png&quot; alt=&quot;Github&quot;&gt;&lt;/a&gt;&lt;br&gt;
+Modern development would be nothing without Open Source tools. And &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; is where most of those tools live. In order to master Github, though, you need to learn about &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt;, the version control system at Github&#39;s core. Git fundamentally changes the way you work with your code in the same way that things like copy and paste and unlimited undos changed the way you worked with documents. Learn to create repos, branches, commits. It takes some time to get used to Git, but that time will be well worth it the next time you roll back to a previous commit state. In the same way, Github changes the way you work with others, because it gives them the ability to comment, branch, star and even submit bug reports.&lt;/p&gt;
+&lt;h2 id=&quot;pre-processors-%26-transpilers&quot;&gt;Pre-Processors &amp;amp; Transpilers &lt;a class=&quot;direct-link&quot; href=&quot;#pre-processors-%26-transpilers&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://babeljs.io/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/kw94yuz.png&quot; alt=&quot;Babel&quot;&gt;&lt;/a&gt;&lt;br&gt;
+I&#39;m a big believer in working smarter, and that means spending time on technologies that help me become more efficient. Therefore, I love things like &lt;a href=&quot;http://sass-lang.com/&quot;&gt;Sass&lt;/a&gt;, &lt;a href=&quot;http://lesscss.org/&quot;&gt;Less&lt;/a&gt; &lt;a href=&quot;https://github.com/postcss/postcss&quot;&gt;PostCSS&lt;/a&gt; and others that give languages new capabilities. Once you&#39;ve learned how to work with CSS variables, you&#39;ll never go back to plain CSS. In the same way, the ability to work with functions (mixins) and extends makes your code smarter by allowing you to create reusable bits of code. Today some of these libraries, like Sass have been ported over to JavaScript for blazing performance and without requiring a Ruby install.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/postcss/postcss&quot;&gt;PostCSS&lt;/a&gt; eliminates the need for prefixed code, has a large library of plugins with Sass-like features and can even help you use future CSS features today. Another hot new technology...transpilers like &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt; let you use ES2015(ES6) in today&#39;s browsers or use languages like TypeScript that add interesting new features to your programming arsenal. If you aren&#39;t taking advantage of these workflow enhancements, then you&#39;re wasting time writing CSS/JavaScript and falling behind on what you can do with programming languages today.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Front End Developer/Javascript Technologies to learn and explore in 2016</title>
+		<link href="https://raybo.org/posts/2016-01-05-Front-End-Developer-and-Javascript-Technologies-to-learn-and-explore-in-2016/"/>
+		<updated>2016-01-05T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2016-01-05-Front-End-Developer-and-Javascript-Technologies-to-learn-and-explore-in-2016/</id>
+		<content type="html">&lt;h1 id=&quot;flexbox&quot;&gt;Flexbox &lt;a class=&quot;direct-link&quot; href=&quot;#flexbox&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.lynda.com/player/embed/423285?fs=3&amp;w=560&amp;h=315&amp;ps=paused&amp;utm_medium=referral&amp;utm_source=embed+video&amp;utm_campaign=ldc-website&amp;utm_content=vid-423285&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;If you haven&#39;t used Flexbox yet, you should plan on implementing it into a project this coming year. Flexbox is a much simpler way to handle layout with CSS. As long as you&#39;re willing to &lt;a href=&quot;http://caniuse.com/#search=flexbox&quot;&gt;ignore IE9&lt;/a&gt; (currently less than 1% of browsers), then Flexbox is ready to use in your production sites. Because it requires different syntaxes in some situations, it means that you&#39;ll want to use a tool like &lt;a href=&quot;https://github.com/postcss/postcss&quot;&gt;PostCSS&lt;/a&gt; with the AutoPrefixer plugin to take care of some of the discrepancies. Laying out things with Flexbox is so much simpler than the old float model that once you learn it, you won&#39;t want to go back.&lt;/p&gt;
+&lt;h2 id=&quot;related-course&quot;&gt;Related Course &lt;a class=&quot;direct-link&quot; href=&quot;#related-course&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lynda.com/CSS-tutorials/CSS-Flexbox-First-Look/116352-2.html&quot;&gt;CSS: Flexbox First Look&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lynda.com/CSS-tutorials/Advanced-Responsive-Layouts-CSS-Flexbox/383780-2.html&quot;&gt;Advanced Responsive Layouts with CSS Flexbox&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;postcss&quot;&gt;PostCSS &lt;a class=&quot;direct-link&quot; href=&quot;#postcss&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/postcss/postcss&quot;&gt;&lt;img src=&quot;http://i.imgur.com/JaII8xb.jpg&quot; alt=&quot;PostCSS Sample Site&quot;&gt;&lt;/a&gt;&lt;br&gt;
+Because you&#39;ll want to work with Flexbox in 2016, you&#39;re going to want to learn about it&#39;s parent ...PostCSS. It&#39;s a tool for converting CSS and it&#39;s more than just a way to take care of Flexbox. It&#39;s also an engine that allows you to use a variety of plugins, including a Sass-like language called &lt;a href=&quot;https://github.com/jonathantneal/precss&quot;&gt;PreCSS&lt;/a&gt;, A code minifier called &lt;a href=&quot;http://cssnano.co/&quot;&gt;CSSNano&lt;/a&gt; or even a plugin called &lt;a href=&quot;http://cssnext.io/&quot;&gt;cssNext&lt;/a&gt; that lets you use next generation CSS features in today&#39;s browsers. I have a couple of courses on PostCSS coming out on &lt;a href=&quot;http://lynda.com/&quot;&gt;Lynda.com&lt;/a&gt; real soon. Bookmark my &lt;a href=&quot;http://www.lynda.com/Ray-Villalobos/832401-1.html&quot;&gt;list of courses&lt;/a&gt; and take a look at this &lt;a href=&quot;http://iviewsource.com/exercises/postcsslayouts&quot;&gt;Demo site&lt;/a&gt; or the &lt;a href=&quot;https://github.com/planetoftheweb/postcsslayouts&quot;&gt;course Github project&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;angularjs-2&quot;&gt;AngularJS 2 &lt;a class=&quot;direct-link&quot; href=&quot;#angularjs-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://angular.io/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/zVJAv3y.png&quot; alt=&quot;AngularJS2&quot;&gt;&lt;/a&gt;&lt;br&gt;
+This year is going to be a second breakout year for Angular JS with a new version that uses a revamped structure. AngularJS popularized app development with features like two way data binding, routing, animations and super simple form validation. The next version of Angular changes the paradigm of how the applications should be built by using an architecture that is focused on components. It&#39;s definitely different than what you&#39;re used to with Angular 1. On the plus side, it simplifies the way you work with the framework, but is going to require some additional learning (See ES6/TypeScript below). I&#39;ll be preparing updates to all of my AngularJS courses, which include &lt;a href=&quot;http://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html&quot;&gt;Up and Running with AngularJS&lt;/a&gt;, &lt;a href=&quot;http://www.lynda.com/AngularJS-tutorials/AngularJS-Adding-Registration-Your-Application/438887-2.html&quot;&gt;Adding Registration to your Application&lt;/a&gt; and &lt;a href=&quot;http://www.lynda.com/AngularJS-tutorials/AngularJS-Building-Data-Driven-App/421230-2.html&quot;&gt;Building a Data Driven App with AngularJS&lt;/a&gt; soon. Building components is a lot like creating custom directives and working with traditional web components, but Angular simplifies the syntax and makes it easier to build and focuses on making sure your apps will be fast and ready for mobile performance.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;es6%2Fes2015&quot;&gt;ES6/ES2015 &lt;a class=&quot;direct-link&quot; href=&quot;#es6%2Fes2015&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.lynda.com/player/embed/459181?fs=3&amp;w=560&amp;h=315&amp;ps=paused&amp;utm_medium=referral&amp;utm_source=embed+video&amp;utm_campaign=ldc-website&amp;utm_content=vid-459181&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+2016 will also be the year that you&#39;ll need to check out the sixth version of JavaScript known officially as ES2015 and often as ES6. You&#39;ll need a transpiler like [Babel](https://babeljs.io/docs/learn-es2015/), plus a task runner like [GulpJS](http://gulpjs.com/) to take care of this, but this is the year that you&#39;ll see lots of examples popping up all over the web, especially when it comes to AngularJS 2. Although technically, the new version of Angular doesn&#39;t require you to program in ES6, the examples on that website as well as in others will default to ES6, so you&#39;ll want to spend some time learning some of the features including: Arrow Functions, Classes, Template Strings and [more](https://github.com/lukehoban/es6features). Some of these features are already creeping into other frameworks like AngularJS2, so it&#39;s important to learn them so that you&#39;ll be able to understand examples and be ready for the future of the web.
+&lt;h3 id=&quot;related-course-2&quot;&gt;Related Course &lt;a class=&quot;direct-link&quot; href=&quot;#related-course-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/JavaScript-tutorials/Up-Running-ECMAScript-6/424003-2.html&quot;&gt;Up and Running with ECMAScript 6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;react&quot;&gt;React &lt;a class=&quot;direct-link&quot; href=&quot;#react&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.lynda.com/player/embed/433101?fs=3&amp;w=560&amp;h=315&amp;ps=paused&amp;utm_medium=referral&amp;utm_source=embed+video&amp;utm_campaign=ldc-website&amp;utm_content=vid-433101&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+2015&#39;s breakout framework was definitely React, so if you&#39;ve been holding out, 2016 is the time to give it a chance. React is not a replacement for Angular or other popular frameworks, but specifically focused on building user interface components. There&#39;s a lot of things to learn here including the JSX language, state and stateless functional components. This is also something I want to build a project based course on, so keep an eye out for more on that from me in the future.
+&lt;h3 id=&quot;related-course-3&quot;&gt;Related Course &lt;a class=&quot;direct-link&quot; href=&quot;#related-course-3&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/React-js-tutorials/Up-Running-React-js/379264-2.html&quot;&gt;Up and Running with React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/Web-Development-tutorials/Building-Polling-App-Socket-IO-React-js/387145-2.html&quot;&gt;Building a Polling App with SocketIO and ReactJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;typescript&quot;&gt;TypeScript &lt;a class=&quot;direct-link&quot; href=&quot;#typescript&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.typescriptlang.org/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/MAtIbz0.png&quot; alt=&quot;TypeScript&quot;&gt;&lt;/a&gt;&lt;br&gt;
+If you&#39;re going to be using AngularJS2, you are going to want to learn about TypeScript. TypeScript is a language that is a superset of JavaScript that can be compiled through a transpiler to JavaScript that will work with most browsers. AngularJS2 was built using this &lt;a href=&quot;http://www.typescriptlang.org/&quot;&gt;language from Microsoft&lt;/a&gt;. As I mentioned, technically, you can use ES5 or ES6 or event Dart to program in AngularJS2, but at least as of now, the examples for that are tough to find and I forsee a 2016 in which most of the examples will be written with TypeScript in mind. One of my &lt;a href=&quot;https://www.ng-book.com/2/&quot;&gt;favorite books on AngularJS&lt;/a&gt; ng-book is already using TypeScript for examples.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;ionic-2&quot;&gt;Ionic 2 &lt;a class=&quot;direct-link&quot; href=&quot;#ionic-2&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://ionic.io/2&quot;&gt;&lt;img src=&quot;http://ionicframework.com/img/blog/ionic-angular-v2.jpg&quot; alt=&quot;Ionic 2&quot;&gt;&lt;/a&gt;&lt;br&gt;
+Of all the Angular related projects I love, Ionic is by far my favorite. It makes it dead simple to develop mobile applications, so although this project is still in early development, I&#39;m really looking forward to playing with the new version that&#39;s currently in Alpha. If you haven&#39;t had a chance to play with Ionic, make a bookmark to play with it next year. I&#39;ll be working on an update to my courses, so keep an eye out for that as well. Here&#39;s the current course:&lt;/p&gt;
+&lt;h3 id=&quot;related-course-4&quot;&gt;Related Course &lt;a class=&quot;direct-link&quot; href=&quot;#related-course-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/AngularJS-tutorials/Building-Mobile-App-AngularJS-1-Ionic/368920-2.html&quot;&gt;Building a Mobile App with AngularJS 1 and Ionic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/planetoftheweb/angularMobile&quot;&gt;Github Project for current Ionic 1 course&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;bpg&quot;&gt;BPG &lt;a class=&quot;direct-link&quot; href=&quot;#bpg&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://prntscr.com/9m7pa4&quot;&gt;&lt;img src=&quot;http://i.imgur.com/51knJUl.jpg&quot; alt=&quot;BPG&quot;&gt;&lt;/a&gt;&lt;br&gt;
+The web needs a new graphic format, and I&#39;m not talking about SVG. Yes, SVG or Scalable Vector Graphics is amazing for vectors and interactivity. But we need something that&#39;s going to do a better job with photo images and video. So although this is a bit of wishful thinking, I&#39;m hoping that 2016 is the year that we see BPG considered as the successor to JPG. It has a high compression ratio like JPG with much better quality, it&#39;s not just an image format, but can handle videos and animation (goodbye animated GIFs) and it even supports an alpha channel like PNG. It&#39;s essentially a better version of JPG with everything you love about PNG plus animation...what&#39;s not to love. You can implement it on your sites today with the addition of a simple javascript file.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;bootstrap-4&quot;&gt;Bootstrap 4 &lt;a class=&quot;direct-link&quot; href=&quot;#bootstrap-4&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://raybo.org/posts/2016-01-05-Front-End-Developer-and-Javascript-Technologies-to-learn-and-explore-in-2016/v4-alpha.getbootstrap.com&quot;&gt;&lt;img src=&quot;http://i.imgur.com/Vh0xR6T.png&quot; alt=&quot;Bootstrap 4 Alpha&quot;&gt;&lt;/a&gt;&lt;br&gt;
+There&#39;s a new version of Bootstrap that will be released later in the year, so that&#39;s another thing to put in the list of things to learn. The changes are going to affect you if you plan to update to the new version of the framework. The biggest change is the move from Less to a Sass core, but that&#39;s not really something to be too concerned about since both versions are similar. Changes that will be critical for migration are the addition of a new grid tier at 480px, which is inserted within the previous tiers, so that means that your layouts will need to take that into account. &lt;a href=&quot;http://glyphicons.com/&quot;&gt;Glyphicons&lt;/a&gt; are gone, as well as the &lt;a href=&quot;http://getbootstrap.com/javascript/#affix&quot;&gt;Affix plugin&lt;/a&gt;, so if you&#39;ve been using those, you&#39;ll need to find an alternative. Overall, there are fewer classes, so the framework will be easier to use. It drops IE8 support and now uses ems and rems as the official unit of measure. This one won&#39;t take you too long to pick up and don&#39;t worry, I&#39;ll have you covered with new versions of &lt;a href=&quot;http://www.lynda.com/Bootstrap-tutorials/Bootstrap-3-Essential-Training/417641-2.html&quot;&gt;Bootstrap Essential Training&lt;/a&gt;, as well as new project based courses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;webpack&quot;&gt;Webpack &lt;a class=&quot;direct-link&quot; href=&quot;#webpack&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://webpack.github.io/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/uBgWRG9.png&quot; alt=&quot;Webpack Module Manager&quot;&gt;&lt;/a&gt;&lt;br&gt;
+This is another interesting technology I&#39;ve been following. Webpack is a module bundler that makes it easier to manage your project dependencies. So it can take care of loading the necessary scripts that you&#39;ll need and combine them into a single file. It can work with other tools like Gulp.js or by itself to provide a simpler way to package not just scripts, but other resources as well. So, it&#39;s a bit like what you would do with Browserify, but it promises to be simpler. Unfortunately, I don&#39;t think the documentation for this project is as good as it should be, but it definitely looks like it&#39;s gaining momentum in terms of acceptance.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;wordpress&quot;&gt;Wordpress &lt;a class=&quot;direct-link&quot; href=&quot;#wordpress&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.lynda.com/player/embed/448100?fs=3&amp;w=560&amp;h=315&amp;ps=paused&amp;utm_medium=referral&amp;utm_source=embed+video&amp;utm_campaign=ldc-website&amp;utm_content=vid-448100&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+The latest version of WordPress includes a [super interesting REST API](https://developer.wordpress.com/docs/api/). Wordpress is of course the world&#39;s most popular blogging platform and within its engine has a real powerful content management system. With the addition of a REST API, Wordpress can be the battle tested, rock solid content management system for any web application. This has the potential of bringing lots of interest in scripting back onto the platform. The future of WordPress is no longer PHP, but JavaScript. 2016 is a great time to rediscover what you can create with this platform.
+&lt;h3 id=&quot;related-courses&quot;&gt;Related Courses &lt;a class=&quot;direct-link&quot; href=&quot;#related-courses&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/WordPress-tutorials/WordPress-REST-API-WP-API-First-Look/383783-2.html&quot;&gt;WordPress REST API: First Look&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;electron&quot;&gt;Electron &lt;a class=&quot;direct-link&quot; href=&quot;#electron&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://electron.atom.io/&quot;&gt;&lt;img src=&quot;http://i.imgur.com/saL1wgP.png&quot; alt=&quot;Atom&#39;s Electron&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is in the &#39;time permitting&#39; category for me, but it&#39;s one of those things I&#39;m really interested in getting a chance to play with next year. Electron is the technology behind Atom, my favorite text editor and allows you to build cross-platform desktop apps using web technologies. Of course, like Atom, it&#39;s made by Github so there&#39;s a really good group of people behind it with an impressive list of projects &lt;a href=&quot;http://electron.atom.io/#built-on-electron&quot;&gt;like the Slack Application, Visual Studio and others&lt;/a&gt; that use the platform.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Learn about PostCSS! A new way to code CSS you&#39;re going to love</title>
+		<link href="https://raybo.org/posts/2016-01-21-PostCSS-A-new-way-to-code-CSS-youre-going-to-love/"/>
+		<updated>2016-01-21T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2016-01-21-PostCSS-A-new-way-to-code-CSS-youre-going-to-love/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>What&#39;s wrong with AngularJS2 and why you&#39;re going to like it</title>
+		<link href="https://raybo.org/posts/2016-02-18-AngularJS%202_what_to_look_for_when_migrating_to_the_new_version/"/>
+		<updated>2016-02-18T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2016-02-18-AngularJS%202_what_to_look_for_when_migrating_to_the_new_version/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Getting to Love Learning ReactJS</title>
+		<link href="https://raybo.org/posts/2016-08-13-Getting_to_Love_Learning_ReactJS/"/>
+		<updated>2016-08-13T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2016-08-13-Getting_to_Love_Learning_ReactJS/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>5 Reasons You Should Develop Your Next Site Using Node &amp; ExpressJS</title>
+		<link href="https://raybo.org/posts/2016-12-20-You-Should-Build-Your-Next-Website-with-Node-and-ExpressJS/"/>
+		<updated>2016-12-20T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2016-12-20-You-Should-Build-Your-Next-Website-with-Node-and-ExpressJS/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Coding-The next blue collar job? Sure hope not</title>
+		<link href="https://raybo.org/posts/2017-02-10-coding-next-blue-collar-job-sure-hope-not/"/>
+		<updated>2017-02-10T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2017-02-10-coding-next-blue-collar-job-sure-hope-not/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series</title>
+		<link href="https://raybo.org/posts/2017-06-28-what-you-should-know-land-job-front-end-developer/"/>
+		<updated>2017-06-28T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-06-28-what-you-should-know-land-job-front-end-developer/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>5 Unusual Skills Industry Professionals Use to be More Successful in their Careers</title>
+		<link href="https://raybo.org/posts/2017-08-05-5-unusual-skills-industry-professionals-use-more-successful-career/"/>
+		<updated>2017-08-05T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-05-5-unusual-skills-industry-professionals-use-more-successful-career/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>These 10 minute weekly courses can help you become a better artist and designer</title>
+		<link href="https://raybo.org/posts/2017-08-25-10-minute-help-you-become-better-artist-designer/"/>
+		<updated>2017-08-25T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-25-10-minute-help-you-become-better-artist-designer/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Five weekly series to help you work smarter and be more effective in your career</title>
+		<link href="https://raybo.org/posts/2017-08-25-five-weekly-series-help-you-work-smarter-more-your-effective-career/"/>
+		<updated>2017-08-25T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-25-five-weekly-series-help-you-work-smarter-more-your-effective-career/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Get challenged by these professional photographers, motion experts and videographers through weekly, 10 minute video courses</title>
+		<link href="https://raybo.org/posts/2017-08-25-get-challenged-professional-photographers-motion-10/"/>
+		<updated>2017-08-25T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-25-get-challenged-professional-photographers-motion-10/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series</title>
+		<link href="https://raybo.org/posts/2017-08-25-keep-up-fast-changing-front-end-full-stack-ux-web-seven/"/>
+		<updated>2017-08-25T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-25-keep-up-fast-changing-front-end-full-stack-ux-web-seven/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Nine Weekly Series to help you master 3-D and Animation technologies</title>
+		<link href="https://raybo.org/posts/2017-08-25-nine-weekly-series-help-you-master-3-d-animation/"/>
+		<updated>2017-08-25T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-25-nine-weekly-series-help-you-master-3-d-animation/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Crafting an effective video embed campaign for the LinkedIn Publishing Platform</title>
+		<link href="https://raybo.org/posts/2017-08-29-crafting-effective-video-embed-campaign-linkedin/"/>
+		<updated>2017-08-29T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-08-29-crafting-effective-video-embed-campaign-linkedin/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Three things I learned from six years as a teacher on Lynda.com</title>
+		<link href="https://raybo.org/posts/2017-09-12-three-things-i-learned-from-six-years-teacher/"/>
+		<updated>2017-09-12T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-09-12-three-things-i-learned-from-six-years-teacher/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Looking to Microsoft Ignite...A first time attendee&#39;s journey to find out what&#39;s awesome!</title>
+		<link href="https://raybo.org/posts/2017-09-25-looking-microsoft-ignite-first-time-attendee-journey-find/"/>
+		<updated>2017-09-25T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2017-09-25-looking-microsoft-ignite-first-time-attendee-journey-find/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Want to get hired? Look into this technology career...LinkedIn Jobs Report finds</title>
+		<link href="https://raybo.org/posts/2017-12-07-Want-to-get-hired?Look-into-this-technology-careerLinkedIn-Jobs-Report-finds/"/>
+		<updated>2017-12-07T00:00:00-06:00</updated>
+		<id>https://raybo.org/posts/2017-12-07-Want-to-get-hired?Look-into-this-technology-careerLinkedIn-Jobs-Report-finds/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>What I learned about resiliency working for 9 bosses in 5 years</title>
+		<link href="https://raybo.org/posts/2018-03-28-What_I_learned_about_resiliency_working_for_9_bosses_in_5_years/"/>
+		<updated>2018-03-28T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2018-03-28-What_I_learned_about_resiliency_working_for_9_bosses_in_5_years/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>A JSON Tutorial. Getting started with JSON using JavaScript and jQuery</title>
+		<link href="https://raybo.org/posts/2018-10-12-Getting-started-with-json-using-javascript-and-jquery/"/>
+		<updated>2018-10-12T00:00:00-05:00</updated>
+		<id>https://raybo.org/posts/2018-10-12-Getting-started-with-json-using-javascript-and-jquery/</id>
+		<content type="html">&lt;p&gt;JSON stands for JavaScript Object Notation…it’s called that because storing data with JSON creates a JavaScript object. The JavaScript object can be easily parsed and manipulated with JavaScript.&lt;/p&gt;
+&lt;p&gt;Where XML is arguably easier to read, but notoriously difficult to parse (describe to a computer), JSON makes it a breeze to store data in a format that machines dig. Once you encode the data with JSON, you can read it into a variable which creates an object. Really cool stuff. Let’s take a look.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script&amp;gt;
+    var data={ &amp;quot;firstName&amp;quot; : &amp;quot;Ray&amp;quot; };
+    alert(data.firstName);
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/planetoftheweb/XcpGN/&quot;&gt;See the JSON example on JSFiddle&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;breaking-json-down&quot;&gt;Breaking JSON down &lt;a class=&quot;direct-link&quot; href=&quot;#breaking-json-down&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First, we create a variable to hold our data, and then we use JSON to define our object. Our sample object above is a simple as it gets. Just an item called firstName and it’s value Ray. When using strings with JSON, you should use them with quotations as above. If you use numbers, then you don’t have to use quotations.&lt;/p&gt;
+&lt;p&gt;This example will cause your browser to alert you with the variable name.&lt;br&gt;
+&lt;img src=&quot;https://raybo.org/assets/images/articles/json01-dialog-ray.png&quot; alt=&quot;JSON Example 01&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;creating-an-object-placeholder&quot;&gt;Creating an object placeholder &lt;a class=&quot;direct-link&quot; href=&quot;#creating-an-object-placeholder&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;That’s great. Let’s go ahead and make it a bit more realistic by inserting our JSON data into an object in the DOM.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;placeholder&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script&amp;gt;
+  var data={&amp;quot;firstName&amp;quot;:&amp;quot;Ray&amp;quot;};
+  document.getElementById(&amp;quot;placeholder&amp;quot;).innerHTML=data.firstName;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/planetoftheweb/XcpGN/1/&quot;&gt;See the JSON example on JS Fiddle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A couple of things about these changes…First, you’ll see that we added a bit of formatting to our JSON data. That’s just to make sure it’s easier to read for humans; you’ll often find JSON data formatted in this manner. The second thing is that the “joined” value (2012) didn’t need quotations because its a number. That’s still pretty simple data. Let’s try something more complex.&lt;/p&gt;
+&lt;h2 id=&quot;adding-arrays&quot;&gt;Adding Arrays &lt;a class=&quot;direct-link&quot; href=&quot;#adding-arrays&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;What if we wanted to enter a bunch of people…then we have to add array notation. You create arrays in JSON using brackets []. Let’s see how our data would look for a couple of users.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;placeholder&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script&amp;gt;
+var data={&amp;quot;users&amp;quot;:[
+        {
+            &amp;quot;firstName&amp;quot;:&amp;quot;Ray&amp;quot;,
+            &amp;quot;lastName&amp;quot;:&amp;quot;Villalobos&amp;quot;,
+            &amp;quot;joined&amp;quot;:2012
+        },
+        {
+            &amp;quot;firstName&amp;quot;:&amp;quot;John&amp;quot;,
+            &amp;quot;lastName&amp;quot;:&amp;quot;Jones&amp;quot;,
+            &amp;quot;joined&amp;quot;:2010
+        }
+]}
+
+document.getElementById(&amp;quot;placeholder&amp;quot;).innerHTML=data.users[0].firstName + &amp;quot; &amp;quot; + data.users[0].lastName+&amp;quot; &amp;quot;+ data.users[0].joined;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/planetoftheweb/XcpGN/3/&quot;&gt;See the JSON example on JS Fiddle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This looks more complicated, but it’s not really too hard to understand. Every object in JSON is stored with curly braces {}, an array is stored with brackets[]. So in order to organize our data, we created an object called users, which held an array (using brackets). That object had a couple of other objects…each stored like before with curly braces {}. Each element in that object was separated by commas.&lt;/p&gt;
+&lt;p&gt;Notice that we obviously had to change our code for inserting the name. We had to include the new users object and then specify bracket notation to specify our first element in the array. Let’s add another level of complexity to our data structure just for kicks.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;placeholder&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script&amp;gt;
+var data={&amp;quot;users&amp;quot;:[
+  {
+    &amp;quot;firstName&amp;quot;:&amp;quot;Ray&amp;quot;,
+    &amp;quot;lastName&amp;quot;:&amp;quot;Villalobos&amp;quot;,
+    &amp;quot;joined&amp;quot;: {
+      &amp;quot;month&amp;quot;:&amp;quot;January&amp;quot;,
+      &amp;quot;day&amp;quot;:12,
+      &amp;quot;year&amp;quot;:2012
+    }
+  },
+  {
+    &amp;quot;firstName&amp;quot;:&amp;quot;John&amp;quot;,
+    &amp;quot;lastName&amp;quot;:&amp;quot;Jones&amp;quot;,
+    &amp;quot;joined&amp;quot;: {
+      &amp;quot;month&amp;quot;:&amp;quot;April&amp;quot;,
+      &amp;quot;day&amp;quot;:28,
+      &amp;quot;year&amp;quot;:2010
+    }
+  }
+]}
+
+document.getElementById(&amp;quot;placeholder&amp;quot;).innerHTML=data.users[0].firstName + &amp;quot; &amp;quot; + data.users[0].lastName+&amp;quot;--&amp;quot;+ data.users[0].joined.month;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://raybo.org/assets/images/articles/json02-rayjanuary.png&quot; alt=&quot;JSON Example 02&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/planetoftheweb/XcpGN/4/&quot;&gt;See the JSON example on JS Fiddle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Just one tiny level of complexity. We just added multiple fields to the joined object. We didn’t need an array here, just a series of objects, so we used the object notation. This is great and we’ve got some pretty good data, but now that we have multiple users, it’s time to go through each user and output them into a list.&lt;/p&gt;
+&lt;h2 id=&quot;traversing-the-user-list&quot;&gt;Traversing the user list &lt;a class=&quot;direct-link&quot; href=&quot;#traversing-the-user-list&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So, if we want to go through the user list, we could simply use JavaScript’s for statement to take care of that. We’ll put the items inside a list.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;placeholder&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script&amp;gt;
+    var data = { &amp;quot;users&amp;quot;:[
+            {
+                &amp;quot;firstName&amp;quot;:&amp;quot;Ray&amp;quot;,
+                &amp;quot;lastName&amp;quot;:&amp;quot;Villalobos&amp;quot;,
+                &amp;quot;joined&amp;quot;: {
+                    &amp;quot;month&amp;quot;:&amp;quot;January&amp;quot;,
+                    &amp;quot;day&amp;quot;:12,
+                    &amp;quot;year&amp;quot;:2012
+                }
+            },
+            {
+                &amp;quot;firstName&amp;quot;:&amp;quot;John&amp;quot;,
+                &amp;quot;lastName&amp;quot;:&amp;quot;Jones&amp;quot;,
+                &amp;quot;joined&amp;quot;: {
+                    &amp;quot;month&amp;quot;:&amp;quot;April&amp;quot;,
+                    &amp;quot;day&amp;quot;:28,
+                    &amp;quot;year&amp;quot;:2010
+                }
+            }
+    ]}
+
+    var output=&amp;quot;&amp;lt;ul&amp;gt;&amp;quot;;
+    for (var i in data.users) {
+        output+=&amp;quot;&amp;lt;li&amp;gt;&amp;quot; + data.users[i].firstName + &amp;quot; &amp;quot; + data.users[i].lastName + &amp;quot;--&amp;quot; + data.users[i].joined.month+&amp;quot;&amp;lt;/li&amp;gt;&amp;quot;;
+    }
+    output+=&amp;quot;&amp;lt;/ul&amp;gt;&amp;quot;;
+
+    document.getElementById(&amp;quot;placeholder&amp;quot;).innerHTML=output;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://jsfiddle.net/planetoftheweb/XcpGN/5/&quot;&gt;See the JSON example on JS Fiddle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So here, we use a for statement and created a variable called output to temporarily store the data. Once we go through all of the elements in the array, we use the output variable to populate the placeholder div. That works well, but as you can tell, our data structure is getting a little long.&lt;/p&gt;
+&lt;h2 id=&quot;reading-json-from-an-external-file&quot;&gt;Reading JSON from an external file &lt;a class=&quot;direct-link&quot; href=&quot;#reading-json-from-an-external-file&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It would be nice if we could store this on an external file and then just read everything into the data variable. To make things easier, I’m going to use jQuery, so we’ll have to load that library first and then call it’s getJSON function. Here’s what our entire page’s code looks like.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot; /&amp;gt;
+    &amp;lt;title&amp;gt;JSON Sample&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;div id=&amp;quot;placeholder&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;script src=&amp;quot;http://code.jquery.com/jquery-1.7.1.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script&amp;gt;
+  $.getJSON(&#39;data.json&#39;, function(data) {
+        var output=&amp;quot;&amp;lt;ul&amp;gt;&amp;quot;;
+        for (var i in data.users) {
+            output+=&amp;quot;&amp;lt;li&amp;gt;&amp;quot; + data.users[i].firstName + &amp;quot; &amp;quot; + data.users[i].lastName + &amp;quot;--&amp;quot; + data.users[i].joined.month+&amp;quot;&amp;lt;/li&amp;gt;&amp;quot;;
+        }
+
+        output+=&amp;quot;&amp;lt;/ul&amp;gt;&amp;quot;;
+        document.getElementById(&amp;quot;placeholder&amp;quot;).innerHTML=output;
+  });
+    &amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://raybo.org/assets/images/articles/json03-johnjones.png&quot; alt=&quot;JSON Example 03&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Pretty much the same code as before without the data file. We just wrap everything inside jQuery’s getJSON function, which does the hard job of reading the file. Assuming the file is in the same directory here’s what our new data.json file looks like.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{&amp;quot;users&amp;quot;:[
+        {
+            &amp;quot;firstName&amp;quot;:&amp;quot;Ray&amp;quot;,
+            &amp;quot;lastName&amp;quot;:&amp;quot;Villalobos&amp;quot;,
+            &amp;quot;joined&amp;quot;: {
+                &amp;quot;month&amp;quot;:&amp;quot;January&amp;quot;,
+                &amp;quot;day&amp;quot;:12,
+                &amp;quot;year&amp;quot;:2012
+            }
+        },
+        {
+            &amp;quot;firstName&amp;quot;:&amp;quot;John&amp;quot;,
+            &amp;quot;lastName&amp;quot;:&amp;quot;Jones&amp;quot;,
+            &amp;quot;joined&amp;quot;: {
+                &amp;quot;month&amp;quot;:&amp;quot;April&amp;quot;,
+                &amp;quot;day&amp;quot;:28,
+                &amp;quot;year&amp;quot;:2010
+            }
+        }
+]}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Pretty much as before. As you can see, JSON is really easy to read and once you get used to the curly braces and brackets, not too hard to encode.&lt;/p&gt;
+</content>
+	</entry>
+</feed>

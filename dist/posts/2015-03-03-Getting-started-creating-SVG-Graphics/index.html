@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer="defer" src="/js/lib/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Seven11</title>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-nav" data-offset="55">
+
+    <header id="page-hero" class="site-header d-flex align-items-center justify-content-center "  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(/images/articles/svggraphics.png); min-height: 50vh;" >
+
+      <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand text-uppercase" href="/">
+            <i class="fas fa-cube mr-2"></i>
+            Seven11</a>
+
+          <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav ml-auto font-weight-regular text-uppercase"><a class="nav-item nav-link" href="/">Home</a><a class="nav-item nav-link" href="/posts/">Archive</a><a class="nav-item nav-link" href="/about/">About</a></div>
+          </div>
+
+        </div>
+      </nav>
+
+      
+      <section class="layout-hero d-flex align-items-center text-light text-center w-100">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-11 col-sm-10 col-md-8 animated fadeInUp">
+              <div class="h2 family-sans font-weight-light">Getting started creating SVG Graphics</div>
+              <p class="page-section-text">A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+    </header>
+
+    <article class="tmpl-post">
+      <div class="container my-5">
+        <div class="h2  family-emphasis font-weight-bold text-primary ">Getting started creating SVG Graphics</div>
+
+<h2 id="svg-graphic-fundamentals">SVG Graphic Fundamentals <a class="direct-link" href="#svg-graphic-fundamentals" aria-hidden="true">#</a></h2>
+<p>Visualization tools like D3.js or C3.js use the SVG (Scalable Vector Graphics) format by default, so it's important to understand how that format uses XML style commands to generate graphics. Let's dive straight into some code.</p>
+<p><a class="jsbin-embed" href="http://jsbin.com/bidevi/3/embed?html,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
+<p>SVG is pretty easy to read and if you know HTML it should be even easier. An SVG graphic begins and ends with the <code>&lt;svg&gt;&lt;/svg&gt;</code> tags like many other HTML elements and you can add different attributes like the width and height of the graphic. As a matter of fact, the very first thing you do with SVG is specify the canvas that the rest of the graphics will be using.</p>
+<p>Just like with any other HTML tag we can add a style attribute and pass it common CSS commands, here we've set the color of the background to a bluish medium gray.</p>
+<p>Inside the SVG tag, you can create additional elements that generate graphics. Here's a comprehensive reference to all of the <a href="https://developer.mozilla.org/en-US/docs/Web/SVG">SVG elements that you can create</a>. Common elements (with examples) include:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect">Rectangle</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle">Circle</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/ellipse">Ellipse</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line">Line</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path">Paths</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polygon">Polygon</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/polyline">Polyline</a></li>
+</ul>
+<p>|<code>&lt;path d=&quot;M 100 100 L 300 100 L 200 300 z&quot; fill=&quot;orange&quot; stroke=&quot;black&quot; stroke-width=&quot;3&quot; /&gt;</code> | <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path">Paths</a> |</p>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text">Text</a></li>
+</ul>
+<p>If you come from an HTML background, there are some important things to note about this code. First, you'll notice that the tags use a self closing style when they are single tags. So instead of writing something like <code>&lt;rect&gt;&lt;/rect&gt;</code> you can write something like <code>&lt;rect&gt; /&gt;</code>. SGV looks like HTML, but it isn't exactly HTML, so an XHTML style is used for the tags. Although most browsers will be forgiving on some traditional XML rules like capitalization, punctuation and quotes around attributes, the format itself is more strict.</p>
+<p>For example, technically, the <code>&lt;svg&gt;</code> tag should include an SVG namespace declaration specifying the version and format of the library you're using.</p>
+<pre><code>	&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; …&gt;
+  	&lt;rect …/&gt;
+	&lt;/svg&gt;
+</code></pre>
+<p>Here's where you can <a href="http://www.w3.org/Graphics/SVG/">learn more about the SVG specification</a> and format.</p>
+<p>You might also notice that like with HTML we can use the style attribute and use CSS.</p>
+
+
+<p><a href="/">← Home</a></p>
+
+      </div>
+    </article>
+
+    <footer class="site-footer bg-reverse">
+      <div class="layout-social container py-5 d-flex justify-content-center">
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://github.com/planetoftheweb">
+      <i class="fab fa-github"></i>
+    </a>
+  
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://twitter.com/planetoftheweb">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="fab fa-youtube"></i>
+    </a>
+  
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://dribbble.com/planetoftheweb">
+      <i class="fab fa-dribbble"></i>
+    </a>
+  
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="fab fa-flickr"></i>
+    </a>
+  
+
+  
+    <a class="text-reverse px-2" target="_blank" href="https://facebook.com/viewsource">
+      <i class="fab fa-facebook"></i>
+    </a>
+  
+
+</div>
+    </footer>
+
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>
