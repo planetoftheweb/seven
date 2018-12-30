@@ -1,5 +1,5 @@
 {
-  "title": "Seven11",
+  "title": "Seven",
   "description": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
   "url": "https://raybo.org/seven",
   "hero": "/images/vancouver.jpg",
@@ -12,13 +12,12 @@
   },
   "author": {
     "name": "Ray Villalobos",
-    "bio": "Ray Villalobos is a Full Stack Web Development Teacher, Speaker, Workshop Trainer, Tech Speaker and Author. He’s a full time Staff Author at LInkedIn Learning and Lynda.com.",
+    "bio": "Ray Villalobos is a Full Stack Web Development Author. He’s a full time Staff Author at LInkedIn Learning and Lynda.com.",
     "social": {
       "email": "ray@planetoftheweb.com",
       "linkedin": "https://linkedin.com/in/planetoftheweb",
       "github": "https://github.com/planetoftheweb",
       "twitter": "https://twitter.com/planetoftheweb",
-      "facebook": "https://facebook.com/viewsource",
       "dribbble": "https://dribbble.com/planetoftheweb",
       "flickr": "https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/",
       "youtube": "https://www.youtube.com/user/planetoftheweb",

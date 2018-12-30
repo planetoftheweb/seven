@@ -8,6 +8,7 @@ navtitle: Home
 <div class="mt-3 h2 family-emphasis font-weight-bold text-primary ">Latest Posts</div>
 
 {% set postslist = collections.posts | head(-10) %}
+{% include "courselist.njk" %}
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
