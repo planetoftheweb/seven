@@ -7,6 +7,7 @@ hero: /images/articles/resiliency.png
 thumb: /images/articles/resiliency_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/what-i-learned-resiliency-working-9-bosses-5-years-ray-villalobos/
+  - dude: https://www.linkedin.com/pulse/what-i-learned-resiliency-working-9-bosses-5-years-ray-villalobos/
 tags:
   - careers
 ---

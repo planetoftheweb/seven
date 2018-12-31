@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:300|Open+Sans:200,400,600");
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Open+Sans:200,400,600");
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -9628,6 +9628,16 @@ body {
 
 .layout-social {
   font-size: 2em;
+}
+
+.main-sidebar .h3 {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 992px) {
+  .main-sidebar .h3 {
+    font-size: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

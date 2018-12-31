@@ -1,0 +1,31 @@
+<section reversed class="mb-5" style="counter-reset: start-from {{ postslist.length + 1 }}">
+  <div class="row justify-content-center family-sans ">
+    {% for item in courselist | reverse %}
+      <section class="col-12 my-1 my-lg-3">
+        <time class=" d-none d-lg-block text-muted" datetime="{{ item.date }}">{{ item.date | courseDate }}</time>
+        {% if item.thumb %}
+          <a href="{{ item.links.lil | url }}" class="w-100 d-none d-lg-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.thumb }}" alt="{{ item.title }} photo"></a>
+        {% endif %}
+        <a href="{{ item.links.lil | url }}" class="h3 text-primary d-block my-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.links.lil }}</code>{% endif %}</a>
+        <p class="mb-1  text-secondary d-none d-lg-block">{% if item.summary %}{{ item.summary }}{% endif %}</p>
+
+      {% for linkName, url in item.links %}
+        {% if linkName== 'lil' %}
+        <a href="{{ url | safe }}" class="text-info mr-3 mr-lg-1"><i class="fab fa-linkedin"></i>
+          <span class="d-none d-lg-inline">on LinkedIn</a></span>
+        {% endif %}
+        {% if linkName== 'repo' %}
+        <a href="{{ url | safe }}" class="text-info mr-3 mr-lg-1"><i class="fab fa-github"></i>
+          <span class="d-none d-lg-inline">repo</a></span>
+        {% endif %}
+        {% if linkName== 'demo' %}
+        <a href="{{ url | safe }}" class="text-info mr-3 mr-lg-1"><i class="fas fa-globe"></i>
+          <span class="d-none d-lg-inline">demo</a></span>
+        {% endif %}
+      {% endfor %}
+
+
+       </section>
+    {% endfor %}
+  </div>
+</section>

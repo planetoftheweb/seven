@@ -5,10 +5,15 @@ tags:
 navtitle: Home
 ---
 
-<div class="mt-3 h2 family-emphasis font-weight-bold text-primary ">Latest Posts</div>
-
 {% set postslist = collections.posts | head(-10) %}
-{% include "courselist.njk" %}
-{% include "postslist.njk" %}
+{% set courselist = courses | sortDataByDate | head(-10) %}
+
+<div class="row">
+  <div class="main-content col-md-9">{% include "postslist.njk" %}</div>
+  <div class="main-sidebar col-md-3">
+    <h3 class="family-sans text-primary">Latest Courses</h3>
+    {% include "courselist-sidebar.njk" %}
+  </div>
+</div>
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
