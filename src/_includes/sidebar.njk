@@ -8,10 +8,9 @@
         {% endif %}
         <a href="{{ item.links.lil | url }}" class="h3 text-primary d-block my-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.links.lil }}</code>{% endif %}</a>
         <p class="mb-1  text-secondary d-none d-lg-block">{% if item.summary %}{{ item.summary }}{% endif %}</p>
-
-
-
+        {% include "tags.njk" %}
+        {% include "links.njk" %}
        </section>
     {% endfor %}
-  </div>
+  </div> 
 </section>
