@@ -142,6 +142,16 @@
   </url>
   
   <url>
+    <loc>https://raybo.org/dist/404/</loc>
+    <lastmod>2018-12-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://raybo.org/dist/courses/</loc>
+    <lastmod>2019-01-01</lastmod>
+  </url>
+  
+  <url>
     <loc>https://raybo.org/about/</loc>
     <lastmod>2019-01-01</lastmod>
   </url>
@@ -152,7 +162,7 @@
   </url>
   
   <url>
-    <loc>https://raybo.org/courses/</loc>
+    <loc>https://raybo.org/</loc>
     <lastmod>2019-01-01</lastmod>
   </url>
   
@@ -163,11 +173,6 @@
   
   <url>
     <loc>https://raybo.org/tags/data%20visualization/</loc>
-    <lastmod>2019-01-01</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://raybo.org/</loc>
     <lastmod>2019-01-01</lastmod>
   </url>
 </urlset>
