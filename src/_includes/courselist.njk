@@ -5,10 +5,9 @@
           <div class="row no-gutters">
             {% if item.thumb %}
               <div class="col-md-3">
-                  <a href="{{ item.links.lil | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.thumb }}" alt="{{ item.title }} photo"></a>
+                <a href="{{ item.links.lil | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.thumb }}" alt="{{ item.title }} photo"></a>
               </div>
             {% endif %}
-
             <div class="{% if item.thumb %}col-md-9 pl-md-4{% else %} col-m {% endif %}">
               <time class="d-block family-sans text-muted" datetime="{{ item.date }}">{{ item.date | courseDate }}</time>
               <a href="{{ item.links.lil | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.links.lil }}</code>{% endif %}</a>

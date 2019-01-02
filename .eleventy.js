@@ -5,8 +5,12 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
- 
+
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
+
+  eleventyConfig.addFilter('simplifyDate', dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
+  });
 
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(

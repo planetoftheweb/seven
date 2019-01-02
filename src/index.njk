@@ -3,16 +3,16 @@ layout: layouts/home.njk
 ---
 
 {% set postslist = collections.posts | head(-10) %}
-{% set courseList = courses | sortDataByDate | head(-10) %}
+{% set courselist = courses | sortDataByDate | head(-10) %}
 
 <div class="row">
   <div class="main-content col-md-9">
-    {% set itemList = postslist %}
+    {% set itemList = courselist %}
     {% include "postslist.njk" %}
   </div>
   <div class="main-sidebar col-md-3">
     <h3 class="family-sans text-primary">Latest Courses</h3>
-    {% set itemList = courseList %}
+    {% set itemList = courselist %}
     {% include "sidebar.njk" %}
   </div>
 </div>
