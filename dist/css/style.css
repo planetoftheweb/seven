@@ -9516,11 +9516,11 @@ body {
 }
 
 .site-nav {
-  background: transparent;
+  background: rgba(0, 123, 255, 0.7);
 }
 
 .site-nav.inbody {
-  background: rgba(56, 56, 56, 0.9);
+  background: #007bff;
 }
 
 .site-header .jumbotron {

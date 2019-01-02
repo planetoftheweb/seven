@@ -5,7 +5,7 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
-
+ 
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
   eleventyConfig.addFilter('readableDate', dateObj => {

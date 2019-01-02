@@ -1,5 +1,4 @@
 /* Variables */
-
 :root {
   /*
   --blue: #007bff;
@@ -33,9 +32,7 @@
   --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   */
-
   /* Override Variables */
-
   --gray: #7d7d7d;
   --gray-dark: #404040;
   --primary: rgb(20, 90, 109);
@@ -44,9 +41,7 @@
     'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-family-serif: 'Merriweather', 'Times New Roman', serif;
   --font-family-emphasis: 'Bree Serif', 'Times New Roman', serif;
-
   /* Page Variables */
-
   --font-weight-light: 200 !important;
   --color-medium: #ddd;
   --color-reverse: var(--gray-dark);
@@ -64,7 +59,6 @@ body {
 }
 
 /* Animation Styles */
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -84,13 +78,11 @@ body {
 }
 
 /* Override Styles */
-
 .bg-medium {
   background-color: var(--medium) !important;
 }
 
 /* Custom Styles */
-
 .animated {
   visibility: visible !important;
 }
@@ -161,12 +153,9 @@ body {
 }
 
 /* Page Layouts */
-
 /* Site Header */
-
 .site-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent),
-    url(https://dummyimage.com/16:9x400/6.png&text=+);
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(https://dummyimage.com/16:9x400/6.png&text=+);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,11 +175,11 @@ body {
 }
 
 .site-nav {
-  background: rgba($primary, 0.7);
+  background: red;
 }
 
 .site-nav.inbody {
-  background: $primary;
+  background: red;
 }
 
 .site-header .jumbotron {
@@ -229,7 +218,6 @@ body {
 }
 
 /* Layout Multicolumn */
-
 .layout-multicolumn .photo-modal {
   transition: all 300ms ease-in-out;
 }
@@ -247,13 +235,11 @@ body {
 }
 
 /* Layout Media */
-
 #page-media .layout-image {
   max-width: 200px;
 }
 
 /* Layout Nested */
-
 #page-nested {
   background: linear-gradient(135deg, var(--gray), var(--gray-dark));
 }
@@ -263,7 +249,6 @@ body {
 }
 
 /* Layout Icons */
-
 .layout-iconcolumns .layout-icon {
   font-size: 2.8em;
   padding-bottom: 1.4em;
@@ -271,38 +256,28 @@ body {
 }
 
 /* Layout Icons */
-
 .layout-social .icon {
   font-size: 3em;
   color: var(--green);
 }
 
 /* Layout Float */
-
 #page-floater {
-  background: radial-gradient(
-    ellipse at left,
-    var(--gray) 0,
-    var(--gray-dark) 100%
-  );
+  background: radial-gradient(ellipse at left, var(--gray) 0, var(--gray-dark) 100%);
   padding: 8em 0;
 }
 
 /* Layout Float */
-
 @media screen and (min-width: 992px) {
   #page-floater {
     margin: 50px 0 150px 0;
   }
-
   #page-floater .img-container {
     position: relative;
   }
-
   #page-floater .layout-image {
     position: absolute;
   }
-
   #page-floater img {
     top: 50%;
     left: 50%;
@@ -313,3 +288,5 @@ body {
 .layout-social {
   font-size: 2em;
 }
+
+/*# sourceMappingURL=after.css.map */

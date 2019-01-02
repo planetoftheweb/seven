@@ -13,15 +13,8 @@
               <time class="d-block family-sans text-muted" datetime="{{ item.date }}">{{ item.date | courseDate }}</time>
               <a href="{{ item.links.lil | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.links.lil }}</code>{% endif %}</a>
               <p class="lead mb-1 font-serif text-secondary">{% if item.summary %}{{ item.summary }}{% endif %}</p>
-
-              <div>
-              {% for tag in item.tags %}
-                {%- if tag != "post" -%}
-                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                <a href="{{ tagUrl | url }}" class="badge badge-info family-sans">{{ tag }}</a>
-                {%- endif -%}
-              {% endfor %}
-              </div>
+              {% include "tags.njk" %}
+              {% include "links.njk" %}
             </div>
           </div>
       </section>

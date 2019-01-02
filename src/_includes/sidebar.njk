@@ -1,6 +1,6 @@
 <section reversed class="mb-5" style="counter-reset: start-from {{ postslist.length + 1 }}">
   <div class="row justify-content-center family-sans ">
-    {% for item in courselist | reverse %}
+    {% for item in itemList %}
       <section class="col-12 my-1 my-lg-3">
         <time class=" d-none d-lg-block text-muted" datetime="{{ item.date }}">{{ item.date | courseDate }}</time>
         {% if item.thumb %}
@@ -8,8 +8,9 @@
         {% endif %}
         <a href="{{ item.links.lil | url }}" class="h3 text-primary d-block my-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.links.lil }}</code>{% endif %}</a>
         <p class="mb-1  text-secondary d-none d-lg-block">{% if item.summary %}{{ item.summary }}{% endif %}</p>
-        {% include "tags.njk" %}
-        {% include "links.njk" %}
+
+
+
        </section>
     {% endfor %}
   </div>

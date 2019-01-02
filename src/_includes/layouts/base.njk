@@ -27,6 +27,7 @@
           <div class="collapse navbar-collapse" id="myTogglerNav">
             <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
 
+              <a class="nav-item nav-link{% if nav.url == 'Home' %} active{% endif %}" href="/">Home</a>
               {%- for nav in collections.nav | reverse -%}
                 <a class="nav-item nav-link{% if nav.url == page.url %} active{% endif %}" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
               {%- endfor -%}
