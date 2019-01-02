@@ -1,5 +1,5 @@
-./dist
+dist/
 node_modules/
 package-lock.json
 .gitignore
-./_site
+_site/
