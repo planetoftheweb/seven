@@ -1,0 +1,19 @@
+
+      <section class="col-12 {% if loop.first %} mb-3 {% else %} my-5 {% endif %}">
+          <div class="row no-gutters">
+            {% if item.thumb %}
+              <div class="col-md-3">
+                <a href="{{ item.links[0].linkedin if item.links else item.url | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.thumb }}" alt="{{ item.title }} photo"></a>
+              </div>
+            {% endif %}
+
+            <div class="{% if item.thumb %}col-md-9 pl-md-4{% else %} col-m {% endif %}">
+              <time class="d-block family-sans text-muted" datetime="{{ item.date | htmlDateString }}">{{ item.date | readableDate }}</time>
+              <a href="{{ item.url | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.url }}</code>{% endif %}</a>
+              <p class="lead mb-1 font-serif text-secondary">{% if item.summary %}{{ item.summary }}{% endif %}</p>
+
+              {% include "tags.njk" %}
+              {% include "links.njk" %}
+            </div>
+          </div>
+      </section>

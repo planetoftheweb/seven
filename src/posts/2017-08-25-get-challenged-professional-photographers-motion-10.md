@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: external
 title: Get challenged by these professional photographers, motion experts and videographers through weekly, 10 minute video courses
 summary: Check out these short, weekly, 10 minute series of courses that can help you keep up with the latest and challenge you to practice your skills. You'll learn about photo gear, get inspired by critiques, learn from practicing professional photographers, learn about the latest tools, mobile photography, Final Cut Pro, motion graphics and Nuke.
 hero: /images/articles/photographerweekly.jpg

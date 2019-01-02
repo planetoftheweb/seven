@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: external
 title: What's wrong with AngularJS2 and why you're going to like it
 summary: I've been working with AngularJS2 for a while, so I wanted to give some thoughts to those who are thinking or planning to update or upgrade their apps to this new version. I'll discuss what's new, what's very different, what works and what is going to be a challenge.
 hero: /images/articles/angular.jpg
