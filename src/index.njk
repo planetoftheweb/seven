@@ -2,13 +2,13 @@
 layout: layouts/home.njk
 ---
 
-{% set postslist = collections.posts | head(-10) %}
-{% set courselist = courses | sortDataByDate | head(-10) %}
+{% set postslist = collections.posts | sortPostsByDate | head(-10) %}
+{% set courselist = courses | head(-10) | sortDataByDate %}
 
 <div class="row">
   <div class="main-content col-md-9">
-    {% set itemList = courselist %}
-    {% include "postslist.njk" %}
+    {% set itemList = postslist %}
+    {% include "itemslist.njk" %}
   </div>
   <div class="main-sidebar col-md-3">
     <h3 class="family-sans text-primary">Latest Courses</h3>
@@ -18,3 +18,4 @@ layout: layouts/home.njk
 </div>
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+ 

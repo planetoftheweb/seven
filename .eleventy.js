@@ -33,7 +33,13 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('sortDataByDate', items => {
     return items.sort((a, b) => {
-      return a['date'].toLowerCase() > b['date'].toLowerCase();
+      return a['date'].toLowerCase() < b['date'].toLowerCase();
+    });
+  });
+
+  eleventyConfig.addFilter('sortPostsByDate', items => {
+    return items.sort((a, b) => {
+      return a.dateObj > b.dateObj;
     });
   });
 

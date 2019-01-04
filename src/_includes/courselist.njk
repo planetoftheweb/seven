@@ -1,6 +1,6 @@
 <section reversed class="container my-5" style="counter-reset: start-from {{ postslist.length + 1 }}">
   <div class="row justify-content-center">
-    {% for item in courses | reverse %}
+    {% for item in courses %}
       <section class="col-12 {% if loop.first %} mb-5 {% else %} my-5 {% endif %} {% if item.links.lil == url %} active{% endif %}">
           <div class="row no-gutters">
             {% if item.thumb %}
