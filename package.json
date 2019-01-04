@@ -4,14 +4,17 @@
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy",
     "eleventy": "eleventy --serve",
     "dev": "npm-run-all --parallel dev:*",
-    "dev:sass-dev": "node-sass --watch process/scss --output-style expanded --source-map true  process/scss/style.scss --output src/css",
+    "dev:sass-dev": "node-sass --watch process/scss --output-style expanded --source-map true process/scss/style.scss --output src/css",
     "dev:js-transform": "babel process/js/**/*.js --watch --out-file src/js/script.js --source-maps",
-    "dev:eleventy": "eleventy --serve"
+    "dev:eleventy": "eleventy --serve",
+    "build": "npm-run-all prod:*",
+    "prod:sass-dev": "node-sass --output-style compressed process/scss/style.scss --output src/style.ccss",
+    "prod:js-uglify": "uglifyjs process/js/script.js --compress --mangle --output src/js/script.js --source-maps",
+    "prod:serve": "eleventy"
   },
   "repository": {
     "type": "git",

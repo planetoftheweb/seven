@@ -1,0 +1,2 @@
+  publish = "dist"
+  command = "DEBUG=* eleventy"
