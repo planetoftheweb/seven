@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: post
 title: Getting the Right Social Media Followers
 summary: Everyone talks about getting a lot of followers in social media, but what does that really mean? And why is it even important? Well everyone is wrong. I'm much happier when I focus on getting the right type of followers.
 hero: /images/articles/rightsocialmedia.png

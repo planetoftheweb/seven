@@ -1,6 +1,6 @@
 ---
 layout: post
-category: external
+category: post
 title: Three things I learned from six years as a teacher on Lynda.com
 summary: It's my sixth year anniversary at lynda.com/LinkedIn Learning and milestones come with some reflection, so I wanted to share with you some of the things I've learned over the years. Although these are specific to my experience, I think you'll be able to relate to these and maybe share something you've learned from your own.
 hero: /images/articles/threethings.jpg

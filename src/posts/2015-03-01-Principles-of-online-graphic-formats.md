@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: post
 title: Principles of online graphic formats
 summary: If your goal is to create visualizations for online consumption, it's good to understand the fundamentals of how graphic formats work for online delivery. In this article, I'll talk about the different bitmap/raster graphics and some of the main considerations for online delivery.
 hero: /images/articles/graphics.png

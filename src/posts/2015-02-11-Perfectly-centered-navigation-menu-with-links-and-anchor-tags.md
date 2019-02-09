@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: post
 title: Horizontally Centered Navigation Menu with CSS
 summary: "Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy."
 hero: /images/articles/horizontally.png
@@ -30,12 +30,12 @@ Since you can just read the code above or watch the video, I'll give you the hig
 ```html
 <nav class="sitemenu">
   <div class="navwrapper">
-	  <ul>
-	    <li><a href="#"> MySite</a></li>
-	    <li><a href="#"> Home</a></li>
-	    <li><a href="#">about us</a></li>
-	    <li><a href="#"> contact us</a></li>
-	  </ul>
+    <ul>
+      <li><a href="#"> MySite</a></li>
+      <li><a href="#"> Home</a></li>
+      <li><a href="#">about us</a></li>
+      <li><a href="#"> contact us</a></li>
+    </ul>
   </div>
 </nav>
 ```

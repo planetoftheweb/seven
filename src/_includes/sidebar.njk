@@ -19,16 +19,6 @@
         {% else %}
             {% set defaultURL = item.url %}
         {% endif %}
-
-      {% else %}
-      {# If this is a course #}
-        {% set thumb = item.thumb %}
-        {% set title = item.title %}
-        {% set summary = item.summary %}
-        {% set date = item.date %}
-        {% set defaultURL = item.links.lil %}
-        {% set links = item.links %}
-        {% set tags = item.tags %}
       {% endif %}
 
       <section class="col-12 my-1 my-lg-3">

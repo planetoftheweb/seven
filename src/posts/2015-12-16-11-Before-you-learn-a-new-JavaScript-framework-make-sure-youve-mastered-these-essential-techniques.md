@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: post
 title: Before your learn a new JavaScript framework, make sure you've mastered these essential techniques
 links:
   - linkedin: https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray

@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+hero: http://pixelprowess.com/i/computers/apps-topview.jpg
+tags:
+  - nav
+navtitle: Posts
+permalink: /posts/
+---
+
+<h1>Posts</h1>
+
+{% set postslist = collections.posts | sortPostsByDate %}
+
+    {% set itemList = postslist %}
+    {% include "itemslist.njk" %}

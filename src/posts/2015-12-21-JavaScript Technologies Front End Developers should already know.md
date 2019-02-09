@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: post
 title: 6 JavaScript technologies Front-end developers should already know
 summary: Life's tough for a front end developer because the pace of learning moves so fast. Today's developer needs to be familiar with a number of libraries, frameworks and processes in order to be successful. Here's my list of JavaScript technologies that you should already be familiar with if you're a professional front end developer.
 hero: /images/articles/jsfrontend.png
@@ -15,7 +15,7 @@ tags:
 ## jQuery
 
 [![jQuery](http://i.imgur.com/OtX9CNp.png)](https://jquery.com/)
-[jQuery](https://jquery.com/) has gotten a bad rap lately, and that's largely because where in the past it solved a lot of problems with backwards compatibility, those issues have disappeared up to a point in modern browsers. However, it's so prevalent and already installed in most websites that you should be familiar with the framework, especially how the $ selector engine works, chaining and complex selectors. If jQuery is already installed on your site (and chances are, if you're using either [WordPress](https://wordpress.org/) or [Bootstrap](http://getbootstrap.com/), it already is), then you're doing yourself a disservice by not knowing where it can save you time and add some backwards compatibility when you must support older browsers.
+[jQuery](https://jquery.com/) has gotten a bad rap lately, and that's largely because where in the past it solved a lot of problems with backwards compatibility, those issues have disappeared up to a point in modern browsers. However, it's so prevalent and already installed in most websites that you should be familiar with the framework, especially how the \$ selector engine works, chaining and complex selectors. If jQuery is already installed on your site (and chances are, if you're using either [WordPress](https://wordpress.org/) or [Bootstrap](http://getbootstrap.com/), it already is), then you're doing yourself a disservice by not knowing where it can save you time and add some backwards compatibility when you must support older browsers.
 
 ## !jQuery
 
