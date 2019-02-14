@@ -9,7 +9,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   eleventyConfig.addFilter("simpleDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL dd-yy");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "LLL dd, yyyy"
+    );
   });
 
   // Get the first `n` elements of a collection.
