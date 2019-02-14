@@ -1,0 +1,33 @@
+---
+layout: layouts/home.njk
+hero: http://pixelprowess.com/i/computers/apps-topview.jpg
+tags:
+  - nav
+pagination:
+  data: collections.courses
+  size: 10
+navtitle: Courses
+permalink: /courses/{{pagination.pageNumber}}/
+---
+
+<h1>{{navtitle}}</h1>
+
+{% include "pagination.njk" %}
+
+
+{%- for item in pagination.items %}
+  {% set defaultURL = '' %}
+  {% if item.data.links[0] %}
+    {% for name, link in item.data.links[0] %}
+      {% set defaultURL = link %}
+    {% endfor %}
+  {% else %}
+      {% set defaultURL = item.url %}
+  {% endif %}
+
+  {% include "items.njk" %}
+
+{% endfor -%}
+
+{% include "pagination.njk" %}
+

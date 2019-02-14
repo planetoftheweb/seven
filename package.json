@@ -12,7 +12,7 @@
     "dev:js-transform": "babel process/js/**/*.js --watch --out-file src/js/script.js --source-maps",
     "dev:eleventy": "eleventy --serve",
     "build": "npm-run-all prod:*",
-    "prod:sass-dev": "node-sass --output-style compressed process/scss/style.scss --output src/style.ccss",
+    "prod:sass-dev": "node-sass --output-style compressed process/scss/style.scss --output src/css/style.css",
     "prod:js-uglify": "uglifyjs process/js/script.js --compress --mangle --output src/js/script.js --source-maps",
     "prod:serve": "eleventy"
   },
@@ -28,11 +28,11 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.5.4",
-    "@11ty/eleventy-plugin-rss": "^1.0.3",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "luxon": "^1.0.0",
+    "luxon": "^1.11.2",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
     "node-sass": "^4.11.0",
@@ -40,7 +40,8 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }

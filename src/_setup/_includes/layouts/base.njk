@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script defer="defer" src="/js/lib/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{ metadata.title }}</title>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
+
+    <header id="page-hero" class="site-header {% if not hero %}mt-5 pt-5{% endif %}site-header d-flex align-items-center justify-content-center " {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: 50vh;" {% endif %}>
+      {% include "navbar.njk" %}
+    </header>
+
+    <article id="main-content" class="site-main container my-5 {% if templateClass %}{{ templateClass }}{% endif %}">
+      {{ content | safe }}
+    </article>
+
+    <footer class="site-footer bg-reverse">
+      {% include "social.njk" %}
+    </footer>
+
+    <script src="/js/lib/jquery.min.js"></script>
+    <script src="/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+
+</html>

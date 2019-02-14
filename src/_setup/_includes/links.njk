@@ -1,0 +1,10 @@
+
+{% if item.data.links != null %}
+  <div>
+  {% for item in item.data.links %}
+    {% if item.lil != null %}<a href="{{ item.url }}" class="family-sans text-info mr-3 mr-lg-1"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline">on LinkedIn</a></span>{% endif %}
+    {% if item.repo != null %}<a href="{{ item.url }}" class="family-sans text-info mr-3 mr-lg-1"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline">repo</a></span>{% endif %}
+    {% if item.demo != null %}<a href="{{ item.url }}" class="family-sans text-info mr-3 mr-lg-1"><i class="fas fa-globe mr-1"></i><span class="d-none d-lg-inline">demo</a></span>{% endif %}
+  {% endfor %}
+  </div>
+{% endif %}  

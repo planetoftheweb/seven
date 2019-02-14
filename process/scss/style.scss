@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Open+Sans:200,400,600');
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Open+Sans:200,400,600");
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
+$enable-responsive-font-sizes: true;
+$primary: #143441;
 
-@import 'after.scss';
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "after.scss";
+
+nav {
+  transition: all 1s ease-in-out;
+}
 
 .main-sidebar {
   .h3 {

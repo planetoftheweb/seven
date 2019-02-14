@@ -3,8 +3,8 @@ layout: layouts/home.njk
 hero: http://pixelprowess.com/i/computers/apps-threequarterview.jpg
 ---
 
-{% set postslist = collections.posts | sortPostsByDate | head(-10) %}
-{% set courselist = courses | head(-10) | sortDataByDate %}
+{% set postslist = collections.posts | reverse | head(-10) %}
+{% set courselist = collections.courses | reverse | head(-8) %}
 
 <div class="row">
   <div class="main-content col-md-9">
@@ -17,5 +17,3 @@ hero: http://pixelprowess.com/i/computers/apps-threequarterview.jpg
     {% include "sidebar.njk" %}
   </div>
 </div>
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

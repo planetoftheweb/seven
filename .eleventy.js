@@ -8,18 +8,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-  eleventyConfig.addFilter("simplifyDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
-  });
-
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "LLL dd, yyyy"
-    );
-  });
-
-  eleventyConfig.addFilter("courseDate", myDate => {
-    return DateTime.fromISO(myDate).toFormat("LLL dd, yyyy");
+  eleventyConfig.addFilter("simpleDate", dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL dd-yy");
   });
 
   // Get the first `n` elements of a collection.
@@ -31,18 +21,6 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addFilter("sortDataByDate", items => {
-    return items.sort((a, b) => {
-      return a["date"].toLowerCase() < b["date"].toLowerCase();
-    });
-  });
-
-  eleventyConfig.addFilter("sortPostsByDate", items => {
-    return items.sort((a, b) => {
-      return a.dateObj > b.dateObj;
-    });
-  });
-
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter("htmlDateString", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd");
@@ -50,19 +28,15 @@ module.exports = function(eleventyConfig) {
 
   // only content in the `posts/` directory
   eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("./src/posts/*").sort(function(a, b) {
-      return a.date - b.date;
-    });
+    return collection.getFilteredByGlob("./src/posts/*.md");
   });
 
   // only content in the `posts/` directory
   eleventyConfig.addCollection("courses", function(collection) {
-    return collection.getFilteredByGlob("./src/courses/*").sort(function(a, b) {
-      return b.date - a.date;
-    });
+    return collection.getFilteredByGlob("./src/courses/*");
   });
 
-  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+  eleventyConfig.addCollection("tagList", require("./src/_setup/getTagList"));
 
   eleventyConfig.addPassthroughCopy("./src/images");
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -102,8 +76,8 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true,
     dir: {
       input: "src",
-      includes: "_includes",
-      data: "_data",
+      includes: "_setup/_includes",
+      data: "_setup/_data",
       output: "dist"
     }
   };

@@ -1,0 +1,26 @@
+<section reversed class="mb-5" style="counter-reset: start-from {{ postslist.length + 1 }}">
+  <div class="row justify-content-center family-sans ">
+    {% for item in itemList %}
+
+      {% set defaultURL = '' %}
+      {% if item.data.links[0] %}
+        {% for name, link in item.data.links[0] %}
+          {% set defaultURL = link %}
+        {% endfor %}
+      {% else %}
+          {% set defaultURL = item.url %}
+      {% endif %}
+
+      <section class="col-12 my-1 my-lg-3">
+        <time class=" d-none d-lg-block text-muted" datetime="{{ date }}">{{ item.date | simpleDate }}</time>
+        {% if item.data.thumb %}
+          <a href="{{ defaultURL | url }}" class="w-100 d-none d-lg-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo"></a>
+        {% endif %}
+        <a href="{{ defaultURL | url }}" class="h3 text-primary d-block my-1">{{item.data.title}}</a>
+        <p class="mb-1  text-secondary d-none d-lg-block">{{ item.data.summary }}</p>
+        {% include "tags.njk" %}
+        {% include "links.njk" %}
+       </section>
+    {% endfor %}
+  </div> 
+</section>
