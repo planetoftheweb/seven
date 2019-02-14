@@ -8,7 +8,7 @@
     "debug": "DEBUG=* npx eleventy",
     "eleventy": "eleventy --serve",
     "dev": "npm-run-all --parallel dev:*",
-    "dev:sass-dev": "node-sass --watch process/scss --output-style expanded --source-map true process/scss/style.scss --output src/css",
+    "dev:sass-dev": "node-sass --watch process/scss/style.scss --output-style expanded --source-map true process/scss/style.scss --output src/css",
     "dev:js-transform": "babel process/js/**/*.js --watch --out-file src/js/script.js --source-maps",
     "dev:eleventy": "eleventy --serve",
     "build": "npm-run-all prod:*",

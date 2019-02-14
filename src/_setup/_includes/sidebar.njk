@@ -17,7 +17,7 @@
           <a href="{{ defaultURL | url }}" class="w-100 d-none d-lg-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo"></a>
         {% endif %}
         <a href="{{ defaultURL | url }}" class="h3 text-primary d-block my-1">{{item.data.title}}</a>
-        <p class="mb-1  text-secondary d-none d-lg-block">{{ item.data.summary }}</p>
+        <p class="mb-1  text-muted d-none d-lg-block">{{ item.data.summary }}</p>
         {% include "tags.njk" %}
         {% include "links.njk" %}
        </section>

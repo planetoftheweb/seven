@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Me
-hero: /images/bridge.jpg
+hero: http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg
 tags:
   - nav
 navtitle: About

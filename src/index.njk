@@ -1,10 +1,10 @@
 ---
 layout: layouts/home.njk
-hero: http://pixelprowess.com/i/computers/apps-threequarterview.jpg
+hero: http://pixelprowess.com/i/computers/computing-apps-threequarter-211095871.jpg
 ---
 
-{% set postslist = collections.posts | reverse | head(-10) %}
-{% set courselist = collections.courses | reverse | head(-8) %}
+{% set postslist = collections.posts | head(-10) | reverse %}
+{% set courselist = collections.courses | head(-7) | reverse %}
 
 <div class="row">
   <div class="main-content col-md-9">

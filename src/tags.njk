@@ -8,16 +8,14 @@ pagination:
     - nav
     - post
     - posts
-    - course
-    - courses
 layout: layouts/home.njk
 renderData:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag }}/
 ---
-<div class="mt-3 h2 family-emphasis font-weight-bold text-primary ">Tagged “{{ tag }}”</div>
-
-{% set postslist = collections[ tag ] %}
-{% include "itemslist.njk" %}
-
 <p>See <a href="/tags/">all tags</a>.</p>
+<h2 class="text-secondary mb-5">Tagged <small>“{{ tag }}”</small></h2>
+
+{%- for item in collections[tag] | reverse %}
+  {% include "items.njk" %}
+{%- endfor %}

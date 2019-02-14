@@ -1,82 +1,5 @@
-/* Variables */
-
-:root {
-  --font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-serif: "Merriweather", "Times New Roman", serif;
-  --font-family-emphasis: "Bree Serif", "Times New Roman", serif;
-
-  --font-weight-light: 200 !important;
-  --color-medium: #ddd;
-  --color-reverse: var(--gray-dark);
-  --color-text: var(--gray-dark);
-  --color-text-reverse: var(--light);
-  --font-family-title: var(--font-family-sans-serif);
-  --font-family-text: var(--font-family-serif);
-}
-
-body {
-  font-family: var(--font-family-text);
-  color: var(--color-text);
-  font-weight: 200;
-}
-
-/* Animation Styles */
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeout {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
-/* Override Styles */
-
-.bg-medium {
-  background-color: var(--medium) !important;
-}
-
-/* Custom Styles */
-
 .animated {
   visibility: visible !important;
-}
-
-.bg-reverse {
-  background-color: var(--color-reverse) !important;
-}
-
-.text-reverse {
-  color: var(--color-text-reverse) !important;
-}
-
-.family-sans {
-  font-family: var(--font-family-sans-serif);
-}
-
-.family-serif {
-  font-family: var(--font-family-serif);
-}
-
-.family-emphasis {
-  font-family: var(--font-family-serif);
-}
-
-.vertical-padding {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .icon {
@@ -87,37 +10,9 @@ body {
   overflow: visible;
   vertical-align: -0.125em;
   text-rendering: auto;
-  fill: gray !important;
   width: 50px;
   height: 50px;
 }
-
-.page-section-title {
-  font-size: 4em;
-  font-family: var(--font-family-title);
-  color: var(--gray);
-  line-height: 100%;
-  padding-bottom: 0.15em;
-  margin-top: -0.2em;
-}
-
-.page-section-text {
-  margin-bottom: 2em !important;
-}
-
-.layout-title {
-  font-family: var(--font-family-title);
-  font-weight: 400;
-  font-size: 1.7em;
-}
-
-.layout-text {
-  font-family: var(--font-family-text);
-}
-
-/* Page Layouts */
-
-/* Site Header */
 
 .site-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent),
@@ -128,29 +23,15 @@ body {
   overflow: hidden;
 }
 
-.site-header .page-section-title {
-  font-size: 2em;
-}
-
 @media screen and (max-width: 768px) {
   .site-header .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     transition: all 0.5s ease-out;
   }
 }
 
-.site-nav {
-  // background: rgba($primary, 0.7);
-}
-
 .site-nav.inbody {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.site-header .jumbotron {
-  min-height: 50vh;
-  background: transparent;
+  background: rgba($primary, 0.9);
 }
 
 .site-header .animated {
@@ -181,41 +62,6 @@ body {
   visibility: visible;
   transform: scaleX(1);
 }
-
-/* Layout Multicolumn */
-
-.layout-multicolumn .photo-modal {
-  transition: all 300ms ease-in-out;
-}
-
-.layout-multicolumn .photo-modal:hover {
-  transform: scale(1.1) translateY(-3px);
-}
-
-.layout-multicolumn .layout-title {
-  font-size: 1.1em;
-}
-
-#page-multicolumn {
-  background: var(--color-medium);
-}
-
-/* Layout Media */
-
-#page-media .layout-image {
-  max-width: 200px;
-}
-
-/* Layout Nested */
-
-#page-nested {
-  background: linear-gradient(135deg, var(--gray), var(--gray-dark));
-}
-
-#page-nested .layout-image {
-  width: 120px;
-}
-
 /* Layout Icons */
 
 .layout-iconcolumns .layout-icon {
@@ -228,40 +74,6 @@ body {
 
 .layout-social .icon {
   font-size: 3em;
-  color: var(--green);
-}
-
-/* Layout Float */
-
-#page-floater {
-  background: radial-gradient(
-    ellipse at left,
-    var(--gray) 0,
-    var(--gray-dark) 100%
-  );
-  padding: 8em 0;
-}
-
-/* Layout Float */
-
-@media screen and (min-width: 992px) {
-  #page-floater {
-    margin: 50px 0 150px 0;
-  }
-
-  #page-floater .img-container {
-    position: relative;
-  }
-
-  #page-floater .layout-image {
-    position: absolute;
-  }
-
-  #page-floater img {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-15deg);
-  }
 }
 
 .layout-social {
