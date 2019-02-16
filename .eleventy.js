@@ -35,7 +35,15 @@ module.exports = function(eleventyConfig) {
 
   // only content in the `posts/` directory
   eleventyConfig.addCollection("courses", function(collection) {
-    return collection.getFilteredByGlob("./src/courses/*");
+    return collection.getFilteredByGlob("./src/courses/*.md");
+  });
+
+  eleventyConfig.addCollection("search", function(collection) {
+    // Also accepts an array of globs!
+    return collection.getFilteredByGlob([
+      "./src/courses/*.md",
+      "./src/posts/*.md"
+    ]);
   });
 
   eleventyConfig.addCollection("tagList", require("./src/_setup/getTagList"));

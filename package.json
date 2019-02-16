@@ -4,16 +4,11 @@
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy",
-    "eleventy": "eleventy --serve",
-    "dev": "npm-run-all --parallel dev:*",
     "dev:sass-dev": "node-sass --watch process/scss/style.scss --output-style expanded --source-map true process/scss/style.scss --output src/css",
-    "dev:js-transform": "babel process/js/**/*.js --watch --out-file src/js/script.js --source-maps",
-    "dev:eleventy": "eleventy --serve",
+    "dev:eleventy": "eleventy --serve --quiet",
+    "dev:webpack": "webpack --watch",
     "build": "npm-run-all prod:*",
     "prod:sass-dev": "node-sass --output-style compressed process/scss/style.scss --output src/css/style.css",
-    "prod:js-uglify": "uglifyjs process/js/script.js --compress --mangle --output src/js/script.js --source-maps",
     "prod:serve": "eleventy"
   },
   "repository": {
@@ -27,22 +22,31 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.5.4",
+    "@11ty/eleventy": "^0.7.1",
     "@11ty/eleventy-plugin-rss": "^1.0.5",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
+    "@fortawesome/fontawesome-free": "^5.7.2",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^2.1.0",
     "luxon": "^1.11.2",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
     "node-sass": "^4.11.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "popper.js": "^1.14.7",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.6.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.6",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
   },
   "dependencies": {
     "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
     "vue": "^2.6.6"
   }
 }

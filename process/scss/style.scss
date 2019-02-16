@@ -2,7 +2,6 @@
 
 $enable-responsive-font-sizes: true;
 $primary: #0b729b;
-$secondary: #a7304e;
 $color-medium: #ddd;
 
 $font-family-highlight: asap, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -12,6 +11,7 @@ $font-family-highlight: asap, -apple-system, BlinkMacSystemFont, "Segoe UI",
 $headings-font-weight: 700;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/animate.css/animate";
 @import "after";
 
 h1,
