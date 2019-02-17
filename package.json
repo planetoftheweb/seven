@@ -10,7 +10,7 @@
     "build": "now-build",
     "now-build": "run-s prod:*",
     "prod:del": "rm -rf build",
-    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output build/css/style.css",
+    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output build/css",
     "prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
     "prod:serve": "eleventy --output=./build"
   },
