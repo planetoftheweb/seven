@@ -7,7 +7,7 @@
     "dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css/style.css",
     "dev:eleventy": "eleventy --serve --quiet",
     "dev:webpack": "webpack --watch",
-    "build": "now-build",
+    "build": "run-s prod:*",
     "now-build": "run-s prod:*",
     "prod:del": "rm -rf build",
     "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output build/css",
