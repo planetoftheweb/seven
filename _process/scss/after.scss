@@ -1,0 +1,48 @@
+.animated {
+  visibility: visible !important;
+}
+
+.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  width: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  text-rendering: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.site-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent),
+    url(https://dummyimage.com/16:9x400/6.png&text=+);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  nav .navbar-collapse {
+    padding: 10px;
+  }
+}
+
+/* Layout Icons */
+
+.layout-iconcolumns .layout-icon {
+  font-size: 2.8em;
+  padding-bottom: 1.4em;
+  color: var(--gray);
+}
+
+/* Layout Icons */
+
+.layout-social .icon {
+  font-size: 3em;
+}
+
+.layout-social {
+  font-size: 2em;
+}

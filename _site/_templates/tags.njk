@@ -1,0 +1,8 @@
+<div class="tagslist d-none d-lg-block">
+  {% for tag in item.data.tags %}
+    {%- if (tag != "post" and tag != "nav") -%}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="badge badge-secondary family-sans">{{ tag }}</a>
+    {%- endif -%}
+  {% endfor %}
+</div>

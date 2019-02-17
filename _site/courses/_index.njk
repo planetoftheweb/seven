@@ -1,0 +1,17 @@
+---
+layout: layouts/home.njk
+hero: https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg
+tags:
+  - nav
+pagination:
+  data: collections.courses
+  size: 10
+navtitle: Courses
+permalink: /courses/{{pagination.pageNumber}}/
+---
+{% include "pagination.njk" %}
+{%- for item in pagination.items %}
+  {% include "items.njk" %}
+{% endfor -%}
+{% include "pagination.njk" %}
+

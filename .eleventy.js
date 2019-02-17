@@ -6,8 +6,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
-
   eleventyConfig.addFilter("simpleDate", dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "LLL dd, yyyy"
@@ -30,27 +28,28 @@ module.exports = function(eleventyConfig) {
 
   // only content in the `posts/` directory
   eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("./src/posts/*.md");
+    return collection.getFilteredByGlob("./_site/posts/*.md").reverse();
   });
 
   // only content in the `posts/` directory
   eleventyConfig.addCollection("courses", function(collection) {
-    return collection.getFilteredByGlob("./src/courses/*.md");
+    return collection.getFilteredByGlob("./_site/courses/*.md").reverse();
   });
 
-  eleventyConfig.addCollection("search", function(collection) {
-    // Also accepts an array of globs!
-    return collection.getFilteredByGlob([
-      "./src/courses/*.md",
-      "./src/posts/*.md"
-    ]);
+  eleventyConfig.addCollection("searchable", function(collection) {
+    return collection
+      .getFilteredByGlob(["./_site/courses/*.md", "./_site/posts/*.md"])
+      .reverse();
   });
 
-  eleventyConfig.addCollection("tagList", require("./src/_setup/getTagList"));
+  eleventyConfig.addCollection(
+    "tagList",
+    require("./_site/_templates/getTagList")
+  );
 
-  eleventyConfig.addPassthroughCopy("./src/images");
-  eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addPassthroughCopy("./src/js");
+  eleventyConfig.addPassthroughCopy("./_site/images");
+  eleventyConfig.addPassthroughCopy("./_site/css");
+  eleventyConfig.addPassthroughCopy("./_site/js");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -85,9 +84,9 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
     dir: {
-      input: "src",
-      includes: "_setup/_includes",
-      data: "_setup/_data",
+      input: "_site",
+      includes: "_templates",
+      data: "_data",
       output: "dist"
     }
   };

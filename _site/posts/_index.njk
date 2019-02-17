@@ -1,0 +1,30 @@
+---
+layout: layouts/home.njk
+hero: https://lil-cdn.com/585273/computing-apps-top-227241901.jpg
+tags:
+  - nav
+pagination:
+  data: collections.posts
+  size: 10
+navtitle: Posts
+permalink: /posts/{{pagination.pageNumber}}/
+---
+
+{% include "pagination.njk" %}
+
+{%- for item in pagination.items %}
+  {% set defaultURL = '' %}
+  {% if item.data.links[0] %}
+    {% for name, link in item.data.links[0] %}
+      {% set defaultURL = link %}
+    {% endfor %}
+  {% else %}
+      {% set defaultURL = item.url %}
+  {% endif %}
+
+  {% include "items.njk" %}
+
+{% endfor -%}
+
+{% include "pagination.njk" %}
+

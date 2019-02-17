@@ -1,2 +1,6 @@
 node_modules
 dist
+_site/css/*.css
+_site/css/*.css.map
+_site/js/script.js
+.vscode

@@ -1,0 +1,14 @@
+---
+permalink: /js/data.json
+---
+[{%- for item in collections.searchable %}{% set defaultURL = '' %}{% if item.data.links[0] %}{% for name, link in item.data.links[0] %}{% set defaultURL = link %}{% endfor %}{% else %}{% set defaultURL = item.url %}{% endif %}{
+  "thumbnail": "{{item.data.thumb}}",
+  "url": "{{defaultURL}}",
+  {%- for tag in item.data.tags %}{% if tag == 'course' %}
+  "icon": "<i class=\"fas fa-graduation-cap\"></i>",{% endif %}{% if tag == 'post' %}
+  "icon": "<i class=\"far fa-file-alt\"></i>",{% endif %}{%- endfor %}
+  "title": "{{ item.data.title }}",
+  "date" : "{{item.date | simpleDate | safe}}",
+  "summary" : "{{ item.data.summary | escape | safe }}",
+  "tags" : "{{ item.data.tags | safe }}"
+}{% if not loop.last %},{% endif %}{%- endfor %}]

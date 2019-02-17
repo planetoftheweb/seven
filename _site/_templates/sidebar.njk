@@ -1,0 +1,12 @@
+
+{% set defaultURL = '' %}{% if item.data.links[0] %}{% for name, link in item.data.links[0] %}{% set defaultURL = link %}{% endfor %}{% else %}{% set defaultURL = item.url %}{% endif %}
+<div class=" {% if loop.first %} mb-3 {% else %} my-5 {% endif %}">
+{% if item.data.thumb %}
+<a href="{{ defaultURL | url }}" class="w-100 d-none d-lg-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo"></a>
+{% endif %}
+<time class="small d-none d-lg-block text-muted" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
+<a href="{{ defaultURL | url }}" class="h4 text-primary d-block my-1">{{item.data.title}}</a>
+<p class="mb-1  text-muted d-none d-lg-block">{{ item.data.summary }}</p>
+{% include "tags.njk" %}
+{% include "links.njk" %}
+</div>
