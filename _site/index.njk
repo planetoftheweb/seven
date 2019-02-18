@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/page-home.njk
 hero: https://lil-cdn.com/585273/computing-apps-threequarter-211095871.jpg
 ---
 
@@ -9,20 +9,15 @@ hero: https://lil-cdn.com/585273/computing-apps-threequarter-211095871.jpg
 <div class="row">
   <div class="main-content col-md-9">
     <h4 class="family-sans text-secondary mt-2 mb-4">Latest Posts</h4>
-{%- for item in postslist %}
+    {%- for item in postslist %}
     {% include "items.njk" %}
-{% endfor -%}
+    {% endfor -%}
   </div>
   <div class="main-sidebar col-md-3">
     <h4 class="text-secondary mt-2 mb-4">Latest Courses</h4>
     {% set itemList = courselist %}
-
     {% for item in itemList %}
     {% include "sidebar.njk" %}
     {% endfor -%}
-
-
-
-
   </div>
 </div>

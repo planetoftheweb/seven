@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: "A JSON Tutorial. Getting started with JSON using JavaScript and jQuery"
 summary: "Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML."
 hero: /images/posts/json.png
-thumb: /images/posts/jsonarticle_tn.jpg
+thumb: /images/posts/jsonarticle_tn.png
 tags:
   - post
   - careers

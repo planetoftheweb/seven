@@ -1,11 +1,10 @@
 ---
-layout: layouts/post.njk
+layout: layouts/nohero.njk
 title: About Me
 hero: http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg
 tags:
   - nav
 navtitle: About
-templateClass: tmpl-post
 ---
 
 Ray Villalobos is a full-stack design/development teacher and senior staff instructor at [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos). His courses are focused on front-end design and development topics such as JavaScript, AngularJS, React, and Sass, plus frameworks like Bootstrap and tools that can make you a faster, more efficient developer. He has a clear and practical teaching style and will help you improve your skills through real-world exercises and projects.

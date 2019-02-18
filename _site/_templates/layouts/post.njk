@@ -1,9 +1,10 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
 ---
+<header id="page-hero" class="site-header {% if not hero %}mt-5 pt-5{% endif %}site-header d-flex align-items-center justify-content-center " {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: 50vh;" {% endif %}>
+{% include "header.njk" %}
+</header>
+<article id="main-content" class="site-main container mt-3 mb-5">
 <h1 class="text-primary mt-5 mb-3">{{ title }}</h1>
-
 {{ content | safe }}
-
-<p><a href="{{ '/' | url }}">← Home</a></p>
+</article>
