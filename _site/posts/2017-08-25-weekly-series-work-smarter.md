@@ -8,6 +8,6 @@ links:
   - linkedin: https://www.linkedin.com/pulse/five-weekly-series-help-you-work-smarter-more-your-ray-villalobos/
 tags:
   - post
-  - external post
+  - external
   - careers
 ---

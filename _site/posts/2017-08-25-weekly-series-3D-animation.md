@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/nine-weekly-series-help-you-master-3-d-animation-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - weekly series
   - tips
 ---

@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/three-things-i-learned-from-six-years-teacher-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - Teaching
   - Learning
   - lynda.com

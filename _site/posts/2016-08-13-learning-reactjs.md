@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/getting-love-learning-reactjs-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - web design
   - web development
   - react

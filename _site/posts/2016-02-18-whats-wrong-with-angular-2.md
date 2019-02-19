@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/whats-wrong-angularjs2-why-youre-still-going-like-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - web design
   - web development
   - angular

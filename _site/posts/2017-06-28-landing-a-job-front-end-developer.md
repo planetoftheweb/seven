@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos
 tags:
   - post
-  - external post
+  - external
   - web development
   - web design
   - careers

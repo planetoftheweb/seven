@@ -4,7 +4,8 @@
   "description": "Blogging template for the 11ty.io static site generator.",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css/style.css",
+    "dev:del": "rimraf dist",
+    "dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css",
     "dev:eleventy": "eleventy --serve --quiet",
     "dev:webpack": "webpack --watch",
     "build": "npm-run-all --sequential prod:del prod:webpack prod:eleventy",

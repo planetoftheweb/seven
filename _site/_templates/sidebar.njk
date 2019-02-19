@@ -1,12 +1,13 @@
 
 {% set defaultURL = '' %}{% if item.data.links[0] %}{% for name, link in item.data.links[0] %}{% set defaultURL = link %}{% endfor %}{% else %}{% set defaultURL = item.url %}{% endif %}
 <div class=" {% if loop.first %} mb-3 {% else %} my-5 {% endif %}">
+{% if r/external/g.test(item.data.tags) or r/course/g.test(item.data.tags) %}{% set external = true %}{% endif %}
 {% if item.data.thumb %}
-<a href="{{ defaultURL | url }}" class="w-100 d-none d-lg-block mb-1"><img class="w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo"></a>
+<a href="{{ defaultURL | url }}" class="w-100 d-none d-lg-block mb-1" {% if external %}target="_blank"{% endif %}><img class="w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo"></a>
 {% endif %}
 <time class="small d-none d-lg-block text-muted" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
-<a href="{{ defaultURL | url }}" class="h4 text-primary d-block my-1">{{item.data.title}}</a>
+<a href="{{ defaultURL | url }}" class="h4 text-primary d-block my-1" {% if external %}target="_blank"{% endif %}>{{item.data.title}}{% if external %}<i class="fas fa-external-link-square-alt text-muted ml-1" style="font-size: .6em;"></i>{% endif %}</a>
 <p class="mb-1  text-muted d-none d-lg-block">{{ item.data.summary }}</p>
-{% include "tags.njk" %}
 {% include "links.njk" %}
+<div class="mt-1">{% include "tags.njk" %}</div>
 </div>

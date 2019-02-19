@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/looking-microsoft-ignite-first-time-attendee-journey-find-villalobos
 tags:
   - post
-  - external post
+  - external
   - ignite
   - conferences
 ---

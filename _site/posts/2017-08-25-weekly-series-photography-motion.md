@@ -9,7 +9,7 @@ links:
   - repo: https://github.com/planetoftheweb/angularformvalidation
 tags:
   - post
-  - external post
+  - external
   - weekly series
   - photography
   - careers

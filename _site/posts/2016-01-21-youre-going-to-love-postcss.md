@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/learn-postcss-new-way-design-code-css-youre-going-love-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - web design
   - web development
   - postcss

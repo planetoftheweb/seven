@@ -8,6 +8,6 @@ links:
   - linkedin: https://www.linkedin.com/pulse/5-unusual-skills-industry-professionals-use-more-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - careers
 ---

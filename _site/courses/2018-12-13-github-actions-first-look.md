@@ -1,5 +1,5 @@
 ---
-title: "Github Actions:First Look"
+title: "Github Actions: First Look"
 summary: This course shows you how to build a polished single-page application (SPA), with tools for managing users and reading writing and editing data from Google's Firebase a real time multi-user database.
 thumb: "/images/courses/githubactions_tn.png"
 hero: "/images/courses/githubactions.jpg"

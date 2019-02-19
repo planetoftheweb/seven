@@ -7,8 +7,7 @@ thumb: /images/posts/beforeframework_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray
 tags:
-  - post
-  - external post
+  - external
   - web design
   - web development
   - javascript

@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/crafting-effective-video-embed-campaign-linkedin-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - Linked In
   - marketing
   - online publishing

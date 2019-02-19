@@ -2,8 +2,6 @@
 layout: layouts/nohero.njk
 title: About Me
 hero: http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg
-tags:
-  - nav
 navtitle: About
 ---
 

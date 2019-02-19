@@ -8,7 +8,7 @@ links:
   - linkedin: https://www.linkedin.com/pulse/10-minute-weekly-courses-can-help-you-become-better-ray-villalobos
 tags:
   - post
-  - external post
+  - external
   - weekly series
   - careers
   - Adobe Illustrator
