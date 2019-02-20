@@ -5,11 +5,7 @@ const { VueLoaderPlugin } = require("vue-loader");
 module.exports = {
   mode: "development",
   watch: false,
-  entry: [
-    "./_process/scss/style.scss",
-    "./_process/js/app.js",
-    "./_process/js/script.js"
-  ],
+  entry: ["./_process/js/app.js", "./_process/js/script.js"],
 
   devtool: "inline-source-map",
   devServer: {
@@ -24,23 +20,6 @@ module.exports = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "sass-loader",
-            options: {
-              includePaths: ["_process/scss"]
-            }
-          }
-        ]
       }
     ]
   },
