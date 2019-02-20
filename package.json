@@ -10,7 +10,7 @@
     "dev:webpack": "webpack --watch",
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",
-    "prod:del": "rm -rf build",
+    "prod:del": "rimraf build",
     "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output build/css",
     "prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
     "prod:serve": "eleventy --output=./build"
