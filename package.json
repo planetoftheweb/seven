@@ -8,9 +8,10 @@
     "dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css",
     "dev:eleventy": "eleventy --serve --quiet",
     "dev:webpack": "webpack --watch",
-    "build": "npm-run-all --sequential prod:del prod:webpack prod:eleventy",
-    "now-build": "npm-run-all --sequential prod:del prod:webpack prod:eleventy",
+    "build": "npm-run-all --sequential prod:del prod:del prod:sass-dev prod:webpack prod:eleventy",
+    "now-build": "npm-run-all --sequential prod:del prod:sass-dev prod:webpack prod:eleventy",
     "prod:del": "rimraf dist",
+    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output dist/css/style.css",
     "prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
     "prod:eleventy": "eleventy --output=./dist"
   },
