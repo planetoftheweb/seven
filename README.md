@@ -40,11 +40,6 @@ The main configuration file is called `.eleventy.js` and is in the root folder. 
 
 ```js
 // only content in the `posts/` directory
-eleventyConfig.addCollection("posts", function(collection) {
-  return collection.getFilteredByGlob("./_site/posts/*.md").reverse();
-});
-
-// only content in the `posts/` directory
 eleventyConfig.addCollection("courses", function(collection) {
   return collection.getFilteredByGlob("./_site/courses/*.md").reverse();
 });
@@ -56,9 +51,9 @@ eleventyConfig.addCollection("searchable", function(collection) {
 });
 ```
 
-These commands set up three collections, which are used to build pages. The first two correspond to folders in the `_site` folder, the last one is used for the search. If you want to create additional folders, you can simply add a new collection. Check the 11.ty documentation to learn how to use the `getFilteredByGlob` command.
+These commands set up collections, which are used to build the site. The first example corresponds to folders in the `_site` folder that are the main sections of the site. The commands here will look for a certain folder in the `_sites` folder and build a collection out of everything in there.
 
-The last one adds these two folders to a new collection which our `Vue.js` search component uses. If you add a new collection, make sure you add it here.
+The last one adds folders to a new collection which our `Vue.js` search component uses. If you add a new collection, make sure you add it here. Check the 11.ty documentation to learn how to use the `getFilteredByGlob` command.
 
 ```
   eleventyConfig.addPassthroughCopy("./_site/images");
