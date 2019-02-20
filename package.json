@@ -5,15 +5,15 @@
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
     "dev:del": "rimraf dist",
-    "dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css",
+    "dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css/style.css",
     "dev:eleventy": "eleventy --serve --quiet",
     "dev:webpack": "webpack --watch",
-    "build": "npm-run-all --sequential prod:del prod:del prod:sass-dev prod:webpack prod:eleventy",
-    "now-build": "npm-run-all --sequential prod:del prod:sass-dev prod:webpack prod:eleventy",
-    "prod:del": "rimraf dist",
-    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output dist/css/style.css",
+    "build": "run-s prod:*",
+    "now-build": "run-s prod:*",
+    "prod:del": "rm -rf build",
+    "prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output build/css",
     "prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
-    "prod:eleventy": "eleventy --output=./dist"
+    "prod:serve": "eleventy --output=./build"
   },
   "repository": {
     "type": "git",
