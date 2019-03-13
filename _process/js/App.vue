@@ -10,7 +10,7 @@
             class="form-control text-white border-right-0 border"
             :class="[isActive ? 'wide' : 'short']"
             @focus="isActive=true"
-            @blur="isActive=false"
+            @blur="isActive=false; query='';"
             ref="searchinput"
             style="background: transparent;"
             aria-describedby="searchinput"
@@ -80,15 +80,3 @@ export default {
   }
 };
 </script>
-<style scoped>
-input {
-  transition: all 0.5s ease-out;
-}
-
-.wide {
-  width: 250px;
-}
-.short {
-  width: 60px;
-}
-</style>

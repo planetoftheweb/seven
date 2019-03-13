@@ -48,7 +48,6 @@ module.exports = function(eleventyConfig) {
   );
 
   eleventyConfig.addPassthroughCopy("./_site/images");
-  eleventyConfig.addPassthroughCopy("./_site/css");
   eleventyConfig.addPassthroughCopy("./_site/js");
 
   /* Markdown Plugins */

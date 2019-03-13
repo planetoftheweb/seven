@@ -1,0 +1,52 @@
+$headings-font-family: Asap;
+$primary: #00adb5;
+$secondary: #f8b500;
+$body-bg: #393e46;
+$text-muted: #6c757d;
+$body-color: $text-muted;
+$border-radius: 8px;
+
+$enable-responsive-font-sizes: true;
+$rfs-base-font-size: 1rem;
+$enable-caret: false;
+
+$enable-shadows: true;
+
+$theme-colors: (
+  "special": #e01c55
+);
+
+$spacer: 1rem;
+
+$spacers: (
+  6: (
+    $spacer * 8
+  ),
+  5: (
+    $spacer * 5
+  )
+);
+
+$sizes: (
+  33: 33%,
+  66: 66%
+);
+
+$grid-gutter-width: 16px;
+
+$pagination-bg: $primary;
+$pagination-color: darken($primary, 20%);
+$pagination-border-color: darken($body-bg, 7%);
+
+$pagination-active-bg: $secondary;
+$pagination-active-border-color: darken($body-bg, 7%);
+
+$pagination-disabled-bg: darken($body-bg, 3%);
+$pagination-disabled-border-color: darken($body-bg, 7%);
+
+$pagination-hover-bg: $secondary;
+$pagination-hover-border-color: darken($body-bg, 7%);
+
+$card-border-radius: 0;
+$list-group-bg: $body-bg;
+$list-group-active-bg: $secondary;
