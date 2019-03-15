@@ -10,6 +10,11 @@ const { VueLoaderPlugin } = require("vue-loader");
 module.exports = merge(common, {
   mode: "production",
   watch: false,
+  output: {
+    path: path.resolve(__dirname, "build/js/"),
+    filename: "script.js"
+  },
+
   optimization: {
     minimizer: [
       new UglifyJsPlugin({
@@ -24,7 +29,7 @@ module.exports = merge(common, {
     new CleanWebpackPlugin(),
     new VueLoaderPlugin(),
     new MiniCssExtractPlugin({
-      filename: "css/style.css",
+      filename: "../css/style.css",
       allChunks: true
     })
   ],
