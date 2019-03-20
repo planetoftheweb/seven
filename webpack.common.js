@@ -1,11 +1,6 @@
-const path = require("path");
 const webpack = require("webpack");
+const path = require("path");
 
 module.exports = {
-  entry: [
-    "./_process/js/app.js",
-    "./_process/js/script.js",
-    "./_process/scss/style.scss"
-  ],
-  plugins: [new webpack.ProvidePlugin({ $: "jquery", jQuery: "jquery" })]
+  entry: ["./_process/js/script.js", "./_process/scss/style.scss"]
 };

@@ -1,9 +1,4 @@
-import "bootstrap";
-
-import "@fortawesome/fontawesome-free/js/all.js";
-
 $(document).ready(function() {
-  // When Scrollspy Detects a change
   $(window).on("activate.bs.scrollspy", function() {
     var hash = $(".site-nav")
       .find("a.active")
@@ -24,5 +19,37 @@ $(document).ready(function() {
       .css("transform", "translate3d(0px, " + top / 5 + "px, 0px)")
 
       .css("opacity", 1 - Math.max(top / (window.innerHeight * 0.7), 0));
+  });
+
+  var app = new Vue({
+    el: ".searchbox",
+    data: {
+      query: null,
+      content: [],
+      isActive: false
+    },
+    methods: {
+      displaySearch: function() {
+        $(".dropdown-menu").dropdown("toggle");
+      }
+    },
+    computed: {
+      queried: function() {
+        return this.content.filter(item => {
+          return (
+            item.title.toLowerCase().match(this.query.toLowerCase()) ||
+            item.summary.toLowerCase().match(this.query.toLowerCase()) ||
+            item.tags.toLowerCase().match(this.query.toLowerCase())
+          );
+        });
+      }
+    },
+    mounted: function() {
+      fetch("/js/data.js")
+        .then(response => response.json())
+        .then(data => {
+          this.content = data;
+        });
+    }
   });
 });

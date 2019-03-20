@@ -1,29 +1,31 @@
+const path = require("path");
 const merge = require("webpack-merge");
 const common = require("./webpack.common.js");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = merge(common, {
   mode: "development",
   watch: true,
-  plugins: [new CleanWebpackPlugin()],
-  devtool: "inline-source-map",
   output: {
-    path: path.resolve(__dirname, "dist/js/"),
-    filename: "script.js"
+    path: path.resolve(__dirname, "dist"),
+    filename: "js/script.js"
   },
-  devServer: {
-    contentBase: "./dist"
-  },
+  plugins: [
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin({
+      filename: "css/style.css"
+    })
+  ],
   module: {
     rules: [
-      {
-        test: /\.vue$/,
-        use: ["vue-loader"]
-      },
+      { test: /\.js$/, loader: "babel-loader" },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          "style-loader",
+          {
+            loader: MiniCssExtractPlugin.loader
+          },
           "css-loader",
           {
             loader: "postcss-loader",

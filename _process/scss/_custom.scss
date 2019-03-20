@@ -2,8 +2,8 @@ $headings-font-family: Asap;
 $primary: #00adb5;
 $secondary: #f8b500;
 $body-bg: #393e46;
-$text-muted: #6c757d;
-$body-color: $text-muted;
+$text-body: #a1b2c0;
+$body-color: $text-body;
 $border-radius: 8px;
 
 $enable-responsive-font-sizes: true;
@@ -12,24 +12,12 @@ $enable-caret: false;
 
 $enable-shadows: true;
 
-$theme-colors: (
-  "special": #e01c55
-);
-
 $spacer: 1rem;
 
 $spacers: (
   6: (
     $spacer * 8
-  ),
-  5: (
-    $spacer * 5
   )
-);
-
-$sizes: (
-  33: 33%,
-  66: 66%
 );
 
 $grid-gutter-width: 16px;

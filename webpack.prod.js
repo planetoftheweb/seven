@@ -1,45 +1,34 @@
-const path = require("path");
 const merge = require("webpack-merge");
 const common = require("./webpack.common.js");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
-const { VueLoaderPlugin } = require("vue-loader");
 
 module.exports = merge(common, {
   mode: "production",
   watch: false,
   output: {
-    path: path.resolve(__dirname, "build/js/"),
-    filename: "script.js"
+    path: path.resolve(__dirname, "build"),
+    filename: "js/script.js"
   },
 
   optimization: {
     minimizer: [
       new UglifyJsPlugin({
         cache: true,
-        parallel: true,
-        sourceMap: true // set to true if you want JS source maps
-      }),
-      new OptimizeCSSAssetsPlugin({})
+        parallel: true
+      })
     ]
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new VueLoaderPlugin(),
     new MiniCssExtractPlugin({
-      filename: "../css/style.css",
-      allChunks: true
+      filename: "css/style.css"
     })
   ],
   module: {
     rules: [
-      {
-        test: /\.vue$/,
-        use: ["vue-loader"]
-      },
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
+      { test: /\.js$/, loader: "babel-loader" },
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
