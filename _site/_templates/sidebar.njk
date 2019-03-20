@@ -5,9 +5,9 @@
 {% if item.data.thumb %}
 <a href="{{ defaultURL | url }}" class="w-100 d-none d-lg-block mb-1" {% if external %}target="_blank"{% endif %}><img class="w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo"></a>
 {% endif %}
-<time class="small d-none d-lg-block text-muted" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
-<a href="{{ defaultURL | url }}" class="h4 text-primary d-block my-1" {% if external %}target="_blank"{% endif %}>{{item.data.title}}{% if external %}<i class="fas fa-external-link-square-alt text-muted ml-1" style="font-size: .6em;"></i>{% endif %}</a>
-<p class="mb-1  text-muted d-none d-lg-block">{{ item.data.summary }}</p>
+<time class="small d-none d-lg-block text-body" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
+<a href="{{ defaultURL | url }}" class="h4 d-block my-1" {% if external %}target="_blank"{% endif %}>{{item.data.title}}{% if external %}<i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .6em;"></i>{% endif %}</a>
+<p class="mb-1  text-body d-none d-lg-block">{{ item.data.summary }}</p>
 {% include "links.njk" %}
 <div class="mt-1">{% include "tags.njk" %}</div>
 </div>

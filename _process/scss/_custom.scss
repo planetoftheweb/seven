@@ -2,7 +2,7 @@ $headings-font-family: Asap;
 $primary: #00adb5;
 $secondary: #f8b500;
 $body-bg: #393e46;
-$text-body: #a1b2c0;
+$text-body: #95a5b1;
 $body-color: $text-body;
 $border-radius: 8px;
 
@@ -15,7 +15,7 @@ $enable-shadows: true;
 $spacer: 1rem;
 
 $spacers: (
-  6: (
+  huge: (
     $spacer * 8
   )
 );
@@ -38,3 +38,7 @@ $pagination-hover-border-color: darken($body-bg, 7%);
 $card-border-radius: 0;
 $list-group-bg: $body-bg;
 $list-group-active-bg: $secondary;
+
+$link-color: $primary;
+$link-hover-color: lighten($link-color, 10%);
+$link-hover-decoration: none;

@@ -4,12 +4,14 @@
   "description": "Blogging template for the 11ty.io static site generator.",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:eleventy": "eleventy --serve --quiet",
+    "dev:del": "rimraf dist",
+    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
     "dev:webpack": "webpack --config webpack.dev.js",
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",
+    "prod:del": "rimraf build",
     "prod:webpack": "webpack -p --config webpack.prod.js",
-    "prod:serve": "eleventy --output=./build"
+    "prod:serve": "ELEVENTY_ENV=production eleventy --output=./build"
   },
   "repository": {
     "type": "git",
@@ -68,6 +70,7 @@
     "@fortawesome/fontawesome-free": "^5.7.2",
     "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "vue": "^2.6.6"

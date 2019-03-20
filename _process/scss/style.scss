@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Asap:700");
 
+// Import our custom variables and overrides
 @import "./custom";
 
 // Manual Bootstrap Import
 
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+
 @import "../../node_modules/bootstrap/scss/mixins";
 
 @import "../../node_modules/bootstrap/scss/reboot";
@@ -71,7 +73,7 @@
 }
 
 .layout-social {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 a.text-primary:hover {

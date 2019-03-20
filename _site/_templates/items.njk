@@ -13,7 +13,7 @@
     {% endif %}
 
     <div class="{% if item.data.thumb %}col-md-9{% else %} col-m {% endif %}">
-      <a href="{{ defaultURL | url }}" class="h2 text-primary d-block" {% if external %}target="_blank"{% endif %}>{{ item.data.title | safe }}
+      <a href="{{ defaultURL | url }}" class="h2 d-block" {% if external %}target="_blank"{% endif %}>{{ item.data.title | safe }}
       {% if external %}
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       {% endif %}
