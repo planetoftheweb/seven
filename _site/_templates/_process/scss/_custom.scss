@@ -26,18 +26,29 @@ $pagination-bg: $primary;
 $pagination-color: darken($primary, 20%);
 $pagination-border-color: darken($body-bg, 7%);
 
+$pagination-active-color: $body-bg;
 $pagination-active-bg: $secondary;
 $pagination-active-border-color: darken($body-bg, 7%);
 
 $pagination-disabled-bg: darken($body-bg, 3%);
 $pagination-disabled-border-color: darken($body-bg, 7%);
 
+$pagination-hover-color: $body-bg;
 $pagination-hover-bg: $secondary;
 $pagination-hover-border-color: darken($body-bg, 7%);
 
 $card-border-radius: 0;
 $list-group-bg: $body-bg;
 $list-group-active-bg: $secondary;
+
+$dropdown-bg: $body-bg;
+$dropdown-divider-bg: darken($text-body, 15%);
+$dropdown-link-color: $text-body;
+$dropdown-item-padding-y: 0.15rem;
+$dropdown-item-padding-x: 1rem;
+$dropdown-link-hover-color: $text-body;
+$dropdown-link-hover-bg: darken($body-bg, 5%);
+$nav-divider-margin-y: 0.3rem;
 
 $link-color: $primary;
 $link-hover-color: lighten($link-color, 10%);

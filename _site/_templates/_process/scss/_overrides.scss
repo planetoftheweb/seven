@@ -1,0 +1,44 @@
+.page-section-title {
+  @include font-size(2.5rem);
+}
+
+.page-section-text {
+  @include font-size(1.7rem);
+}
+
+.h2 {
+  @include font-size(2rem);
+}
+
+.site-header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-nav.inbody {
+  background: $primary;
+}
+
+.layout-social {
+  font-size: 2em;
+}
+
+a.text-primary:hover {
+  color: lighten(theme-color("primary"), 20%);
+}
+
+.list-group-item:hover {
+  background: $gray-700;
+}
+
+.site-nav input {
+  transition: all 0.5s ease-out;
+}
+
+.site-nav .wide {
+  width: 250px;
+}
+.site-nav .short {
+  width: 60px;
+}

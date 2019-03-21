@@ -31,12 +31,12 @@
       </div>
     </div>
     <div v-if="query" class="position-absolute row justify-content-center" style="top: 47px;">
-      <div class="card">
+      <div class="card bg-secondary">
         <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span v-html="item.title"></span>
+              <span class="text-body" v-html="item.title"></span>
             </a>
           </li>
         </ul>
