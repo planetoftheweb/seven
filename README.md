@@ -13,26 +13,47 @@ This project is a template for building sites using the [Eleventy](https://www.1
 - Edit posts in the `_site/posts` or `_site/courses` folder.
 - Run `npm run build` to build the project.
 
-## Styles and Scripts
+## Styles
 
-All the files that require pre-processing are inside the `_process` folder. That includes The Sass as well as the javascript/vue files.
+All the files that require pre-processing are inside the `_templates/_process` folder.
 
-You can edit the style.css file, which has imports to other required css files like `animate.css`, `bootstrap.scss`. There is also a `prism` folder which has all of the stylesheets for prism, which are the styles for syntax highlighting used on the site.
+The main sass doument is the `style.scss` document, which has a number of imports including fonts. This also imports bootstrap, but notice several unused bootstrap components have been commented out to make the file size smaller. Feel free to uncomment these if you're going to be using them in your layout.
 
-The `js` folder has the main script.js with some jquery code to manage some of the features of the site (the injecting of an `.inbody` class into the nav when you scroll into the main content section, etc.). `app.js` is the entrypoint for Vue.js, which performs a simple search of collections in two folders.
+`_custom.scss` lets you override sass variables so you can customize the way different components work. This new version of seven uses a dark mode color scheme by default, but it's fairly easy to update using this custom file.
+
+All of the overrides for specific styles are in the `_overrides.scss` file, so look there to change the way specific classes work.
+
+## Scripts
+
+The `js` folder has a single script.js file. There are two parts, a jquery section that is designed to change the way Bootstrap's jquery components work and a vue.js instance that powers the search.
+
+In this version, I'm using script tags to the CDNs for things like the Bootstrap Javascript, the fonts, etc. I wasn't changing any of the bootstrap or other library javascript so I think this will be much more performant since most people will have the CDNs pre-loaded in their browsers.
 
 ## Site
 
 The main 11.ty site files are all in the `_site` folder.
 
-The `_site` folder is pretty much like your website root folder, but not really. These files will convert to pages for the most part. It's useful to think of it as having the structure your site folder will have (notice there are index, css, image files like on your site), but don't be fooled, most of the files in this folder need to be processed.
+The `_site` folder is pretty much like your website root folder. These files will convert to pages for the most part. It's useful to think of it as having the structure your site folder will have (notice there are index, css, image files like on your site), but don't be fooled, most of the files in this folder need to be processed.
 
-The `_templates` folder is pretty much what it sounds like. It has a series of tempaltes used to build your site, no content here. Most of these are self explanatory and you'll see these being called in your pages. There is a `_layouts` folder that has the main layouts. You should probably look at the 11.ty documentation to learn how these work.
+The `_templates` folder has a series of templates used to build your site, no content here. Most of these are self explanatory and you'll see these being called in your pages. There is a `_layouts` folder that has the main layouts. You should probably look at the 11.ty documentation to learn how these work. Of course, I've added the `_templates` folder in here because it helps with the reloading of elements during development.
 
 There is a special getTagsList.js folder which sets up your tags, It's used by the main configuration file called `.eleventy.js`. I didn't know where else to put it so it seemed like a good idea to me.
 
-- `_data` folder
-  This has the `metadata.json` file, which includes variables that the site uses to build itself. Things like name, bio, the title of the site. For example, you can access the title of the site using `{{metadata.title}}` in your template.
+## `_data` folder
+
+This has the `metadata.json` file, which includes variables that the site uses to build itself. Things like name, bio, the title of the site. For example, you can access the title of the site using `{{metadata.title}}` in your template.
+
+There is also a `myProject.js` file. The purpose of this file is to expose the value of the environment variable's setting (development or production) so you can use it in templates like this:
+
+```html
+{% if myProject.environment == "development" %}
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+{% else %}
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+{% endif %}
+```
+
+I use this to load the development version of vue.js during development and the smaller distribution version when building the project.
 
 ## Configuration
 
@@ -57,11 +78,9 @@ The last one adds folders to a new collection which our `Vue.js` search componen
 
 ```
   eleventyConfig.addPassthroughCopy("./_site/images");
-  eleventyConfig.addPassthroughCopy("./_site/css");
-  eleventyConfig.addPassthroughCopy("./_site/js");
 ```
 
-This code is used to copy whatever is in these folders, if you happen to move the locations of the css, images or js folders, then update these. Also, these are temporary files that webpack and `node-sass` will generate for us, so don't edit the files in the `js` or the `css` folder, remember to edit scripts and css in the `_process` folder.
+This code is used to copy whatever is in these folders, if you happen to move the locations of images, then update this.
 
 I hate messy root folders, so I've reconfigured where eleventy places files.
 
@@ -77,37 +96,40 @@ dir: {
 If you move stuff around, remember to update these. Also, the build processes refer to some of these locations, so if you move things, remember to update these.
 
 ```js
-"start": "npm-run-all --parallel dev:*",
-"dev:sass-dev": "node-sass --watch _process/scss/style.scss --output-style expanded --source-map true _process/scss/style.scss --output  _site/css/style.css",
-"dev:eleventy": "eleventy --serve --quiet",
-"dev:webpack": "webpack --watch",
+    "start": "npm-run-all --parallel dev:*",
+    "dev:del": "rimraf dist",
+    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
+    "dev:webpack": "webpack --config webpack.dev.js",
 
-"build": "run-s prod:*",
-"now-build": "run-s prod:*",
-"prod:del": "rm -rf build",
-"prod:sass-dev": "node-sass --output-style compressed _process/scss/style.scss --output build/css/style.css",
-"prod:webpack": "webpack --env.production --silent -p --optimize-minimize",
-"prod:serve": "eleventy --output=./build"
+    "build": "run-s prod:*",
+    "now-build": "run-s prod:*",
+    "prod:del": "rimraf build",
+    "prod:webpack": "webpack -p --config webpack.prod.js",
+    "prod:serve": "ELEVENTY_ENV=production eleventy --output=./build"
 ```
 
 ## Building
 
-I have two main processes that can run.
+I have two main processes that can run. There is a shared configuration file called `webpack.common.js` and two other configuration for development or production environments.
 
 ```sh
 npm start
 ```
 
-This runs the dev server, processes sass, runs webpack (which processes js, then Vue Search), then runs `eleventy` and `webpack` in watch mode. If you make any changes to the sass or the js or the markdown files, it will happily reprocess thinsg for you.
+This cleans up the dist or build folders, then runs eleventy and webpack. Webpack takes care of processing the sass and javascript.
 
 ```sh
 npm run build
 ```
 
-Creates a new `build` folder, which is what you'd upload to a server. There is an optional now-build process here as well that runs if you are using `zeit.co`
+This cleans up/creates a new build folder, then runs the eleventy and webpack. Webpack takes care of processing the sass and javascript. The webpack processes are in `webpack.prod.js`.
+
+There is an optional now-build process here as well that runs if you are using `zeit.co`
 
 ## Other Setup Files
 
-`webpack.config.js` - Configuration for webpack.
-`now.json` - Configuration for now, if you use [zeit.co](https://zeit.co).
-`.nowignore` - Thing that `now` ignores
+- `now.json` - Configuration for now, if you use [zeit.co](https://zeit.co).
+
+- `.nowignore` - Thing that `now` ignores
+
+- `.babelrc` - configures how webpack processes javascript to make it more or less compatible with older browser versions.
