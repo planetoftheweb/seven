@@ -11,12 +11,21 @@
 }
 
 .site-header {
+  overflow: hidden;
+}
+
+.layout-hero {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.header-content {
+  text-shadow: 3px 3px 10px $body-bg;
+}
+
 .site-nav.inbody {
+  transition: all 0.5s ease-in-out;
   background: $primary;
 }
 
@@ -36,9 +45,9 @@ a.text-primary:hover {
   transition: all 0.5s ease-out;
 }
 
-.site-nav .wide {
+.site-nav input.wide {
   width: 250px;
 }
-.site-nav .short {
+.site-nav input.short {
   width: 60px;
 }

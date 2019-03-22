@@ -15,10 +15,9 @@ $(document).ready(function() {
 
   $(window).on("scroll", function() {
     var top = $(window).scrollTop();
-    $("#page-hero")
-      .css("transform", "translate3d(0px, " + top / 5 + "px, 0px)")
-
-      .css("opacity", 1 - Math.max(top / (window.innerHeight * 0.7), 0));
+    $(".layout-hero, .layout-hero-content")
+      .css("transform", "translate3d(0px, " + top / 2 + "px, 0px)")
+      .css("opacity", 1 - Math.max(top / (window.innerHeight * 0.6), 0));
   });
 
   var app = new Vue({

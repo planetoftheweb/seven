@@ -3,6 +3,7 @@ const common = require("./webpack.common.js");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+const path = require("path");
 
 module.exports = merge(common, {
   mode: "production",
