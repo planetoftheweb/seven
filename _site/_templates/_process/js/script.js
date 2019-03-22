@@ -28,9 +28,14 @@ $(document).ready(function() {
       isActive: false
     },
     methods: {
-      displaySearch: function() {
-        $(".dropdown-menu").dropdown("toggle");
-      }
+      handleBlur: function(e) {
+        if (e.relatedTarget !== null) {
+          console.log(e.relatedTarget.href);
+          window.location = e.relatedTarget.href;
+        }
+        this.isActive = false;
+      },
+      handleClick: function(e) {}
     },
     computed: {
       queried: function() {

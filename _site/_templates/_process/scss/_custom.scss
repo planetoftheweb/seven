@@ -1,10 +1,28 @@
 $headings-font-family: Asap;
+$headings-font-weight: 700;
+
+$font-family-sans-serif: Asap, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-family-base: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+$line-height-base: 1.4;
+
 $primary: #00adb5;
 $secondary: #f8b500;
-$body-bg: #393e46;
+$body-bg: #2a2d33;
 $text-body: #95a5b1;
 $body-color: $text-body;
 $border-radius: 8px;
+$special: #d33682;
+$black: #000;
+$white: #fff;
+
+$theme-colors: (
+  "special": $special
+);
 
 $enable-responsive-font-sizes: true;
 $rfs-base-font-size: 1rem;
@@ -34,7 +52,8 @@ $pagination-disabled-bg: darken($body-bg, 3%);
 $pagination-disabled-border-color: darken($body-bg, 7%);
 
 $pagination-hover-color: $body-bg;
-$pagination-hover-bg: $secondary;
+$pagination-hover-bg: $special;
+$pagination-hover-color: $white;
 $pagination-hover-border-color: darken($body-bg, 7%);
 
 $card-border-radius: 0;
@@ -53,3 +72,7 @@ $nav-divider-margin-y: 0.3rem;
 $link-color: $primary;
 $link-hover-color: lighten($link-color, 10%);
 $link-hover-decoration: none;
+
+$badge-font-weight: 400;
+
+$box-shadow-lg: 0 1rem 3rem rgba($black, 0.4);
