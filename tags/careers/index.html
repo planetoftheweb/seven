@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Seven</title>
+    <title>Raybo.org</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -29,10 +29,10 @@
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a> 
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
     </div>
 
-    <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,58 +83,52 @@
           </div>
         </div>
       </div>
-      <div class="searchbox form-inline">
-  <div class="position-relative d-flex ml-2" style="z-index: 100">
-    <div class="container py-2">
-      <div class="row justify-content-center">
-        <div class="input-group">
-          <input
-            type="text"
-            id="searchinput"
-            v-model="query"
-            class="form-control text-white border-right-0 border"
-            :class="[isActive ? 'wide' : 'short']"
-            @focus="isActive=true"
-            @blur="isActive=false; query='';"
-            ref="searchinput"
-            style="background: transparent;"
-            aria-describedby="searchinput"
-            autocomplete="off"
-          >
-          <div class="input-group-append">
-            <button
-              class="btn btn-outline-secondary border-left-0 border text-white"
-              style="background-color: transparent"
-              type="button"
-              @click="$refs.searchinput.focus()"
-              id="button-addon2"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div v-if="query" class="position-absolute row justify-content-center" style="top: 47px;">
+      <div class="searchbox pl-2 pb-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
       <div class="card bg-secondary">
         <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body" v-html="item.title"></span>
+              <span class="text-body text-left" v-html="item.title"></span>
             </a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
 </div>
     </div>
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header mt-5 pt-5site-header d-flex align-items-center justify-content-center " >
+    <header id="page-hero" class="site-header position-relative mt-5 site-header" style="width: 100vw; ">
+
+<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light"></h2>
+        <p class="page-section-text lead text-light display-1">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 </header>
+
 <article id="main-content" class="site-main container mt-3 mb-5">
 <p>See <a href="/tags/">all tags</a>.</p>
 <h2 class="text-secondary mb-5">Tagged <small>“careers”</small></h2>
@@ -142,30 +136,30 @@
 
   
 
-  <div class="row justify-content-center  mb-3 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  mb-3 ">
     
       <div class="col-md-3">
         <a href="/posts/2018-10-12-json-tutorial/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/jsonarticle_tn.png" alt="A JSON Tutorial. Getting started with JSON using JavaScript and jQuery image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/jsonarticle_tn.png" alt="A JSON Tutorial. Getting started with JSON using JavaScript and jQuery image">
         </a>
-      <time class="small d-block text-body" datetime="Oct 12, 2018">Oct 12, 2018</time>
+      <time class="item-date small d-block text-body" datetime="Oct 12, 2018">Oct 12, 2018</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2018-10-12-json-tutorial/" class="h2 d-block" >A JSON Tutorial. Getting started with JSON using JavaScript and jQuery
+      <a href="/posts/2018-10-12-json-tutorial/" class="item-title h2 d-block" >A JSON Tutorial. Getting started with JSON using JavaScript and jQuery
       
       </a>
-      <p class="lead mb-1 text-body">Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML.</p>
+      <p class="item-summary lead mb-1 text-body">Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
-    <a href="/tags/web development/" class="badge badge-secondary">web development</a>
-    <a href="/tags/data visualization/" class="badge badge-secondary">data visualization</a>
-    <a href="/tags/python/" class="badge badge-secondary">python</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
+    <a href="/tags/web development/" class="badge badge-special">web development</a>
+    <a href="/tags/data visualization/" class="badge badge-special">data visualization</a>
+    <a href="/tags/python/" class="badge badge-special">python</a>
 </div>
     </div>
   </div>
@@ -173,26 +167,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/what-i-learned-resiliency-working-9-bosses-5-years-ray-villalobos/" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/resiliency_tn.png" alt="What I learned about resiliency working for 9 bosses in 5 years image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/resiliency_tn.png" alt="What I learned about resiliency working for 9 bosses in 5 years image">
         </a>
-      <time class="small d-block text-body" datetime="Mar 28, 2018">Mar 28, 2018</time>
+      <time class="item-date small d-block text-body" datetime="Mar 28, 2018">Mar 28, 2018</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/what-i-learned-resiliency-working-9-bosses-5-years-ray-villalobos/" class="h2 d-block" target="_blank">What I learned about resiliency working for 9 bosses in 5 years
+      <a href="https://www.linkedin.com/pulse/what-i-learned-resiliency-working-9-bosses-5-years-ray-villalobos/" class="item-title h2 d-block" target="_blank">What I learned about resiliency working for 9 bosses in 5 years
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">Getting a new boss can be really stressful. To paraphrase the great philosopher F. Gump, you usually have little input into who that is, so you don’t know what you're going to get until you've had the time to work with them. I should know.</p>
+      <p class="item-summary lead mb-1 text-body">Getting a new boss can be really stressful. To paraphrase the great philosopher F. Gump, you usually have little input into who that is, so you don’t know what you're going to get until you've had the time to work with them. I should know.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -205,10 +199,10 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
 </div>
     </div>
   </div>
@@ -216,26 +210,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/wanttogethired_tn.png" alt="Want to get hired? Look into this technology career...LinkedIn Jobs Report finds image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/wanttogethired_tn.png" alt="Want to get hired? Look into this technology career...LinkedIn Jobs Report finds image">
         </a>
-      <time class="small d-block text-body" datetime="Dec 07, 2017">Dec 07, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Dec 07, 2017">Dec 07, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="h2 d-block" target="_blank">Want to get hired? Look into this technology career...LinkedIn Jobs Report finds
+      <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="item-title h2 d-block" target="_blank">Want to get hired? Look into this technology career...LinkedIn Jobs Report finds
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">The LinkedIn U.S. Emerging Jobs Report finds that job growth in the next decade outstrips growth in the previous decade creating 11.5 million jobs, estimating that 65% of children entering primary school will hold jobs that don't yet exist.</p>
+      <p class="item-summary lead mb-1 text-body">The LinkedIn U.S. Emerging Jobs Report finds that job growth in the next decade outstrips growth in the previous decade creating 11.5 million jobs, estimating that 65% of children entering primary school will hold jobs that don't yet exist.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -244,14 +238,14 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
-    <a href="/tags/web design/" class="badge badge-secondary">web design</a>
-    <a href="/tags/web development/" class="badge badge-secondary">web development</a>
-    <a href="/tags/data visualization/" class="badge badge-secondary">data visualization</a>
-    <a href="/tags/python/" class="badge badge-secondary">python</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
+    <a href="/tags/web design/" class="badge badge-special">web design</a>
+    <a href="/tags/web development/" class="badge badge-special">web development</a>
+    <a href="/tags/data visualization/" class="badge badge-special">data visualization</a>
+    <a href="/tags/python/" class="badge badge-special">python</a>
 </div>
     </div>
   </div>
@@ -259,26 +253,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/five-weekly-series-help-you-work-smarter-more-your-ray-villalobos/" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/weekly-worksmarter_tn.png" alt="Five weekly series to help you work smarter and be more effective in your career image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/weekly-worksmarter_tn.png" alt="Five weekly series to help you work smarter and be more effective in your career image">
         </a>
-      <time class="small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/five-weekly-series-help-you-work-smarter-more-your-ray-villalobos/" class="h2 d-block" target="_blank">Five weekly series to help you work smarter and be more effective in your career
+      <a href="https://www.linkedin.com/pulse/five-weekly-series-help-you-work-smarter-more-your-ray-villalobos/" class="item-title h2 d-block" target="_blank">Five weekly series to help you work smarter and be more effective in your career
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">In order to get ahead, you need to learn to be more effective at work. Every week, these great authors give you quick, 10 minute tips to help you train your staff, understand business finance, learn to develop and manage yourself, build better work relationships and learn marketing tips to make your promotion efforts more effective.</p>
+      <p class="item-summary lead mb-1 text-body">In order to get ahead, you need to learn to be more effective at work. Every week, these great authors give you quick, 10 minute tips to help you train your staff, understand business finance, learn to develop and manage yourself, build better work relationships and learn marketing tips to make your promotion efforts more effective.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -287,10 +281,10 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
 </div>
     </div>
   </div>
@@ -298,44 +292,44 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/get-challenged-professional-photographers-motion-10-video-villalobos" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/photographerweekly_tn.png" alt="Get challenged by these professional photographers, motion experts and videographers through weekly, 10 minute video courses image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/photographerweekly_tn.png" alt="Get challenged by these professional photographers, motion experts and videographers through weekly, 10 minute video courses image">
         </a>
-      <time class="small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/get-challenged-professional-photographers-motion-10-video-villalobos" class="h2 d-block" target="_blank">Get challenged by these professional photographers, motion experts and videographers through weekly, 10 minute video courses
+      <a href="https://www.linkedin.com/pulse/get-challenged-professional-photographers-motion-10-video-villalobos" class="item-title h2 d-block" target="_blank">Get challenged by these professional photographers, motion experts and videographers through weekly, 10 minute video courses
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">Check out these short, weekly, 10 minute series of courses that can help you keep up with the latest and challenge you to practice your skills. You'll learn about photo gear, get inspired by critiques, learn from practicing professional photographers, learn about the latest tools, mobile photography, Final Cut Pro, motion graphics and Nuke.</p>
+      <p class="item-summary lead mb-1 text-body">Check out these short, weekly, 10 minute series of courses that can help you keep up with the latest and challenge you to practice your skills. You'll learn about photo gear, get inspired by critiques, learn from practicing professional photographers, learn about the latest tools, mobile photography, Final Cut Pro, motion graphics and Nuke.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
     
   
     
-    <a href="" class="mr-3 mr-lg-1"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
     
   
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/weekly series/" class="badge badge-secondary">weekly series</a>
-    <a href="/tags/photography/" class="badge badge-secondary">photography</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/weekly series/" class="badge badge-special">weekly series</a>
+    <a href="/tags/photography/" class="badge badge-special">photography</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
 </div>
     </div>
   </div>
@@ -343,26 +337,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/frontendfullstack_tn.png" alt="Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/frontendfullstack_tn.png" alt="Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series image">
         </a>
-      <time class="small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="h2 d-block" target="_blank">Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series
+      <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="item-title h2 d-block" target="_blank">Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">These weekly series offer quick, 10 minute tips to help you stay frosty and challenge you to keep learning about Android development, web media, mastering interview code, CSS, Sharepoint, UX and Visual Studio.</p>
+      <p class="item-summary lead mb-1 text-body">These weekly series offer quick, 10 minute tips to help you stay frosty and challenge you to keep learning about Android development, web media, mastering interview code, CSS, Sharepoint, UX and Visual Studio.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -371,13 +365,13 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
-    <a href="/tags/web design/" class="badge badge-secondary">web design</a>
-    <a href="/tags/web development/" class="badge badge-secondary">web development</a>
-    <a href="/tags/user experience/" class="badge badge-secondary">user experience</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
+    <a href="/tags/web design/" class="badge badge-special">web design</a>
+    <a href="/tags/web development/" class="badge badge-special">web development</a>
+    <a href="/tags/user experience/" class="badge badge-special">user experience</a>
 </div>
     </div>
   </div>
@@ -385,26 +379,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/10-minute-weekly-courses-can-help-you-become-better-ray-villalobos" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/weekly-artist_tn.png" alt="These 10 minute weekly courses can help you become a better artist and designer image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/weekly-artist_tn.png" alt="These 10 minute weekly courses can help you become a better artist and designer image">
         </a>
-      <time class="small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Aug 25, 2017">Aug 25, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/10-minute-weekly-courses-can-help-you-become-better-ray-villalobos" class="h2 d-block" target="_blank">These 10 minute weekly courses can help you become a better artist and designer
+      <a href="https://www.linkedin.com/pulse/10-minute-weekly-courses-can-help-you-become-better-ray-villalobos" class="item-title h2 d-block" target="_blank">These 10 minute weekly courses can help you become a better artist and designer
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">If you've been looking to improve your drawing, design, layout and photo editing skills, but keep a busy schedule, then these weekly series can help. They release once a week and include short, actionable tips and techniques from world class authors.</p>
+      <p class="item-summary lead mb-1 text-body">If you've been looking to improve your drawing, design, layout and photo editing skills, but keep a busy schedule, then these weekly series can help. They release once a week and include short, actionable tips and techniques from world class authors.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -413,13 +407,13 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/weekly series/" class="badge badge-secondary">weekly series</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
-    <a href="/tags/Adobe Illustrator/" class="badge badge-secondary">Adobe Illustrator</a>
-    <a href="/tags/InDesign/" class="badge badge-secondary">InDesign</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/weekly series/" class="badge badge-special">weekly series</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
+    <a href="/tags/Adobe Illustrator/" class="badge badge-special">Adobe Illustrator</a>
+    <a href="/tags/InDesign/" class="badge badge-special">InDesign</a>
 </div>
     </div>
   </div>
@@ -427,26 +421,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/5-unusual-skills-industry-professionals-use-more-ray-villalobos" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/weekly-unusual_tn.png" alt="5 Unusual Skills Industry Professionals Use to be More Successful in their Careers image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/weekly-unusual_tn.png" alt="5 Unusual Skills Industry Professionals Use to be More Successful in their Careers image">
         </a>
-      <time class="small d-block text-body" datetime="Aug 05, 2017">Aug 05, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Aug 05, 2017">Aug 05, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/5-unusual-skills-industry-professionals-use-more-ray-villalobos" class="h2 d-block" target="_blank">5 Unusual Skills Industry Professionals Use to be More Successful in their Careers
+      <a href="https://www.linkedin.com/pulse/5-unusual-skills-industry-professionals-use-more-ray-villalobos" class="item-title h2 d-block" target="_blank">5 Unusual Skills Industry Professionals Use to be More Successful in their Careers
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">Having a successful career is largely a result of actions, but also your re-action to opportunities and challenges that come along the way. In order to be successful you need to master techniques that really work. Let's take a look at what really works for professionals.</p>
+      <p class="item-summary lead mb-1 text-body">Having a successful career is largely a result of actions, but also your re-action to opportunities and challenges that come along the way. In order to be successful you need to master techniques that really work. Let's take a look at what really works for professionals.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -455,10 +449,10 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
 </div>
     </div>
   </div>
@@ -466,26 +460,26 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/posts/weekly-ux_tn.png" alt="Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/weekly-ux_tn.png" alt="Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series image">
         </a>
-      <time class="small d-block text-body" datetime="Jun 28, 2017">Jun 28, 2017</time>
+      <time class="item-date small d-block text-body" datetime="Jun 28, 2017">Jun 28, 2017</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="h2 d-block" target="_blank">Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series
+      <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="item-title h2 d-block" target="_blank">Keep up with the fast changing front end, full stack, UX, web design and mobile industries with these seven online weekly series
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">In my new weekly series on Mastering Web Developer Interview Code I've done a lot of research and interviewed people who've hired or managed their careers effectively. Let's take a look at what I discovered.</p>
+      <p class="item-summary lead mb-1 text-body">In my new weekly series on Mastering Web Developer Interview Code I've done a lot of research and interviewed people who've hired or managed their careers effectively. Let's take a look at what I discovered.</p>
       
 
-  <div>
+  <div class="item-links">
   
     
     
@@ -494,12 +488,12 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-secondary">external</a>
-    <a href="/tags/web development/" class="badge badge-secondary">web development</a>
-    <a href="/tags/web design/" class="badge badge-secondary">web design</a>
-    <a href="/tags/careers/" class="badge badge-secondary">careers</a>
+    <a href="/tags/external/" class="badge badge-special">external</a>
+    <a href="/tags/web development/" class="badge badge-special">web development</a>
+    <a href="/tags/web design/" class="badge badge-special">web design</a>
+    <a href="/tags/careers/" class="badge badge-special">careers</a>
 </div>
     </div>
   </div>

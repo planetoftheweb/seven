@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Seven</title>
+	<title>Raybo.org</title>
 	<subtitle></subtitle>
 	<link href="https://raybo.org/seven/feed/feed.xml" rel="self"/>
-	<link href="seventy.tech"/>
+	<link href="raybo.org"/>
 	<updated>2015-02-07T00:00:00-05:00</updated>
 	<id>https://raybo.org/seven</id>
 	<author>

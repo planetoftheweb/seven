@@ -1,4 +1,12 @@
 [{
+  "thumbnail": "/images/courses/vue-esst_tn.png",
+  "url": "https://www.linkedin.com/learning/vue-js-essential-training-2",
+  "icon": "<i class=\"fas fa-graduation-cap\"></i>",
+  "title": "Vue.js Essential Training",
+  "date" : "Mar 20, 2019",
+  "summary" : "In this course, explore the fundamentals of Vue.js. Explore the core library and learn how to make the most of templates, classes, objects, arrays, styles, modules, and more. You&#39;ll learn using codepen as well as ",
+  "tags" : "course,react,javascript,frameworks,components,project,interface"
+},{
   "thumbnail": "/images/courses/react-interface_tn.png",
   "url": "https://www.linkedin.com/learning/react-js-building-an-interface-2",
   "icon": "<i class=\"fas fa-graduation-cap\"></i>",

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Seven</title>
+    <title>Raybo.org</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -29,10 +29,10 @@
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">About</span>
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">About</span>
     </div>
 
-    <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,51 +83,31 @@
           </div>
         </div>
       </div>
-      <div class="searchbox form-inline">
-  <div class="position-relative d-flex ml-2" style="z-index: 100">
-    <div class="container py-2">
-      <div class="row justify-content-center">
-        <div class="input-group">
-          <input
-            type="text"
-            id="searchinput"
-            v-model="query"
-            class="form-control text-white border-right-0 border"
-            :class="[isActive ? 'wide' : 'short']"
-            @focus="isActive=true"
-            @blur="isActive=false; query='';"
-            ref="searchinput"
-            style="background: transparent;"
-            aria-describedby="searchinput"
-            autocomplete="off"
-          >
-          <div class="input-group-append">
-            <button
-              class="btn btn-outline-secondary border-left-0 border text-white"
-              style="background-color: transparent"
-              type="button"
-              @click="$refs.searchinput.focus()"
-              id="button-addon2"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div v-if="query" class="position-absolute row justify-content-center" style="top: 47px;">
+      <div class="searchbox pl-2 pb-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
       <div class="card bg-secondary">
         <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body" v-html="item.title"></span>
+              <span class="text-body text-left" v-html="item.title"></span>
             </a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
 </div>
     </div>
   </div>
@@ -136,12 +116,9 @@
     <header id="page-hero" class="site-header site-header d-flex align-items-center justify-content-center "  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg); min-height: 50vh;" >
 </header>
 <article id="main-content" class="site-main container mt-3 mb-5">
-
-<h1 class="text-primary">About Me</h1>
-<div class="lead">
-Ray Villalobos is a full-stack design/development teacher and senior staff instructor at <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">LinkedIn Learning</a>. His courses are focused on front-end design and development topics such as JavaScript, AngularJS, React, and Sass, plus frameworks like Bootstrap and tools that can make you a faster, more efficient developer. He has a clear and practical teaching style and will help you improve your skills through real-world exercises and projects.
+  <h1 class=" px-3 px-sm-0 text-primary">About Me</h1>
+  <p>Ray Villalobos is a full-stack design/development teacher and senior staff instructor at <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">LinkedIn Learning</a>. His courses are focused on front-end design and development topics such as JavaScript, AngularJS, React, and Sass, plus frameworks like Bootstrap and tools that can make you a faster, more efficient developer. He has a clear and practical teaching style and will help you improve your skills through real-world exercises and projects.</p>
 <p>Previously, as a director of multimedia for Entravision Communications, Ray managed a network of radio and TV station websites on the East Coast. He also designed large newspaper sites and created interactive projects/games for the Tribune network of newspapers. You can reach him on LinkedIn or through other social networks @planetoftheweb. Check out his personal blog at <a href="http://raybo.org">raybo.org</a>.</p>
-</div>
 
 </article>
 

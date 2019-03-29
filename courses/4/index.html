@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Seven</title>
+    <title>Raybo.org</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -29,10 +29,10 @@
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
     </div>
 
-    <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,61 +83,55 @@
           </div>
         </div>
       </div>
-      <div class="searchbox form-inline">
-  <div class="position-relative d-flex ml-2" style="z-index: 100">
-    <div class="container py-2">
-      <div class="row justify-content-center">
-        <div class="input-group">
-          <input
-            type="text"
-            id="searchinput"
-            v-model="query"
-            class="form-control text-white border-right-0 border"
-            :class="[isActive ? 'wide' : 'short']"
-            @focus="isActive=true"
-            @blur="isActive=false; query='';"
-            ref="searchinput"
-            style="background: transparent;"
-            aria-describedby="searchinput"
-            autocomplete="off"
-          >
-          <div class="input-group-append">
-            <button
-              class="btn btn-outline-secondary border-left-0 border text-white"
-              style="background-color: transparent"
-              type="button"
-              @click="$refs.searchinput.focus()"
-              id="button-addon2"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div v-if="query" class="position-absolute row justify-content-center" style="top: 47px;">
+      <div class="searchbox pl-2 pb-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
       <div class="card bg-secondary">
         <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body" v-html="item.title"></span>
+              <span class="text-body text-left" v-html="item.title"></span>
             </a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
 </div>
     </div>
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header site-header d-flex align-items-center justify-content-center "  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg); min-height: 50vh;" >
+    <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 30vh;">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg); height: 100%; width: 100%;  filter: blur(0);" ></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light"></h2>
+        <p class="page-section-text lead text-light display-1">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 </header>
+
 <article id="main-content" class="site-main container mt-3 mb-5">
 <nav class="my-3" aria-label="Page navigation">
-  <div class="pagination pagination-sm justify-content-center family-sans">
+  <div class="pagination pagination-sm justify-content-center">
       
       <div class="page-item">
         <a class="page-link" href="/courses/3/index.html"><i class="fas fa-arrow-left"></i></a>
@@ -167,28 +161,80 @@
 
   
 
-  <div class="row justify-content-center  mb-3 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  mb-3 ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-json-integration-techniques" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/json_tn.png" alt="JavaScript and JSON image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Mar 15, 2013">Mar 15, 2013</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-json-integration-techniques" class="item-title h2 d-block" target="_blank">JavaScript and JSON
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Explore how the JavaScript Object Notation (JSON) format works and how you can use it to read and share data in your web projects.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+    
+    
+    
+  
+    
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-ajax-integration-techniques" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/courses/ajax_tn.png" alt="JavaScript and AJAX image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/ajax_tn.png" alt="JavaScript and AJAX image">
         </a>
-      <time class="small d-block text-body" datetime="Jan 18, 2013">Jan 18, 2013</time>
+      <time class="item-date small d-block text-body" datetime="Jan 18, 2013">Jan 18, 2013</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-ajax-integration-techniques" class="h2 d-block" target="_blank">JavaScript and AJAX
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-ajax-integration-techniques" class="item-title h2 d-block" target="_blank">JavaScript and AJAX
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">Explore how to load dynamic content from JavaScript and jQuery using AJAX methods.</p>
+      <p class="item-summary lead mb-1 text-body">Explore how to load dynamic content from JavaScript and jQuery using AJAX methods.</p>
       
 
-  <div>
+  <div class="item-links">
   
-    <a href="" class="mr-3 mr-lg-1"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -199,14 +245,14 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/course/" class="badge badge-secondary">course</a>
-    <a href="/tags/css/" class="badge badge-secondary">css</a>
-    <a href="/tags/javascript/" class="badge badge-secondary">javascript</a>
-    <a href="/tags/html/" class="badge badge-secondary">html</a>
-    <a href="/tags/web designer/" class="badge badge-secondary">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-secondary">web developer</a>
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
 </div>
     </div>
   </div>
@@ -215,28 +261,28 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fview-source" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/courses/viewsource_tn.png" alt="View Source image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/viewsource_tn.png" alt="View Source image">
         </a>
-      <time class="small d-block text-body" datetime="May 25, 2012">May 25, 2012</time>
+      <time class="item-date small d-block text-body" datetime="May 25, 2012">May 25, 2012</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fview-source" class="h2 d-block" target="_blank">View Source
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fview-source" class="item-title h2 d-block" target="_blank">View Source
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">Ten-minute projects on intermediate and advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.</p>
+      <p class="item-summary lead mb-1 text-body">Ten-minute projects on intermediate and advanced web design topics, covering technologies such as HTML, PHP, jQuery, and CSS, as well as content management solutions like WordPress and integration with Twitter, YouTube, and more.</p>
       
 
-  <div>
+  <div class="item-links">
   
-    <a href="" class="mr-3 mr-lg-1"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -247,16 +293,16 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/course/" class="badge badge-secondary">course</a>
-    <a href="/tags/video tutorial/" class="badge badge-secondary">video tutorial</a>
-    <a href="/tags/css/" class="badge badge-secondary">css</a>
-    <a href="/tags/sass/" class="badge badge-secondary">sass</a>
-    <a href="/tags/javascript/" class="badge badge-secondary">javascript</a>
-    <a href="/tags/html/" class="badge badge-secondary">html</a>
-    <a href="/tags/web designer/" class="badge badge-secondary">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-secondary">web developer</a>
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/video tutorial/" class="badge badge-special">video tutorial</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/sass/" class="badge badge-special">sass</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
 </div>
     </div>
   </div>
@@ -265,28 +311,28 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcss-styling-forms" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/courses/cssforms_tn.png" alt="CSS: Styling Forms image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/cssforms_tn.png" alt="CSS: Styling Forms image">
         </a>
-      <time class="small d-block text-body" datetime="Jan 20, 2012">Jan 20, 2012</time>
+      <time class="item-date small d-block text-body" datetime="Jan 20, 2012">Jan 20, 2012</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcss-styling-forms" class="h2 d-block" target="_blank">CSS: Styling Forms
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcss-styling-forms" class="item-title h2 d-block" target="_blank">CSS: Styling Forms
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">CSS best practices and techniques for styling and structuring HTML and HTML5 forms.</p>
+      <p class="item-summary lead mb-1 text-body">CSS best practices and techniques for styling and structuring HTML and HTML5 forms.</p>
       
 
-  <div>
+  <div class="item-links">
   
-    <a href="" class="mr-3 mr-lg-1"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -297,14 +343,14 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/course/" class="badge badge-secondary">course</a>
-    <a href="/tags/css/" class="badge badge-secondary">css</a>
-    <a href="/tags/javascript/" class="badge badge-secondary">javascript</a>
-    <a href="/tags/html/" class="badge badge-secondary">html</a>
-    <a href="/tags/web designer/" class="badge badge-secondary">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-secondary">web developer</a>
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
 </div>
     </div>
   </div>
@@ -313,28 +359,28 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcreating-an-adaptive-web-site-for-multiple-screens" class="d-block mb-1"  target="_blank">
-          <img class="w-100 img-fluid rounded" src="/images/courses/adaptive_tn.png" alt="Creating an Adaptive Web Site for Multiple Screens image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/adaptive_tn.png" alt="Creating an Adaptive Web Site for Multiple Screens image">
         </a>
-      <time class="small d-block text-body" datetime="Nov 19, 2011">Nov 19, 2011</time>
+      <time class="item-date small d-block text-body" datetime="Nov 19, 2011">Nov 19, 2011</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcreating-an-adaptive-web-site-for-multiple-screens" class="h2 d-block" target="_blank">Creating an Adaptive Web Site for Multiple Screens
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcreating-an-adaptive-web-site-for-multiple-screens" class="item-title h2 d-block" target="_blank">Creating an Adaptive Web Site for Multiple Screens
       
         <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
       
       </a>
-      <p class="lead mb-1 text-body">How to build a web site that automatically adapts its layout to various screen sizes, orientations, and resolutions on desktop browsers and mobile devices.</p>
+      <p class="item-summary lead mb-1 text-body">How to build a web site that automatically adapts its layout to various screen sizes, orientations, and resolutions on desktop browsers and mobile devices.</p>
       
 
-  <div>
+  <div class="item-links">
   
-    <a href="" class="mr-3 mr-lg-1"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -345,19 +391,19 @@
   </div>
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/course/" class="badge badge-secondary">course</a>
-    <a href="/tags/css/" class="badge badge-secondary">css</a>
-    <a href="/tags/javascript/" class="badge badge-secondary">javascript</a>
-    <a href="/tags/html/" class="badge badge-secondary">html</a>
-    <a href="/tags/web designer/" class="badge badge-secondary">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-secondary">web developer</a>
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
 </div>
     </div>
   </div>
 <nav class="my-3" aria-label="Page navigation">
-  <div class="pagination pagination-sm justify-content-center family-sans">
+  <div class="pagination pagination-sm justify-content-center">
       
       <div class="page-item">
         <a class="page-link" href="/courses/3/index.html"><i class="fas fa-arrow-left"></i></a>

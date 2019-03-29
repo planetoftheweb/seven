@@ -352,11 +352,6 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
     <loc>/courses/0/</loc>
     <lastmod>2019-02-19</lastmod>
   </url>
@@ -382,7 +377,17 @@
   </url>
   
   <url>
+    <loc>/courses/2019-03-20-vue-js-essential-training/</loc>
+    <lastmod>2019-03-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2019-03-21</lastmod>
+  </url>
+  
+  <url>
     <loc>/js/data.js</loc>
-    <lastmod>2019-03-18</lastmod>
+    <lastmod>2019-03-21</lastmod>
   </url>
 </urlset>
