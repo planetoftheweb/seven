@@ -2,7 +2,7 @@
 
   {% if r/external/g.test(item.data.tags) or r/course/g.test(item.data.tags) %}{% set external = true %}{% endif %}
 
-  <div class="row justify-content-center {% if loop.first %} mb-3 {% else %} my-huge {% endif %}">
+  <div class="row justify-content-center px-3 px-sm-0 my-5 {% if loop.first %} mb-3 {% else %} my-md-huge {% endif %}">
     {% if item.data.thumb %}
       <div class="col-md-3">
         <a href="{{ defaultURL | url }}" class="d-block mb-1"  {% if external %}target="_blank"{% endif %}>

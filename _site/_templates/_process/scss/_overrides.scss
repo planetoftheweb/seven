@@ -8,11 +8,14 @@
 }
 
 .page-section-text {
-  @include font-size(1.7rem);
+  font-family: $font-family-sans-serif;
+  @include font-size(1.5rem);
+  font-weight: 400;
 }
 
 .h2 {
   @include font-size(2rem);
+  font-weight: 700;
 }
 
 .site-header {
@@ -26,7 +29,7 @@
 }
 
 .header-content {
-  text-shadow: 3px 3px 10px darken($body-bg, 30%);
+  text-shadow: 1px 1px 5px darken($body-bg, 50%);
 }
 
 .site-nav {
