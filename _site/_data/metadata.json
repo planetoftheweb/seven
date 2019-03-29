@@ -1,9 +1,9 @@
 {
-  "title": "Raybo.org",
-  "description": "The official site for Ray Villalobos. Senior Staff Author for LinkedIn Learning and Lynda.com. I love to help people learn complex topics in a clear, practical way.",
-  "url": "raybo.org",
+  "title": "Seven",
+  "description": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
+  "url": "seventy.tech",
   "feed": {
-    "summary": "The official site for Ray Villalobos. Senior Staff Author for LinkedIn Learning and Lynda.com. I love to help people learn complex topics in a clear, practical way.",
+    "summary": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://raybo.org/seven/feed/feed.xml",
@@ -11,7 +11,7 @@
   },
   "author": {
     "name": "Ray Villalobos",
-    "bio": "Ray is a full-stack design/development teacher and Senior Staff Author at [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos). His courses are focused on front-end design and development topics such as JavaScript, Vue.js, React, and Sass, plus frameworks like Bootstrap and tools that can make you a faster, more efficient developer. He has a clear and practical teaching style and will help you improve your skills through real-world exercises and projects. Previously, as a director of multimedia for Entravision Communications, Ray managed a network of radio and TV station websites on the East Coast. He also designed large newspaper sites and created interactive projects/games for the Tribune network of newspapers. You can reach him on LinkedIn or through other social networks @planetoftheweb. Check out his personal blog at raybo.org.",
+    "bio": "Ray Villalobos is a Full Stack Web Development Author. He’s a full time Staff Author at LInkedIn Learning and Lynda.com.",
     "social": {
       "email": "ray@planetoftheweb.com",
       "linkedin": "https://linkedin.com/in/planetoftheweb",
