@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Seven</title>
+    <title>Raybo.org</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -29,10 +29,10 @@
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Posts</span>
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Posts</span>
     </div>
 
-    <div class="collapse navbar-collapse" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,62 +83,56 @@
           </div>
         </div>
       </div>
-      <div class="searchbox form-inline">
-  <div class="position-relative d-flex ml-2" style="z-index: 100">
-    <div class="container py-2">
-      <div class="row justify-content-center">
-        <div class="input-group">
-          <input
-            type="text"
-            id="searchinput"
-            v-model="query"
-            class="form-control text-white border-right-0 border"
-            :class="[isActive ? 'wide' : 'short']"
-            @focus="isActive=true"
-            @blur="isActive=false; query='';"
-            ref="searchinput"
-            style="background: transparent;"
-            aria-describedby="searchinput"
-            autocomplete="off"
-          >
-          <div class="input-group-append">
-            <button
-              class="btn btn-outline-secondary border-left-0 border text-white"
-              style="background-color: transparent"
-              type="button"
-              @click="$refs.searchinput.focus()"
-              id="button-addon2"
-            >
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div v-if="query" class="position-absolute row justify-content-center" style="top: 47px;">
+      <div class="searchbox pl-2 pb-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
       <div class="card bg-secondary">
         <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body" v-html="item.title"></span>
+              <span class="text-body text-left" v-html="item.title"></span>
             </a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
 </div>
     </div>
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header site-header d-flex align-items-center justify-content-center "  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(https://lil-cdn.com/585273/computing-apps-top-227241901.jpg); min-height: 50vh;" >
+    <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 30vh;">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(https://lil-cdn.com/585273/computing-apps-top-227241901.jpg); height: 100%; width: 100%;  filter: blur(0);" ></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light"></h2>
+        <p class="page-section-text lead text-light display-1">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 </header>
+
 <article id="main-content" class="site-main container mt-3 mb-5">
 
 <nav class="my-3" aria-label="Page navigation">
-  <div class="pagination pagination-sm justify-content-center family-sans">
+  <div class="pagination pagination-sm justify-content-center">
       
       <div class="page-item">
         <a class="page-link" href="/posts/1/index.html"><i class="fas fa-arrow-left"></i></a>
@@ -169,28 +163,28 @@
 
   
 
-  <div class="row justify-content-center  mb-3 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  mb-3 ">
     
       <div class="col-md-3">
         <a href="/posts/2015-03-03-creating-SVG-graphics/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/svggraphics_tn.png" alt="Getting started creating SVG Graphics image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/svggraphics_tn.png" alt="Getting started creating SVG Graphics image">
         </a>
-      <time class="small d-block text-body" datetime="Mar 03, 2015">Mar 03, 2015</time>
+      <time class="item-date small d-block text-body" datetime="Mar 03, 2015">Mar 03, 2015</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-03-03-creating-SVG-graphics/" class="h2 d-block" >Getting started creating SVG Graphics
+      <a href="/posts/2015-03-03-creating-SVG-graphics/" class="item-title h2 d-block" >Getting started creating SVG Graphics
       
       </a>
-      <p class="lead mb-1 text-body">A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks.</p>
+      <p class="item-summary lead mb-1 text-body">A lot of data visualizations use the SVG format to create graphics, so in this article, we'll use SVG to create some basic shapes and graphics. Understanding how the format works will help you when you're using SVG based libraries and frameworks.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/data visualization/" class="badge badge-secondary">data visualization</a>
-    <a href="/tags/svg/" class="badge badge-secondary">svg</a>
+    <a href="/tags/data visualization/" class="badge badge-special">data visualization</a>
+    <a href="/tags/svg/" class="badge badge-special">svg</a>
 </div>
     </div>
   </div>
@@ -205,28 +199,28 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="/posts/2015-03-02-data-vizualization-formats/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/vector_tn.png" alt="Vector Graphic Formats Used for data visualizations image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/vector_tn.png" alt="Vector Graphic Formats Used for data visualizations image">
         </a>
-      <time class="small d-block text-body" datetime="Mar 02, 2015">Mar 02, 2015</time>
+      <time class="item-date small d-block text-body" datetime="Mar 02, 2015">Mar 02, 2015</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-03-02-data-vizualization-formats/" class="h2 d-block" >Vector Graphic Formats Used for data visualizations
+      <a href="/posts/2015-03-02-data-vizualization-formats/" class="item-title h2 d-block" >Vector Graphic Formats Used for data visualizations
       
       </a>
-      <p class="lead mb-1 text-body">In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead.</p>
+      <p class="item-summary lead mb-1 text-body">In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/data visualization/" class="badge badge-secondary">data visualization</a>
-    <a href="/tags/svg/" class="badge badge-secondary">svg</a>
+    <a href="/tags/data visualization/" class="badge badge-special">data visualization</a>
+    <a href="/tags/svg/" class="badge badge-special">svg</a>
 </div>
     </div>
   </div>
@@ -241,28 +235,28 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="/posts/2015-03-01-online-graphic-formats/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/graphics_tn.png" alt="Principles of online graphic formats image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/graphics_tn.png" alt="Principles of online graphic formats image">
         </a>
-      <time class="small d-block text-body" datetime="Mar 01, 2015">Mar 01, 2015</time>
+      <time class="item-date small d-block text-body" datetime="Mar 01, 2015">Mar 01, 2015</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-03-01-online-graphic-formats/" class="h2 d-block" >Principles of online graphic formats
+      <a href="/posts/2015-03-01-online-graphic-formats/" class="item-title h2 d-block" >Principles of online graphic formats
       
       </a>
-      <p class="lead mb-1 text-body">If your goal is to create visualizations for online consumption, it's good to understand the fundamentals of how graphic formats work for online delivery. In this article, I'll talk about the different bitmap/raster graphics and some of the main considerations for online delivery.</p>
+      <p class="item-summary lead mb-1 text-body">If your goal is to create visualizations for online consumption, it's good to understand the fundamentals of how graphic formats work for online delivery. In this article, I'll talk about the different bitmap/raster graphics and some of the main considerations for online delivery.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/web design/" class="badge badge-secondary">web design</a>
-    <a href="/tags/web development/" class="badge badge-secondary">web development</a>
+    <a href="/tags/web design/" class="badge badge-special">web design</a>
+    <a href="/tags/web development/" class="badge badge-special">web development</a>
 </div>
     </div>
   </div>
@@ -277,27 +271,27 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="/posts/2015-02-19-Understanding-Data-Formats/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/dataformats_tn.png" alt="Understanding Data Formats used for Visualization Applications image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/dataformats_tn.png" alt="Understanding Data Formats used for Visualization Applications image">
         </a>
-      <time class="small d-block text-body" datetime="Feb 19, 2015">Feb 19, 2015</time>
+      <time class="item-date small d-block text-body" datetime="Feb 19, 2015">Feb 19, 2015</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-02-19-Understanding-Data-Formats/" class="h2 d-block" >Understanding Data Formats used for Visualization Applications
+      <a href="/posts/2015-02-19-Understanding-Data-Formats/" class="item-title h2 d-block" >Understanding Data Formats used for Visualization Applications
       
       </a>
-      <p class="lead mb-1 text-body">In order to work with data-visualization, it's important to understand the formats commonly used to generate visual data. In this article, I'll talk about different formats for storing data plus their advantages and disadvantages and give you some resources.</p>
+      <p class="item-summary lead mb-1 text-body">In order to work with data-visualization, it's important to understand the formats commonly used to generate visual data. In this article, I'll talk about different formats for storing data plus their advantages and disadvantages and give you some resources.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/data visualization/" class="badge badge-secondary">data visualization</a>
+    <a href="/tags/data visualization/" class="badge badge-special">data visualization</a>
 </div>
     </div>
   </div>
@@ -312,28 +306,28 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="/posts/2015-02-11-centered-navigation-table-css/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/horizontally_tn.png" alt="Horizontally Centered Navigation Menu with CSS image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/horizontally_tn.png" alt="Horizontally Centered Navigation Menu with CSS image">
         </a>
-      <time class="small d-block text-body" datetime="Feb 11, 2015">Feb 11, 2015</time>
+      <time class="item-date small d-block text-body" datetime="Feb 11, 2015">Feb 11, 2015</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-02-11-centered-navigation-table-css/" class="h2 d-block" >Horizontally Centered Navigation Menu with CSS
+      <a href="/posts/2015-02-11-centered-navigation-table-css/" class="item-title h2 d-block" >Horizontally Centered Navigation Menu with CSS
       
       </a>
-      <p class="lead mb-1 text-body">Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.</p>
+      <p class="item-summary lead mb-1 text-body">Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/web design/" class="badge badge-secondary">web design</a>
-    <a href="/tags/css/" class="badge badge-secondary">css</a>
+    <a href="/tags/web design/" class="badge badge-special">web design</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
 </div>
     </div>
   </div>
@@ -348,34 +342,34 @@
 
   
 
-  <div class="row justify-content-center  my-5 ">
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="/posts/2015-02-07-chrome-developer-extensions/" class="d-block mb-1"  >
-          <img class="w-100 img-fluid rounded" src="/images/posts/chromeextensions_tn.png" alt="Chrome Developer Extensions for Designers/Developers image">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/posts/chromeextensions_tn.png" alt="Chrome Developer Extensions for Designers/Developers image">
         </a>
-      <time class="small d-block text-body" datetime="Feb 07, 2015">Feb 07, 2015</time>
+      <time class="item-date small d-block text-body" datetime="Feb 07, 2015">Feb 07, 2015</time>
       </div>
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-02-07-chrome-developer-extensions/" class="h2 d-block" >Chrome Developer Extensions for Designers/Developers
+      <a href="/posts/2015-02-07-chrome-developer-extensions/" class="item-title h2 d-block" >Chrome Developer Extensions for Designers/Developers
       
       </a>
-      <p class="lead mb-1 text-body">Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development.</p>
+      <p class="item-summary lead mb-1 text-body">Google Chrome Extensions can help you take care of certain tasks quickly. Here's a quick review of some of my favorite extensions for web design and development.</p>
       
   
 
-      <div class="tagslist d-none d-lg-block">
+      <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/web designer/" class="badge badge-secondary">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-secondary">web developer</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
 </div>
     </div>
   </div>
 
 <nav class="my-3" aria-label="Page navigation">
-  <div class="pagination pagination-sm justify-content-center family-sans">
+  <div class="pagination pagination-sm justify-content-center">
       
       <div class="page-item">
         <a class="page-link" href="/posts/1/index.html"><i class="fas fa-arrow-left"></i></a>
