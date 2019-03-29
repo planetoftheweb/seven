@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<header id="page-hero" class="site-header {% if not hero %}mt-5 pt-5{% endif %}site-header d-flex align-items-center justify-content-center " {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: 50vh;" {% endif %}>
+<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %}site-header" {% if hero %} style="width: 100vw; background-size: cover; background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: {{(headerHeight) if headerHeight else '50vh'}};" {% endif %}>
 </header>
-<article id="main-content" class="site-main container mt-3 mb-5">
-  <h1 class=" px-3 px-sm-0 text-primary">{{title}}</h1>
+<article id="main-content" class="container mt-3 mb-5 px-3 px-sm-0">
+  <h1 class="text-primary">{{title}}</h1>
   {{ content | safe }}
 </article>

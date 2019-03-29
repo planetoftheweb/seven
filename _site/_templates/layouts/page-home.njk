@@ -9,7 +9,7 @@ layout: layouts/base.njk
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h1 class="page-section-title text-light">{{metadata.title}}</h1>
-        <p class="page-section-text lead text-light display-1" style="text-shadow: 1px 1px 10px #000; font-size: 1.7em;">
+        <p class="page-section-text text-light">
           An <a class="text-warning font-weight-bold" href="https://www.11ty.io/">eleventy</a> template based on <a class="text-warning font-weight-bold" href="http://www.raybo.org/bootstrap4layouts/">bootstrap4layouts</a>. Includes webpack, sass version of bootstrap, vue.js powered search and a whole lot more.
         </p>
         <div><a class="btn btn-lg btn-outline-light" href="https://github.com/planetoftheweb/seven">Github Repo</a></div>
@@ -19,6 +19,6 @@ layout: layouts/base.njk
 </div>
 </header>
 
-<article id="main-content" class="page-home site-main container mt-3 mb-5">
+<article id="main-content" class="page-home site-main container ">
 {{ content | safe }}
 </article>
