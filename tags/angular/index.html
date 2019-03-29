@@ -24,7 +24,7 @@
   <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
     <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -32,7 +32,7 @@
       <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -115,12 +115,12 @@
 
     <header id="page-hero" class="site-header position-relative mt-5 site-header" style="width: 100vw; ">
 
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h2 class="page-section-title text-light"></h2>
-        <p class="page-section-text lead text-light display-1">
+        <p class="page-section-text text-light d-none d-md-block">
           
         </p>
       </div>
@@ -533,8 +533,8 @@
   </div>
 </article>
 
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
   
     <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">

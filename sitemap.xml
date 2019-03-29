@@ -357,11 +357,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/0/</loc>
     <lastmod>2019-02-19</lastmod>
   </url>
@@ -382,12 +377,17 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/js/data.js</loc>
     <lastmod>2019-03-21</lastmod>
   </url>
   
   <url>
-    <loc>/js/data.js</loc>
-    <lastmod>2019-03-21</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2019-03-29</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-03-29</lastmod>
   </url>
 </urlset>

@@ -24,7 +24,7 @@
   <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
     <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -32,7 +32,7 @@
       <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">About</span>
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -113,17 +113,17 @@
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header site-header d-flex align-items-center justify-content-center "  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg); min-height: 50vh;" >
+    <header id="page-hero" class="site-header position-relative site-header"  style="width: 100vw; background-size: cover; background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url(http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg); min-height: 50vh;" >
 </header>
-<article id="main-content" class="site-main container mt-3 mb-5">
-  <h1 class=" px-3 px-sm-0 text-primary">About Me</h1>
+<article id="main-content" class="container mt-3 mb-5 px-3 px-sm-0">
+  <h1 class="text-primary">About Me</h1>
   <p>Ray Villalobos is a full-stack design/development teacher and senior staff instructor at <a href="https://www.linkedin.com/learning/instructors/ray-villalobos">LinkedIn Learning</a>. His courses are focused on front-end design and development topics such as JavaScript, AngularJS, React, and Sass, plus frameworks like Bootstrap and tools that can make you a faster, more efficient developer. He has a clear and practical teaching style and will help you improve your skills through real-world exercises and projects.</p>
 <p>Previously, as a director of multimedia for Entravision Communications, Ray managed a network of radio and TV station websites on the East Coast. He also designed large newspaper sites and created interactive projects/games for the Tribune network of newspapers. You can reach him on LinkedIn or through other social networks @planetoftheweb. Check out his personal blog at <a href="http://raybo.org">raybo.org</a>.</p>
 
 </article>
 
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
   
     <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">

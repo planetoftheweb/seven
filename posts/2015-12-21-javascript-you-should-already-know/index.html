@@ -24,7 +24,7 @@
   <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
     <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -32,7 +32,7 @@
       <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -115,12 +115,12 @@
 
     <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(/images/posts/jsfrontend.png); height: 100%; width: 100%;  filter: blur(3px);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h2 class="page-section-title text-light">6 JavaScript technologies Front-end developers should already know</h2>
-        <p class="page-section-text lead text-light display-1">
+        <p class="page-section-text text-light d-none d-md-block">
           Life's tough for a front end developer because the pace of learning moves so fast. Today's developer needs to be familiar with a number of libraries, frameworks and processes in order to be successful. Here's my list of JavaScript technologies that you should already be familiar with if you're a professional front end developer.
         </p>
       </div>
@@ -130,7 +130,7 @@
 </header>
 
 <article id="main-content" class="site-main container mt-3 mb-5">
-<h1 class="text-primary mt-5 mb-3">6 JavaScript technologies Front-end developers should already know</h1>
+<main class="px-3 px-sm-0">
 <h2 id="jquery">jQuery <a class="direct-link" href="#jquery" aria-hidden="true">#</a></h2>
 <p><a href="https://jquery.com/"><img src="http://i.imgur.com/OtX9CNp.png" alt="jQuery"></a><br>
 <a href="https://jquery.com/">jQuery</a> has gotten a bad rap lately, and that's largely because where in the past it solved a lot of problems with backwards compatibility, those issues have disappeared up to a point in modern browsers. However, it's so prevalent and already installed in most websites that you should be familiar with the framework, especially how the $ selector engine works, chaining and complex selectors. If jQuery is already installed on your site (and chances are, if you're using either <a href="https://wordpress.org/">WordPress</a> or <a href="http://getbootstrap.com/">Bootstrap</a>, it already is), then you're doing yourself a disservice by not knowing where it can save you time and add some backwards compatibility when you must support older browsers.</p>
@@ -154,9 +154,10 @@ Modern development would be nothing without Open Source tools. And <a href="http
 I'm a big believer in working smarter, and that means spending time on technologies that help me become more efficient. Therefore, I love things like <a href="http://sass-lang.com/">Sass</a>, <a href="http://lesscss.org/">Less</a> <a href="https://github.com/postcss/postcss">PostCSS</a> and others that give languages new capabilities. Once you've learned how to work with CSS variables, you'll never go back to plain CSS. In the same way, the ability to work with functions (mixins) and extends makes your code smarter by allowing you to create reusable bits of code. Today some of these libraries, like Sass have been ported over to JavaScript for blazing performance and without requiring a Ruby install.</p>
 <p><a href="https://github.com/postcss/postcss">PostCSS</a> eliminates the need for prefixed code, has a large library of plugins with Sass-like features and can even help you use future CSS features today. Another hot new technology...transpilers like <a href="https://babeljs.io/">Babel</a> let you use ES2015(ES6) in today's browsers or use languages like TypeScript that add interesting new features to your programming arsenal. If you aren't taking advantage of these workflow enhancements, then you're wasting time writing CSS/JavaScript and falling behind on what you can do with programming languages today.</p>
 
+</main>
 </article>
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
   
     <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">

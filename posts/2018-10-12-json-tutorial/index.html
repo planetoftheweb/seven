@@ -24,7 +24,7 @@
   <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
     <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -32,7 +32,7 @@
       <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -115,12 +115,12 @@
 
     <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(/images/posts/json.png); height: 100%; width: 100%;  filter: blur(3px);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h2 class="page-section-title text-light">A JSON Tutorial. Getting started with JSON using JavaScript and jQuery</h2>
-        <p class="page-section-text lead text-light display-1">
+        <p class="page-section-text text-light d-none d-md-block">
           Javascript has grown from a way to add interactivity on your page, to a language that lets you perform tasks that once belonged to servers. JSON provides for an easy way to create and store data structures within JavaScript. It’s super popular and a great alternative to XML.
         </p>
       </div>
@@ -130,7 +130,7 @@
 </header>
 
 <article id="main-content" class="site-main container mt-3 mb-5">
-<h1 class="text-primary mt-5 mb-3">A JSON Tutorial. Getting started with JSON using JavaScript and jQuery</h1>
+<main class="px-3 px-sm-0">
 <p>JSON stands for JavaScript Object Notation…it’s called that because storing data with JSON creates a JavaScript object. The JavaScript object can be easily parsed and manipulated with JavaScript.</p>
 <p>Where XML is arguably easier to read, but notoriously difficult to parse (describe to a computer), JSON makes it a breeze to store data in a format that machines dig. Once you encode the data with JSON, you can read it into a variable which creates an object. Really cool stuff. Let’s take a look.</p>
 <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><br><span class="highlight-line">  <span class="token keyword">var</span> data <span class="token operator">=</span> <span class="token punctuation">{</span> firstName<span class="token punctuation">:</span> <span class="token string">"Ray"</span> <span class="token punctuation">}</span><span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token function">alert</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>firstName<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></span></code></pre>
@@ -167,9 +167,10 @@
 <pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">"users"</span><span class="token operator">:</span> <span class="token punctuation">[</span></span><br><span class="highlight-line">    <span class="token punctuation">{</span></span><br><span class="highlight-line">      <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">"Ray"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">      <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">"Villalobos"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">      <span class="token property">"joined"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">        <span class="token property">"month"</span><span class="token operator">:</span> <span class="token string">"January"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">        <span class="token property">"day"</span><span class="token operator">:</span> <span class="token number">12</span><span class="token punctuation">,</span></span><br><span class="highlight-line">        <span class="token property">"year"</span><span class="token operator">:</span> <span class="token number">2012</span></span><br><span class="highlight-line">      <span class="token punctuation">}</span></span><br><span class="highlight-line">    <span class="token punctuation">}</span><span class="token punctuation">,</span></span><br><span class="highlight-line">    <span class="token punctuation">{</span></span><br><span class="highlight-line">      <span class="token property">"firstName"</span><span class="token operator">:</span> <span class="token string">"John"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">      <span class="token property">"lastName"</span><span class="token operator">:</span> <span class="token string">"Jones"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">      <span class="token property">"joined"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">        <span class="token property">"month"</span><span class="token operator">:</span> <span class="token string">"April"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">        <span class="token property">"day"</span><span class="token operator">:</span> <span class="token number">28</span><span class="token punctuation">,</span></span><br><span class="highlight-line">        <span class="token property">"year"</span><span class="token operator">:</span> <span class="token number">2010</span></span><br><span class="highlight-line">      <span class="token punctuation">}</span></span><br><span class="highlight-line">    <span class="token punctuation">}</span></span><br><span class="highlight-line">  <span class="token punctuation">]</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
 <p>Pretty much as before. As you can see, JSON is really easy to read and once you get used to the curly braces and brackets, not too hard to encode.</p>
 
+</main>
 </article>
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
   
     <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
