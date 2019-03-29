@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    
+
+    <title>Seven</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    
+
+    <script src="/js/script.js"></script>
+  <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-uppercase">
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="myTogglerNav">
+      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
+        
+        <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+          <a class="nav-item nav-link" href="/posts/0/">Posts</a>
+          
+          <a class="nav-item nav-link" href="/courses/0/">Courses</a>
+          <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div>
+              
+                <a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
+                </a>
+              
+              
+                <a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
+                  <i class="fab fa-github text-secondary mr-2"></i>Github
+                </a>
+              
+              
+                <a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
+                  <i class="fab fa-twitter text-secondary mr-2"></i>Twitter
+                </a>
+              
+              
+                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="fab fa-youtube text-secondary mr-2"></i>YouTube
+                </a>
+              
+              
+                <a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
+                  <i class="fab fa-dribbble text-secondary mr-2"></i>Dribbble
+                </a>
+              
+              
+                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="fab fa-flickr text-secondary mr-2"></i>Flickr
+                </a>
+              
+              
+          </div>
+        </div>
+      </div>
+      <div class="searchbox form-inline">
+  <div class="position-relative d-flex ml-2" style="z-index: 100">
+    <div class="container py-2">
+      <div class="row justify-content-center">
+        <div class="input-group">
+          <input
+            type="text"
+            id="searchinput"
+            v-model="query"
+            class="form-control text-white border-right-0 border"
+            :class="[isActive ? 'wide' : 'short']"
+            @focus="isActive=true"
+            @blur="isActive=false; query='';"
+            ref="searchinput"
+            style="background: transparent;"
+            aria-describedby="searchinput"
+            autocomplete="off"
+          >
+          <div class="input-group-append">
+            <button
+              class="btn btn-outline-secondary border-left-0 border text-white"
+              style="background-color: transparent"
+              type="button"
+              @click="$refs.searchinput.focus()"
+              id="button-addon2"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div v-if="query" class="position-absolute row justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    <header id="page-hero" class="site-header mt-5 pt-5site-header d-flex align-items-center justify-content-center " >
+</header>
+<article id="main-content" class="site-main container mt-3 mb-5">
+<p>See <a href="/tags/">all tags</a>.</p>
+<h2 class="text-secondary mb-5">Tagged <small>“LinkedIn Learning”</small></h2>
+  
+
+  
+
+  <div class="row justify-content-center  mb-3 ">
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/pulse/three-things-i-learned-from-six-years-teacher-ray-villalobos" class="d-block mb-1"  target="_blank">
+          <img class="w-100 img-fluid rounded" src="/images/posts/threethings_tn.png" alt="Three things I learned from six years as a teacher on Lynda.com image">
+        </a>
+      <time class="small d-block text-body" datetime="Sep 12, 2017">Sep 12, 2017</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/pulse/three-things-i-learned-from-six-years-teacher-ray-villalobos" class="h2 d-block" target="_blank">Three things I learned from six years as a teacher on Lynda.com
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="lead mb-1 text-body">It's my sixth year anniversary at lynda.com/LinkedIn Learning and milestones come with some reflection, so I wanted to share with you some of the things I've learned over the years. Although these are specific to my experience, I think you'll be able to relate to these and maybe share something you've learned from your own.</p>
+      
+
+  <div>
+  
+    
+    
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block">
+  
+    <a href="/tags/external/" class="badge badge-secondary">external</a>
+    <a href="/tags/Teaching/" class="badge badge-secondary">Teaching</a>
+    <a href="/tags/Learning/" class="badge badge-secondary">Learning</a>
+    <a href="/tags/lynda.com/" class="badge badge-secondary">lynda.com</a>
+    <a href="/tags/LinkedIn Learning/" class="badge badge-secondary">LinkedIn Learning</a>
+</div>
+    </div>
+  </div>
+</article>
+
+    <footer class="site-footer bg-transparent">
+      <div class="layout-social container py-5 d-flex justify-content-center">
+
+  
+    <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  
+
+  
+    <a class="text-light px-2" target="_blank" href="https://github.com/planetoftheweb">
+      <i class="fab fa-github"></i>
+    </a>
+  
+
+  
+    <a class="text-light px-2" target="_blank" href="https://twitter.com/planetoftheweb">
+      <i class="fab fa-twitter"></i>
+    </a>
+  
+
+  
+    <a class="text-light px-2" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="fab fa-youtube"></i>
+    </a>
+  
+
+  
+    <a class="text-light px-2" target="_blank" href="https://dribbble.com/planetoftheweb">
+      <i class="fab fa-dribbble"></i>
+    </a>
+  
+
+  
+    <a class="text-light px-2" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="fab fa-flickr"></i>
+    </a>
+  
+
+  
+
+</div>
+    </footer>
+  </body>
+
+</html>
