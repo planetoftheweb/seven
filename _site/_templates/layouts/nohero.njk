@@ -1,9 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
-<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %}site-header" {% if hero %} style="width: 100vw; background-size: cover; background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: {{(headerHeight) if headerHeight else '50vh'}};" {% endif %}>
-</header>
-<article id="main-content" class="container mt-3 mb-5 px-3 px-sm-0">
+
+{% include "includes/carousel.njk" %}
+
+<article id="main-content" class="container mt-3 mb-5 px-3 px-sm-0"
+{% if carousel.items==null and hero==null%}style="padding-top: 60px"{%endif%}
+>
   <h1 class="text-primary">{{title}}</h1>
   {{ content | safe }}
 </article>

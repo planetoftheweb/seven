@@ -10,9 +10,9 @@ navtitle: Courses
 iconclass: fas fa-graduation-cap
 permalink: /courses/{{pagination.pageNumber}}/
 ---
-{% include "pagination.njk" %}
+{% include "includes/pagination.njk" %}
 {%- for item in pagination.items %}
-  {% include "items.njk" %}
+  {% include "includes/items.njk" %}
 {% endfor -%}
-{% include "pagination.njk" %}
+{% include "includes/pagination.njk" %}
 

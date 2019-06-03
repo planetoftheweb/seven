@@ -2,6 +2,12 @@
 layout: layouts/nohero.njk
 title: About Me
 hero: http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg
+carousel:
+  fade: true
+  items:
+    - image: http://pixelprowess.com/i/raybo01.jpg
+    - image: http://pixelprowess.com/i/raybo02.jpg
+    - image: http://pixelprowess.com/i/raybo03.jpg
 navtitle: About
 ---
 

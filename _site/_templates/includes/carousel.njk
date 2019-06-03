@@ -1,0 +1,48 @@
+{% if carousel.items %}
+<header id="layout-carousel" style="max-height: {{carousel.height}} !important"
+  class="carousel {% if carousel.slide !== false %}slide{%endif%}
+  {% if carousel.fade %}carousel-fade{% endif %}"
+  {% if carousel.interval %}data-interval="{{carousel.interval}}"{% endif %}
+  {% if carousel.wrap == false %}data-wrap="false"{% endif %} 
+  {% if carousel.ride !== false %}data-ride="carousel"{% endif %}
+  {% if carousel.pause == false %}data-pause="false"{% endif %}>
+  <div class="carousel-inner">
+    {% if carousel.indicators !== false %}
+    <ol class="carousel-indicators">
+      {% for item in carousel.items %}
+        <li data-target="#layout-carousel" {% if loop.first %}class="active"{% endif%} data-slide-to="{{loop.index0}}"></li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+
+    {% for item in carousel.items %}
+    <div class="carousel-item {% if loop.first %}active{% endif%}" >
+      <a href="{{item.url}}">
+        <img class="d-block w-100" src="{{ item.image }}" alt="{{item.headline}}">
+        <div class="carousel-caption d-none d-md-block">
+          {% if item.headline %}<h1>{{item.headline}}</h1>{% endif %}
+          {% if item.description %}<p>{{item.description}}</p>{% endif %}
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+
+    {% if carousel.controls !== false %}
+      <a class="carousel-control-prev" href="#layout-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+          <span class="sr-only">Previous</span>
+        </span>
+      </a>
+
+      <a class="carousel-control-next" href="#layout-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+          <span class="sr-only">Previous</span>
+        </span>
+      </a>
+    {% endif %}
+  </div>
+</header>
+{% elif hero %}
+<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %}site-header" {% if hero %} style="width: 100vw; background-size: cover; background-position: center center; background-image: linear-gradient(rgba(0, 0, 0, 0.5) 50px, transparent), url({{ hero }}); min-height: {{(headerHeight) if headerHeight else '50vh'}};"> {% endif %}
+</header>
+{% endif %}
