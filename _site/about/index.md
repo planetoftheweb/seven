@@ -1,7 +1,6 @@
 ---
-layout: layouts/nohero.njk
+layout: layouts/page.njk
 title: About Me
-hero: http://pixelprowess.com/i/computers/computing-cloud-229316069.jpg
 carousel:
   fade: true
   items:

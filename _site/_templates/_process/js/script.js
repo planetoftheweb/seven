@@ -4,6 +4,8 @@ $(document).ready(function() {
       .find("a.active")
       .attr("href");
 
+    $(".site-nav").removeClass("inbody");
+
     if (hash == "#main-content") {
       $(".site-nav").addClass("inbody");
     } else {

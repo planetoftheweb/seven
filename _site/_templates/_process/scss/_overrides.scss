@@ -83,8 +83,12 @@ a.text-primary:hover {
   @include font-size(1.2rem);
 }
 
+.item-title {
+  @include font-size(2rem);
+}
+
 .item-summary {
-  @include font-size(1.4rem);
+  @include font-size(1.3rem);
 }
 
 .main-sidebar {
