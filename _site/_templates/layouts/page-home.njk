@@ -23,6 +23,8 @@ layout: layouts/base.njk
 </header>
 {% endif %}
 
-<article id="main-content" class="page-home site-main container ">
+<article id="main-content" class="page-home site-main container"
+{% if carousel.items==null and hero==null%}style="padding-top: 60px"{%endif%}
+>
 {{ content | safe }}
 </article>

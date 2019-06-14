@@ -1,0 +1,15 @@
+---
+layout: layouts/page.njk
+headerHeight: 50vh
+sidebar: true
+blur: 3px
+---
+  {% if sidebar==true %}
+    <nav id="rightsidebar" class="navbar navbar-light bg-light flex-column">
+      {{ content | toc | safe }}
+    </nav>
+  {% endif %}
+    <div class="content col" data-spy="scroll" data-target="#rightsidebar" data-offset="0">
+    {{ content | safe }}
+    </div>
+
