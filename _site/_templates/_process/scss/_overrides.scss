@@ -41,6 +41,10 @@
   background: $primary;
 }
 
+.site-nav.sidebar {
+  background: $primary;
+}
+
 .layout-social {
   @include font-size(2rem);
 }

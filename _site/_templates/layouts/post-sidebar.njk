@@ -1,15 +1,48 @@
 ---
-layout: layouts/page.njk
+layout: layouts/base.njk
 headerHeight: 50vh
+hero: https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg
 sidebar: true
 blur: 3px
 ---
-  {% if sidebar==true %}
-    <nav id="rightsidebar" class="navbar navbar-light bg-light flex-column">
-      {{ content | toc | safe }}
-    </nav>
-  {% endif %}
-    <div class="content col" data-spy="scroll" data-target="#rightsidebar" data-offset="0">
-    {{ content | safe }}
-    </div>
 
+<style>
+h1:first-child {
+  margin-top: .5rem;
+}
+
+h2[id]::before, h3[id]::before, h4[id]::before {
+    display: block;
+    height: 3.5rem;
+    margin-top: -3.5rem;
+    content: "";
+}
+
+ol {
+  
+}
+</style>
+  <div class="container-fluid">
+    <div class="row justify-content-xl-center">
+
+      {% if collections.rayveal.length > 1 -%}
+      <div class="d-none d-md-block col-md-3 col-xl-2" style="font-size: .9rem; position: sticky; top: 4rem; height: calc(100vh - 4rem); overflow-y: auto;">
+        <nav class="list-group list-group-flush text-right">
+        {%- for item in collections.rayveal %}
+          {% include "includes/sidebar-list.njk" %}
+        {% endfor -%}
+        </nav>
+      </div>
+      {% endif -%}
+      <div class="col-12 col-md-6 col-lg-8 col-xl-6 pl-4">
+      {{ content | safe }}
+      </div>
+      <nav class="d-none d-md-block col-md-3 col-xl-2" style="font-size: .9rem; position: sticky; top: 4rem; height: calc(100vh - 4rem); overflow-y: auto;">
+      <div class="sticky-top">
+      {{ content | toc | safe }}
+      </div>
+      </nav>
+    </div>
+  </div>
+
+</div>

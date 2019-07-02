@@ -2,12 +2,15 @@
 layout: layouts/post-sidebar.njk
 ---
 
+## This Article
 {%- for item in collections.rayveal %}
   {% set defaultURL = '' %}
-  {% if item.data.links[0] %} 
+  {% if item.data.links[0] %}
+    <div class="list-group list-group-flush text-right">
     {% for name, link in item.data.links[0] %}
       {% set defaultURL = link %}
     {% endfor %}
+    </div>
   {% else %}
       {% set defaultURL = item.url %}
   {% endif %}

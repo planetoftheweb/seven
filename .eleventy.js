@@ -13,7 +13,11 @@ module.exports = function(eleventyConfig) {
     );
   });
 
-  eleventyConfig.addPlugin(pluginTOC, {tags: ['h2']});
+  eleventyConfig.addPlugin(pluginTOC, {
+    tags: ['h2'],
+    wrapper: 'div',
+    wrapperClass: ''
+  });
 
 
   // Get the first `n` elements of a collection.
@@ -45,18 +49,12 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("./_site/projects/rayveal/*.md");
   });
 
-  // only content in the `seven` directory
-  eleventyConfig.addCollection("seven", function(collection) {
-    return collection.getFilteredByGlob("./_site/projects/seven/*.md");
-  });
-
   eleventyConfig.addCollection("searchable", function(collection) {
     return collection
       .getFilteredByGlob([
         "./_site/courses/*.md", 
-        "./_site/posts/*.md", 
-        "./_site/projects/rayveal/*.md", 
-        "./_site/projects/seven/*.md"])
+        "./_site/posts/*.md",
+        "./_site/projects/**/*.md"])
       .reverse();
   });
 
