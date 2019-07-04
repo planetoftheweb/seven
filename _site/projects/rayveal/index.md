@@ -1,13 +1,13 @@
 ---
 layout: layouts/post-sidebar.njk
-title: Introduction
+title: "RavVeal: Introduction"
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
 tags:
   - project
   - rayveal
 ---
 
-# RayVeal
+# RayVeal.js
 
 Rayveal is an opinionated version of the awesome [reveal.js](https://github.com/hakimel/reveal.js/). The main difference an approach to creating slides that is [markdown centered](https://github.github.com/gfm/) with the ability to create multiple presentations in the same project.
 

@@ -45,8 +45,18 @@ module.exports = function(eleventyConfig) {
   });
 
   // only content in the `rayveal` directory
+  eleventyConfig.addCollection("projects", function(collection) {
+    return collection.getFilteredByGlob("./_site/projects/**/*.md");
+  });
+
+  // only content in the `rayveal` directory
   eleventyConfig.addCollection("rayveal", function(collection) {
     return collection.getFilteredByGlob("./_site/projects/rayveal/*.md");
+  });
+
+  // only content in the `rayveal` directory
+  eleventyConfig.addCollection("seven", function(collection) {
+    return collection.getFilteredByGlob("./_site/projects/seven/*.md");
   });
 
   eleventyConfig.addCollection("searchable", function(collection) {

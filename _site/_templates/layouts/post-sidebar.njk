@@ -1,48 +1,31 @@
 ---
 layout: layouts/base.njk
-headerHeight: 50vh
-hero: https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg
 sidebar: true
-blur: 3px
 ---
-
-<style>
-h1:first-child {
-  margin-top: .5rem;
-}
-
-h2[id]::before, h3[id]::before, h4[id]::before {
-    display: block;
-    height: 3.5rem;
-    margin-top: -3.5rem;
-    content: "";
-}
-
-ol {
-  
-}
-</style>
-  <div class="container-fluid">
+  {% include "includes/header.njk" %} 
+  <div class="post post-sidebar container-fluid">
     <div class="row justify-content-xl-center">
-
       {% if collections.rayveal.length > 1 -%}
-      <div class="d-none d-md-block col-md-3 col-xl-2" style="font-size: .9rem; position: sticky; top: 4rem; height: calc(100vh - 4rem); overflow-y: auto;">
-        <nav class="list-group list-group-flush text-right">
+
+      <aside class="aside aside-main d-none d-md-block col-md-3 col-lg-2">
+
+        <nav class="sticky-top list-group list-group-flush text-right" id="collapseExample">
         {%- for item in collections.rayveal %}
-          {% include "includes/sidebar-list.njk" %}
+          {% include "includes/projects-sidebar.njk" %}
         {% endfor -%}
         </nav>
-      </div>
+      </aside>
+
+
       {% endif -%}
-      <div class="col-12 col-md-6 col-lg-8 col-xl-6 pl-4">
+      <main class="main col">
       {{ content | safe }}
-      </div>
-      <nav class="d-none d-md-block col-md-3 col-xl-2" style="font-size: .9rem; position: sticky; top: 4rem; height: calc(100vh - 4rem); overflow-y: auto;">
-      <div class="sticky-top">
-      {{ content | toc | safe }}
-      </div>
-      </nav>
+      </main>
+      <aside class="aside aside-supplemental d-none d-lg-block col-lg-2 col-xl-2" >
+        <nav class="sticky-top">
+        {{ content | toc | safe }}
+        </nav>
+      </aside>
     </div>
   </div>
-
 </div>

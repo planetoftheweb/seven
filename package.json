@@ -1,6 +1,6 @@
 {
   "name": "seventy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Blogging template for the 11ty.io static site generator.",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
