@@ -13,9 +13,19 @@
   font-weight: 400;
 }
 
-.h2 {
+
+h1, .h1 {
+  color: $primary;
+}
+
+h2, .h2 {
+  color: $secondary;
   @include font-size(2rem);
   font-weight: 700;
+}
+
+h3, .h3 {
+  color: $special;  
 }
 
 .site-header {
