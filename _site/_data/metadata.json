@@ -6,8 +6,8 @@
     "summary": "An Eleventy theme based on <a href=\"http://getbootstrap.com/\">bootstrap</a> and bootstrap4layouts",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://raybo.org/seven/feed/feed.xml",
-    "id": "https://raybo.org/seven"
+    "url": "https://seven-7b2118.netlify.com/feed/feed.xml",
+    "id": "https://seven-7b2118.netlify.com"
   },
   "author": {
     "name": "Ray Villalobos",
