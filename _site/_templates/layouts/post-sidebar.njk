@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+sidebar: true
+---
+  {% include "includes/header.njk" %} 
+  <div class="post post-sidebar container-fluid">
+    <div class="row justify-content-xl-center">
+      {% if collections.rayveal.length > 1 -%}
+
+      <aside class="aside aside-main d-none d-md-block col-md-3 col-lg-2">
+
+        <nav class="sticky-top list-group list-group-flush text-right" id="collapseExample">
+        {%- for item in collections.rayveal %}
+          {% include "includes/projects-sidebar.njk" %}
+        {% endfor -%}
+        </nav>
+      </aside>
+
+
+      {% endif -%}
+      <main class="main col">
+      {{ content | safe }}
+      </main>
+      <aside class="aside aside-supplemental d-none d-lg-block col-lg-2 col-xl-2" >
+        <nav class="sticky-top">
+        {{ content | toc | safe }}
+        </nav>
+      </aside>
+    </div>
+  </div>
+</div>

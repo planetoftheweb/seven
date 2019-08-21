@@ -2,6 +2,9 @@
 layout: layouts/base.njk
 ---
 
+{% if carousel.items %}
+  {% include "includes/header-carousel.njk" %}
+{% elif hero %}
 <header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};">
 <section class="layout-hero position-absolute d-flex align-items-center" {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url({{ hero }}); height: 100%; width: 100%; filter: blur({{(blur) if blur else '0'}});" {% endif %}></section>
 <div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
@@ -18,7 +21,10 @@ layout: layouts/base.njk
   </div>
 </div>
 </header>
+{% endif %}
 
-<article id="main-content" class="page-home site-main container ">
+<article id="main-content" class="page-home site-main container"
+{% if carousel.items==null and hero==null%}style="padding-top: 60px"{%endif%}
+>
 {{ content | safe }}
 </article>

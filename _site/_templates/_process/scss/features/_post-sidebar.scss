@@ -1,0 +1,48 @@
+.post-sidebar {
+
+  h1:first-child {
+    margin-top: .5rem;
+  }
+
+  h2[id]::before, h3[id]::before, h4[id]::before {
+      display: block;
+      height: 3.5rem;
+      margin-top: -3.5rem;
+      content: "";
+  }
+
+  .main {
+    max-width: 1200px;
+  }
+
+  .aside {
+    max-width: 280px;
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+    font-family: $font-family-sans-serif;
+    @include font-size(.9em);
+  }
+
+  .aside-main {
+    min-width: 200px;
+  }
+
+  .list-group-item {
+      border-top: 1px dotted #495057;
+      line-height: 110%;
+  }
+
+  .aside-supplemental a.list-group-item {
+    padding: 0.5rem 1.25rem;
+    @include font-size(.8rem);
+    color: #95a5b1;
+    padding-left: 2em;
+    text-indent: -.8em ;
+  }
+
+  .aside-supplemental a.list-group-item::before {
+    content: "# ";
+  }
+}

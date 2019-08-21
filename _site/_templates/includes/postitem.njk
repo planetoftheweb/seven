@@ -12,8 +12,8 @@
               <a href="{{ item.url | url }}" class="h3 family-emphasis font-weight-bold text-primary d-block mb-1">{% if item.title %}{{ item.title }}{% else %}<code>{{ item.url }}</code>{% endif %}</a>
               <p class="lead mb-1 text-body">{% if item.summary %}{{ item.summary }}{% endif %}</p>
 
-              {% include "tags.njk" %}
-              {% include "links.njk" %}
+              {% include "includes/tags.njk" %}
+              {% include "includes/links.njk" %}
             </div>
           </div>
       </section>

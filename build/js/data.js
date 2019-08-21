@@ -1,11 +1,19 @@
 [{
+  "thumbnail": "/images/courses/bootstrap4-sass_tn.png",
+  "url": "https://www.linkedin.com/learning/bootstrap-4-with-sass/working-with-a-blog-project",
+  "icon": "<i class=\"fas fa-graduation-cap\"></i>",
+  "title": "Bootstrap 4 with Sass",
+  "date" : "Apr 19, 2019",
+  "summary" : "Bootstrap is the most popular framework for building responsive, mobile-first websites. When you combine it with Sass, you get CSS superpowers and a level of customization that makes Bootstrap even more powerful.",
+  "tags" : "course, bootstrap, bootstrap4, sass, css, frameworks, components, project, interface"
+},{
   "thumbnail": "/images/courses/vue-esst_tn.png",
   "url": "https://www.linkedin.com/learning/vue-js-essential-training-2",
   "icon": "<i class=\"fas fa-graduation-cap\"></i>",
   "title": "Vue.js Essential Training",
   "date" : "Mar 20, 2019",
   "summary" : "In this course, explore the fundamentals of Vue.js. Explore the core library and learn how to make the most of templates, classes, objects, arrays, styles, modules, and more. You&#39;ll learn using codepen as well as ",
-  "tags" : "course,react,javascript,frameworks,components,project,interface"
+  "tags" : "course,vue,javascript,frameworks,components,project,interface"
 },{
   "thumbnail": "/images/courses/react-interface_tn.png",
   "url": "https://www.linkedin.com/learning/react-js-building-an-interface-2",
@@ -31,21 +39,29 @@
   "summary" : "This course shows you how to build a polished single-page application (SPA), with tools for managing users and reading writing and editing data from Google&#39;s Firebase a real time multi-user database.",
   "tags" : "course,Github,Actions,Continuous Integration,Automation,Git"
 },{
+  "thumbnail": "/images/courses/electron_tn.png",
+  "url": "https://www.linkedin.com/learning/electron-building-cross-platform-desktop-apps-3",
+  "icon": "<i class=\"fas fa-graduation-cap\"></i>",
+  "title": "Electron: Building Cross Platform Desktop Apps",
+  "date" : "Nov 17, 2016",
+  "summary" : "Create compelling cross-platform desktop apps with a few lines of JavaScript, HTML, and CSS code with Electron.",
+  "tags" : "course,css,javascript,html,web designer,web developer,frameworks,electron,project"
+},{
   "thumbnail": "/images/courses/learnatom_tn.png",
   "url": "https://www.linkedin.com/learning/learning-atom-2/editing-with-atom?u=104",
   "icon": "<i class=\"fas fa-graduation-cap\"></i>",
   "title": "Learning Atom",
   "date" : "Dec 03, 2018",
   "summary" : "In this course, Ray Villalobos shows how to use and customize Atom for web, front-end, stack, or any other kind of development. Learn how to write and edit text, use selections, move around code folders, and use the powerful Find and Replace feature. Then find out how to customize the interface and editing experience with Atom themes, packages, and snippets. ",
-  "tags" : "course,css,javascript,html,text editor,web developer"
+  "tags" : "course, css, javascript, html, text editor, web developer"
 },{
   "thumbnail": "/images/courses/react-spas_tn.png",
   "url": "https://www.linkedin.com/learning/react-spas/working-with-exercises",
   "icon": "<i class=\"fas fa-graduation-cap\"></i>",
   "title": "React: Single Page Applications",
-  "date" : "Nov 07, 2018",
-  "summary" : "This course shows you how to build a polished single-page application (SPA), with tools for managing users and reading writing and editing data from Google&#39;s Firebase a real time multi-user database.",
-  "tags" : "course,react,javascript,firebase,routing,registration,authentication,project,CRUD,searching,filtering"
+  "date" : "May 28, 2019",
+  "summary" : "Electron is an open-source framework for creating desktop applications with your favorite web technologies: JavaScript, HTML, and CSS. It makes it easy to create a simple app with a few lines of code, using languages you already know.",
+  "tags" : "course, vue.js, vue, javascript, electron, frameworks"
 },{
   "thumbnail": "/images/posts/jsonarticle_tn.png",
   "url": "/posts/2018-10-12-json-tutorial/",
@@ -262,14 +278,6 @@
   "date" : "Dec 13, 2016",
   "summary" : "Make your mobile web apps act like native iOS, Android, or Windows Phone applications. Make them progressive! Learn techniques to make web apps responsive and secure, work offline, and launch from the home screen.",
   "tags" : "course,css,javascript,html,web designer,web developer"
-},{
-  "thumbnail": "/images/courses/electron_tn.png",
-  "url": "https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Felectron-building-cross-platform-desktop-apps",
-  "icon": "<i class=\"fas fa-graduation-cap\"></i>",
-  "title": "Electron: Building Cross Platform Desktop Apps",
-  "date" : "Nov 17, 2016",
-  "summary" : "Create compelling cross-platform desktop apps with a few lines of JavaScript, HTML, and CSS code with Electron.",
-  "tags" : "course,css,javascript,html,web designer,web developer,frameworks,electron,project"
 },{
   "thumbnail": "/images/courses/npmscripts_tn.png",
   "url": "https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Ftooling-with-npm-scripts",

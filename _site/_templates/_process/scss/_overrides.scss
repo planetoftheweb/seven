@@ -13,9 +13,19 @@
   font-weight: 400;
 }
 
-.h2 {
+
+h1, .h1 {
+  color: $primary;
+}
+
+h2, .h2 {
+  color: $secondary;
   @include font-size(2rem);
   font-weight: 700;
+}
+
+h3, .h3 {
+  color: $special;  
 }
 
 .site-header {
@@ -38,6 +48,10 @@
 
 .site-nav.inbody {
   transition: all 0.5s ease-in-out;
+  background: $primary;
+}
+
+.site-nav.sidebar {
   background: $primary;
 }
 
@@ -83,8 +97,12 @@ a.text-primary:hover {
   @include font-size(1.2rem);
 }
 
+.item-title {
+  @include font-size(2rem);
+}
+
 .item-summary {
-  @include font-size(1.4rem);
+  @include font-size(1.3rem);
 }
 
 .main-sidebar {

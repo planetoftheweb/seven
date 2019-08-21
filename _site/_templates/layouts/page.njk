@@ -2,8 +2,9 @@
 layout: layouts/base.njk
 headerHeight: 30vh
 ---
-{% include "header.njk" %}
-
-<article id="main-content" class="site-main container mt-3 mb-5">
+{% include "includes/header.njk" %} 
+<article id="main-content" class="site-main container mt-3 mb-5"
+{% if carousel.items==null and hero==null%}style="padding-top: 80px"{%endif%}
+>
 {{ content | safe }}
 </article>

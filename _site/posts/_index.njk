@@ -11,7 +11,7 @@ navtitle: Posts
 permalink: /posts/{{pagination.pageNumber}}/
 ---
 
-{% include "pagination.njk" %}
+{% include "includes/pagination.njk" %}
 
 {%- for item in pagination.items %}
   {% set defaultURL = '' %}
@@ -23,9 +23,9 @@ permalink: /posts/{{pagination.pageNumber}}/
       {% set defaultURL = item.url %}
   {% endif %}
 
-  {% include "items.njk" %}
+  {% include "includes/items.njk" %}
 
 {% endfor -%}
 
-{% include "pagination.njk" %}
+{% include "includes/pagination.njk" %}
 

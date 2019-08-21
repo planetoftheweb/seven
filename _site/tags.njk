@@ -17,5 +17,5 @@ permalink: /tags/{{ tag }}/
 <h2 class="text-secondary mb-5">Tagged <small>“{{ tag }}”</small></h2>
 
 {%- for item in collections[tag] | reverse %}
-  {% include "items.njk" %}
+  {% include "includes/items.njk" %}
 {%- endfor %}

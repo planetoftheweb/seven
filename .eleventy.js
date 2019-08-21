@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginTOC = require('eleventy-plugin-nesting-toc');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -11,6 +12,13 @@ module.exports = function(eleventyConfig) {
       "LLL dd, yyyy"
     );
   });
+
+  eleventyConfig.addPlugin(pluginTOC, {
+    tags: ['h2'],
+    wrapper: 'div',
+    wrapperClass: ''
+  });
+
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
@@ -26,19 +34,37 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd");
   });
 
-  // only content in the `posts/` directory
+  // only content in the `posts` directory
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getFilteredByGlob("./_site/posts/*.md").reverse();
   });
 
-  // only content in the `posts/` directory
+  // only content in the `courses` directory
   eleventyConfig.addCollection("courses", function(collection) {
     return collection.getFilteredByGlob("./_site/courses/*.md").reverse();
   });
 
+  // only content in the `rayveal` directory
+  eleventyConfig.addCollection("projects", function(collection) {
+    return collection.getFilteredByGlob("./_site/projects/**/*.md");
+  });
+
+  // only content in the `rayveal` directory
+  eleventyConfig.addCollection("rayveal", function(collection) {
+    return collection.getFilteredByGlob("./_site/projects/rayveal/*.md");
+  });
+
+  // only content in the `rayveal` directory
+  eleventyConfig.addCollection("seven", function(collection) {
+    return collection.getFilteredByGlob("./_site/projects/seven/*.md");
+  });
+
   eleventyConfig.addCollection("searchable", function(collection) {
     return collection
-      .getFilteredByGlob(["./_site/courses/*.md", "./_site/posts/*.md"])
+      .getFilteredByGlob([
+        "./_site/courses/*.md", 
+        "./_site/posts/*.md",
+        "./_site/projects/**/*.md"])
       .reverse();
   });
 
@@ -60,7 +86,7 @@ module.exports = function(eleventyConfig) {
   let opts = {
     permalink: true,
     permalinkClass: "direct-link",
-    permalinkSymbol: "#"
+    permalinkSymbol: " "
   };
 
   eleventyConfig.setLibrary(

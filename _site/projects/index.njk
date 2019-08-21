@@ -1,0 +1,21 @@
+---
+layout: layouts/post-sidebar.njk
+---
+
+{%- for item in collections.seven %}
+  {% set defaultURL = '' %}
+  {% if item.data.links[0] %}
+    <div class="list-group list-group-flush text-right">
+    {% for name, link in item.data.links[0] %}
+      {% set defaultURL = link %}
+    {% endfor %}
+    </div>
+  {% else %}
+      {% set defaultURL = item.url %}
+  {% endif %}
+
+  {% include "includes/items.njk" %}
+
+{% endfor -%}
+
+
