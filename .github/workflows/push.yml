@@ -5,25 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: deploy
-      uses: actions/zeit-now@master
+    - name: Print GitHub Context # Debug step
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+        GITHUB_CONTEXT: ${{ toJson(github) }}
+      run: echo "$GITHUB_CONTEXT"
     - name: alias
       uses: actions/zeit-now@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
       with:
-        args: alias `cat /github/home/deploy.txt` ${{ github.sha }}
-    - name: master-branch-filter
-      uses: actions/bin/filter@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
-      with:
-        args: branch master
+        args: alias
     - name: release
       uses: actions/zeit-now@master
       env:
