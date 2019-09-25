@@ -1,0 +1,33 @@
+on: push
+name: Deploy on Now
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: deploy
+      uses: actions/zeit-now@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+    - name: alias
+      uses: actions/zeit-now@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+      with:
+        args: alias `cat /github/home/deploy.txt` ${{ github.sha }}
+    - name: master-branch-filter
+      uses: actions/bin/filter@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+      with:
+        args: branch master
+    - name: release
+      uses: actions/zeit-now@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
+      with:
+        args: alias --local-config=./site/now.json
