@@ -1,6 +1,12 @@
 ---
 layout: layouts/post-sidebar.njk
 title: Building
+sidebar: seven
+eleventyNavigation:
+  key: building
+  title: 'Building'
+  parent: seven
+  order: 6
 tags:
   - project
   - rayveal
@@ -12,15 +18,13 @@ The main configuration file is called `.eleventy.js` and is in the root folder. 
 
 ```js
 // only content in the `posts/` directory
-eleventyConfig.addCollection("courses", function(collection) {
-  return collection.getFilteredByGlob("./_site/courses/*.md").reverse();
-});
+eleventyConfig.addCollection('courses', function(collection) {
+  return collection.getFilteredByGlob('./_site/courses/*.md').reverse()
+})
 
-eleventyConfig.addCollection("searchable", function(collection) {
-  return collection
-    .getFilteredByGlob(["./_site/courses/*.md", "./_site/posts/*.md"])
-    .reverse();
-});
+eleventyConfig.addCollection('searchable', function(collection) {
+  return collection.getFilteredByGlob(['./_site/courses/*.md', './_site/posts/*.md']).reverse()
+})
 ```
 
 These commands set up collections, which are used to build the site. The first example corresponds to folders in the `_site` folder that are the main sections of the site. The commands here will look for a certain folder in the `_sites` folder and build a collection out of everything in there.

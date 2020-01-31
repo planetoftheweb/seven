@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
     "dev:del": "rimraf dist",
-    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
+    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "dev:webpack": "webpack --config webpack.dev.js",
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",

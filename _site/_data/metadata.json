@@ -12,15 +12,26 @@
   "author": {
     "name": "Ray Villalobos",
     "bio": "Ray Villalobos is a Full Stack Web Development Author. He’s a full time Staff Author at LInkedIn Learning and Lynda.com.",
-    "social": {
-      "email": "ray@planetoftheweb.com",
-      "linkedin": "https://linkedin.com/in/planetoftheweb",
-      "github": "https://github.com/planetoftheweb",
-      "twitter": "https://twitter.com/planetoftheweb",
-      "dribbble": "https://dribbble.com/planetoftheweb",
-      "flickr": "https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/",
-      "youtube": "https://www.youtube.com/user/planetoftheweb",
-      "instagram": "https://www.instagram.com/iviewsource"
-    }
+    "social": [
+      {
+        "name": "github",
+        "iconClass": "fab fa-github",
+        "url": "https://github.com/planetoftheweb"
+      },
+      {
+        "name": "linkedin",
+        "iconClass": "fab fa-linkedin",
+        "url": "https://linkedin.com/in/planetoftheweb"
+      },
+      { "name": "twitter", "iconClass": "fab fa-twitter", "url": "https://twitter.com/planetoftheweb" },
+      { "name": "dribble", "iconClass": "fab fa-dribbble", "url": "https://dribbble.com/planetoftheweb" },
+      {
+        "name": "flickr",
+        "iconClass": "fab fa-flickr",
+        "url": "https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/"
+      },
+      { "name": "youtube", "iconClass": "fab fa-youtube", "url": "https://www.youtube.com/user/planetoftheweb" },
+      { "name": "instagram", "iconClass": "fab fa-instagram", "url": "https://www.instagram.com/iviewsource" }
+    ]
   }
 }

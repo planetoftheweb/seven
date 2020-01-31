@@ -8,11 +8,14 @@ sidebar: true
       {% if collections.rayveal.length > 1 -%}
 
       <aside class="aside aside-main d-none d-md-block col-md-3 col-lg-2">
-
         <nav class="sticky-top list-group list-group-flush text-right" id="collapseExample">
-        {%- for item in collections.rayveal %}
-          {% include "includes/projects-sidebar.njk" %}
-        {% endfor -%}
+
+          {% set sidebarNav = collections.all | eleventyNavigation(sidebar) %}
+
+          {%- for nav in sidebarNav | reverse -%}
+           <a class="list-group-item d-flex justify-content-end align-items-center" href="{{ nav.url | url }}">{{ nav.title | safe }}<i class="fas fa-file-alt ml-2"></i></a>
+          {%- endfor -%}
+
         </nav>
       </aside>
 

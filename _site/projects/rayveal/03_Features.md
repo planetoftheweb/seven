@@ -2,12 +2,19 @@
 layout: layouts/post-sidebar.njk
 title: Features
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
+sidebar: rayveal
+eleventyNavigation:
+  key: features
+  title: 'Features'
+  parent: rayveal
+  order: 2
 tags:
   - project
   - rayveal
 ---
 
 # Features
+
 Although RayVeal was designed to compatible with reveal.js, there are some important differences between the two.
 
 ## Persistent toolbar
@@ -45,8 +52,7 @@ You can use `code` blocks with different colors
 I'm not importing the Bootstrap JavaScript or the Bootstrap Grid, so I created my own way of doing a simple tooltip using CSS.
 
 ```html
-<a class="tooltip" href="#">`tooltips`<span>For overlay explanations</span></a>
-on rollover
+<a class="tooltip" href="#">`tooltips`<span>For overlay explanations</span></a> on rollover
 ```
 
 ### Code Sample Lists

@@ -2,12 +2,19 @@
 layout: layouts/post-sidebar.njk
 title: Templates
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
+sidebar: rayveal
+eleventyNavigation:
+  key: templates
+  title: 'Templates'
+  parent: rayveal
+  order: 4
 tags:
   - project
   - rayveal
 ---
 
 # Templates
+
 There are a number of templates that are quickly accessed by using data attributes in comments. Here are some of the templates currently available.
 
 ## Title Slide

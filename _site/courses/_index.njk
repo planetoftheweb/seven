@@ -9,6 +9,11 @@ pagination:
 navtitle: Courses
 iconclass: fas fa-graduation-cap
 permalink: /courses/{{pagination.pageNumber}}/
+eleventyNavigation:
+  key: courses
+  parent: main
+  order: 2
+
 ---
 {% include "includes/pagination.njk" %}
 {%- for item in pagination.items %}

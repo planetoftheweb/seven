@@ -2,6 +2,12 @@
 layout: layouts/post-sidebar.njk
 title: Setup Instructions
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
+sidebar: rayveal
+eleventyNavigation:
+  key: instructions
+  title: 'Instructions'
+  parent: rayveal
+  order: 2
 tags:
   - project
   - rayveal
@@ -12,7 +18,6 @@ tags:
 ## Instructions
 
 Instead of creating HTML files, you simply create one or more `*.md` files in the `build/slides` folder. A server is required in order to use RayVeal properly...since the markdown files have to be loaded dynamicaly, so upload the contents of the `build` folder to a server.
-
 
 ## Installing Locally (optional)
 
@@ -43,4 +48,3 @@ If you want to control what gets included in the `bootstrap-light.css` file, you
 ## Pre-installed plugins
 
 There are lots of great [reveal.js plugins](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware) and I added the awesome [menu plugin](https://github.com/denehyg/reveal.js-menu), so that you can hit the `m` key and get a list of your presentations.
-
