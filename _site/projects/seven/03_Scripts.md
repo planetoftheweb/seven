@@ -2,6 +2,7 @@
 layout: layouts/post-sidebar.njk
 title: Scripts
 sidebar: seven
+summary: 
 eleventyNavigation:
   key: scripts
   title: 'Scripts'

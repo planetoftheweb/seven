@@ -7,7 +7,6 @@ links:
   - lil: https://www.linkedin.com/learning/vue-js-essential-training-2
   - repo: https://github.com/planetoftheweb/vue-essentials
 tags:
-  - course
   - react
   - javascript
   - frameworks

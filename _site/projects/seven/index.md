@@ -7,9 +7,6 @@ sidebar: seven
 eleventyNavigation:
   key: seven
   parent: projects
-tags:
-  - project
-  - rayveal
 ---
 
 # Seven

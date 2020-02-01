@@ -6,7 +6,6 @@ hero: '/images/courses/succeeding-web-development.jpg'
 links:
   - lil: https://www.linkedin.com/learning/succeeding-in-web-development-full-stack-and-front-end/becoming-a-web-developer?u=104
 tags:
-  - course
   - careers
   - full stack
   - web development

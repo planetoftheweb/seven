@@ -5,7 +5,6 @@ summary: "In order to work with data-visualization, it's important to understand
 hero: /images/posts/dataformats.png
 thumb: /images/posts/dataformats_tn.png
 tags:
-  - post
   - data visualization
 ---
 

@@ -6,10 +6,9 @@ hero: "/images/courses/githubactions.jpg"
 links:
   - lil: https://www.linkedin.com/learning/github-actions-first-look-2
 tags:
-  - course
-  - Github
-  - Actions
-  - Continuous Integration
-  - Automation
-  - Git
+  - github
+  - actions
+  - continuous integration
+  - automation
+  - git
 ---

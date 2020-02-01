@@ -7,7 +7,6 @@ links:
   - lil: https://www.linkedin.com/learning/react-js-building-an-interface-2
   - repo: https://github.com/planetoftheweb/reactinterface2
 tags:
-  - course
   - react
   - javascript
   - frameworks

@@ -8,9 +8,6 @@ eleventyNavigation:
   title: 'Templates'
   parent: rayveal
   order: 4
-tags:
-  - project
-  - rayveal
 ---
 
 # Templates

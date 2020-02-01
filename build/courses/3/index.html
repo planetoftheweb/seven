@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Raybo.org</title>
+    <title>Seven</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,69 +20,63 @@
     
 
     <script src="/js/script.js"></script>
-  <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
+  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
         <a class="nav-item nav-link " href="/"><i class="fas fa-home"></i></a>
-          <a class="nav-item nav-link" href="/posts/0/">Posts</a>
+        
+          <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
-          <a class="nav-item nav-link" href="/courses/0/">Courses</a>
+          <a class="nav-item nav-link" href="/posts/0/">posts</a>
           <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+
+
+
+
+          <a class="dropdown-item text-capitalize text-normal" href="/projects/seven/"><i class="fas fa-atom"></i> seven</a><a class="dropdown-item text-capitalize text-normal" href="/projects/rayveal/"><i class="fas fa-atom"></i> rayveal</a></div>
+        </div>
+        <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div>
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-                  <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
-                  <i class="fab fa-github text-secondary mr-2"></i>Github
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
-                  <i class="fab fa-twitter text-secondary mr-2"></i>Twitter
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-                  <i class="fab fa-youtube text-secondary mr-2"></i>YouTube
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
-                  <i class="fab fa-dribbble text-secondary mr-2"></i>Dribbble
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-                  <i class="fab fa-flickr text-secondary mr-2"></i>Flickr
-                </a>
-              
-              
-          </div>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
+            <i class="fab fa-github text-secondary mr-2"></i>github
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
+            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
+            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.instagram.com/iviewsource">
+            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
+          </a></div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -113,23 +106,29 @@
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 30vh;">
+    
+  <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 30vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg); height: 100%; width: 100%;  filter: blur(0);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h2 class="page-section-title text-light"></h2>
-        <p class="page-section-text lead text-light display-1">
+        <p class="page-section-text text-light d-none d-md-block">
           
         </p>
       </div>
     </div>
   </div>
 </div>
-</header>
+</header> 
 
-<article id="main-content" class="site-main container mt-3 mb-5">
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
 <nav class="my-3" aria-label="Page navigation">
   <div class="pagination pagination-sm justify-content-center">
       
@@ -148,6 +147,8 @@
     
       <div class="page-item "><a class="page-link" href="/courses/4/index.html">5</a></div>
     
+      <div class="page-item "><a class="page-link" href="/courses/5/index.html">6</a></div>
+    
 
       
       <div class="page-item">
@@ -162,6 +163,347 @@
   
 
   <div class="row justify-content-center px-3 px-sm-0 my-5  mb-3 ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpostcss-first-look%2Fwhat-is-postcss" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/postcssfirstlook_tn.png" alt="PostCSS: First Look image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jan 14, 2016">Jan 14, 2016</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fpostcss-first-look%2Fwhat-is-postcss" class="item-title h2 d-block" target="_blank">PostCSS: First Look
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Want to write CSS faster and more efficiently? Get a first look at PostCSS, the engine for processing CSS with JavaScript.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+    
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+    <a href="/tags/postcss/" class="badge badge-special">postcss</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-markdown%2Fwhat-is-markdown" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/markdown_tn.png" alt="Learning Markdown image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Dec 23, 2015">Dec 23, 2015</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-markdown%2Fwhat-is-markdown" class="item-title h2 d-block" target="_blank">Learning Markdown
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Get started with Markdown, the lightweight text format that allows you to create documents, rich text, or HTML markup using any plain text editor.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+    <a href="/tags/tools/" class="badge badge-special">tools</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/angularjs-1-form-validation?u=104" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/angularjs1-formvalidation_tn.png" alt="AngularJS: Form Validation image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Nov 10, 2015">Nov 10, 2015</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/angularjs-1-form-validation?u=104" class="item-title h2 d-block" target="_blank">AngularJS: Form Validation
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Learn how to implement dynamic form validation on any HTML form using the built-in validation properties and methods in AngularJS.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+    
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+    <a href="/tags/angular/" class="badge badge-special">angular</a>
+    <a href="/tags/frameworks/" class="badge badge-special">frameworks</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsass-essential-training" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/sass_tn.png" alt="Sass Essential Training image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Oct 06, 2015">Oct 06, 2015</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsass-essential-training" class="item-title h2 d-block" target="_blank">Sass Essential Training
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+    
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/video tutorial/" class="badge badge-special">video tutorial</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/sass/" class="badge badge-special">sass</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbootstrap-3-essential-training" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/bootstrap3_tn.png" alt="Bootstrap 3 Essential Training image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Aug 26, 2015">Aug 26, 2015</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbootstrap-3-essential-training" class="item-title h2 d-block" target="_blank">Bootstrap 3 Essential Training
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Everything you need to know to get started building responsive, accessible, mobile-first websites with Bootstrap 3.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+    
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+    <a href="/tags/bootstrap/" class="badge badge-special">bootstrap</a>
+    <a href="/tags/frameworks/" class="badge badge-special">frameworks</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-git-and-github" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/gitandgithub_tn.png" alt="Up and Running with Git and GitHub image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jul 06, 2015">Jul 06, 2015</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-git-and-github" class="item-title h2 d-block" target="_blank">Up and Running with Git and GitHub
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Learning Git and GitHub Preview. Learn to work with the most common Git commands, and use GitHub to clone, explore, and create templates from existing projects.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+    <a href="/tags/tools/" class="badge badge-special">tools</a>
+    <a href="/tags/git/" class="badge badge-special">git</a>
+    <a href="/tags/github/" class="badge badge-special">github</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fgrunt-js-web-workflows" class="d-block mb-1"  target="_blank">
+          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/workflows-grunt_tn.png" alt="Web Workflows with Grunt.js image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 13, 2015">Jun 13, 2015</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fgrunt-js-web-workflows" class="item-title h2 d-block" target="_blank">Web Workflows with Grunt.js
+      
+        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Program, test, and deploy your web applications more easily and efficiently with a Grunt.js development workflow.</p>
+      
+
+  <div class="item-links">
+  
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+    
+    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
+    
+  
+  </div>
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+    <a href="/tags/course/" class="badge badge-special">course</a>
+    <a href="/tags/css/" class="badge badge-special">css</a>
+    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
+    <a href="/tags/html/" class="badge badge-special">html</a>
+    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
+    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
+    <a href="/tags/tools/" class="badge badge-special">tools</a>
+    <a href="/tags/grunt/" class="badge badge-special">grunt</a>
+</div>
+    </div>
+  </div>
+
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
         <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbootstrap-layouts-responsive-single-page-design" class="d-block mb-1"  target="_blank">
@@ -183,10 +525,6 @@
   <div class="item-links">
   
     <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
     
     
   
@@ -219,61 +557,6 @@
   <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
     
       <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fgulp-js-git-and-browserify-web-project-workflows" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/workflows-gulp_tn.png" alt="Web Project Workflows with Gulp.js, Git, and Browserify image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Jun 23, 2014">Jun 23, 2014</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fgulp-js-git-and-browserify-web-project-workflows" class="item-title h2 d-block" target="_blank">Web Project Workflows with Gulp.js, Git, and Browserify
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Learn how to generate a workflow that makes it easier to build your own websites, track and share project files, and leverage JavaScript and jQuery code libraries.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-    
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/css/" class="badge badge-special">css</a>
-    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
-    <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-    <a href="/tags/tools/" class="badge badge-special">tools</a>
-    <a href="/tags/git/" class="badge badge-special">git</a>
-    <a href="/tags/github/" class="badge badge-special">github</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
         <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-functions" class="d-block mb-1"  target="_blank">
           <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/javascript-functions_tn.png" alt="JavaScript: Functions image">
         </a>
@@ -293,10 +576,6 @@
   <div class="item-links">
   
     <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
     
     
   
@@ -345,10 +624,6 @@
     
   
     
-    
-    
-  
-    
     <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-github mr-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>
     
   
@@ -363,297 +638,6 @@
     <a href="/tags/sass/" class="badge badge-special">sass</a>
     <a href="/tags/javascript/" class="badge badge-special">javascript</a>
     <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-events" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/javascript-events_tn.png" alt="JavaScript: Events image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Sep 17, 2013">Sep 17, 2013</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-events" class="item-title h2 d-block" target="_blank">JavaScript: Events
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Learn to use JavaScript events to respond to clicks, form input, and touch gestures in your web applications.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/css/" class="badge badge-special">css</a>
-    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
-    <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Freveal-js-online-presentations" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/reveal_tn.png" alt="Online Presentations with reveal.js image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Sep 05, 2013">Sep 05, 2013</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Freveal-js-online-presentations" class="item-title h2 d-block" target="_blank">Online Presentations with reveal.js
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Build slideshows that harness the full power of the web with reveal.js.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/video tutorial/" class="badge badge-special">video tutorial</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-    <a href="/tags/tools/" class="badge badge-special">tools</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbootstrap-3-advanced-web-development" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/bootstrap3-advanced_tn.png" alt="Bootstrap 3: Advanced Web Development image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Aug 13, 2013">Aug 13, 2013</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbootstrap-3-advanced-web-development" class="item-title h2 d-block" target="_blank">Bootstrap 3: Advanced Web Development
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Generate an interactive website from scratch with Bootstrap.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/css/" class="badge badge-special">css</a>
-    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
-    <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-    <a href="/tags/frameworks/" class="badge badge-special">frameworks</a>
-    <a href="/tags/bootstrap/" class="badge badge-special">bootstrap</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcoding-faster-with-emmet" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/emmet_tn.png" alt="Coding Faster with Emmet image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Jul 31, 2013">Jul 31, 2013</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcoding-faster-with-emmet" class="item-title h2 d-block" target="_blank">Coding Faster with Emmet
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Learn to use Emmet's abbreviated shortcuts to write full-fledged HTML, XML, CSS, and code faster and more efficiently.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/css/" class="badge badge-special">css</a>
-    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
-    <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-    <a href="/tags/tools/" class="badge badge-special">tools</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-enhancing-the-dom" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/javascript-dom_tn.png" alt="JavaScript: Enhancing the DOM image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Jun 10, 2013">Jun 10, 2013</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-enhancing-the-dom" class="item-title h2 d-block" target="_blank">JavaScript: Enhancing the DOM
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Learn to modify the DOM (Document Object Model), one of the core components of every HTML page, with JavaScript.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/css/" class="badge badge-special">css</a>
-    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
-    <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/web designer/" class="badge badge-special">web designer</a>
-    <a href="/tags/web developer/" class="badge badge-special">web developer</a>
-</div>
-    </div>
-  </div>
-
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 my-5  my-md-huge ">
-    
-      <div class="col-md-3">
-        <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fvalidating-and-processing-forms-with-javascript-and-php" class="d-block mb-1"  target="_blank">
-          <img class="item-title shadow-lg w-100 img-fluid rounded" src="/images/courses/javascriptphp-forms_tn.png" alt="Validating and Processing Forms with JavaScript and PHP image">
-        </a>
-      <time class="item-date small d-block text-body" datetime="Apr 23, 2013">Apr 23, 2013</time>
-      </div>
-    
-
-    <div class="col-md-9">
-      <a href="https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fvalidating-and-processing-forms-with-javascript-and-php" class="item-title h2 d-block" target="_blank">Validating and Processing Forms with JavaScript and PHP
-      
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
-      
-      </a>
-      <p class="item-summary lead mb-1 text-body">Learn how to ensure the data submitted to your web forms is complete, accurate, and nonmalicious with HTML5, JavaScript, jQuery, and PHP form processing and validation.</p>
-      
-
-  <div class="item-links">
-  
-    <a href="" class="mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
-    
-    
-  
-    
-    
-    
-  
-  </div>
-  
-
-      <div class="tagslist d-none d-lg-block mt-2">
-  
-    <a href="/tags/course/" class="badge badge-special">course</a>
-    <a href="/tags/css/" class="badge badge-special">css</a>
-    <a href="/tags/javascript/" class="badge badge-special">javascript</a>
-    <a href="/tags/html/" class="badge badge-special">html</a>
-    <a href="/tags/php/" class="badge badge-special">php</a>
     <a href="/tags/web designer/" class="badge badge-special">web designer</a>
     <a href="/tags/web developer/" class="badge badge-special">web developer</a>
 </div>
@@ -677,6 +661,8 @@
     
       <div class="page-item "><a class="page-link" href="/courses/4/index.html">5</a></div>
     
+      <div class="page-item "><a class="page-link" href="/courses/5/index.html">6</a></div>
+    
 
       
       <div class="page-item">
@@ -690,43 +676,19 @@
 
 </article>
 
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
-  
-    <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-      <i class="fab fa-linkedin"></i>
-    </a>
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://github.com/planetoftheweb">
-      <i class="fab fa-github"></i>
-    </a>
+
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://twitter.com/planetoftheweb">
-      <i class="fab fa-twitter"></i>
-    </a>
-  
 
   
-    <a class="text-light px-2" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-      <i class="fab fa-youtube"></i>
-    </a>
-  
 
-  
-    <a class="text-light px-2" target="_blank" href="https://dribbble.com/planetoftheweb">
-      <i class="fab fa-dribbble"></i>
-    </a>
-  
-
-  
-    <a class="text-light px-2" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-      <i class="fab fa-flickr"></i>
-    </a>
   
 
   

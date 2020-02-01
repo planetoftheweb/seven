@@ -5,7 +5,6 @@ summary: "If your goal is to create visualizations for online consumption, it's 
 hero: /images/posts/graphics.png
 thumb: /images/posts/graphics_tn.png
 tags:
-  - post
   - web design
   - web development
 ---

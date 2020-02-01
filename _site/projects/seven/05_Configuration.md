@@ -2,6 +2,7 @@
 layout: layouts/post-sidebar.njk
 title: Configuration
 sidebar: seven
+summary: 
 eleventyNavigation:
   key: configuration
   title: 'Configuration'

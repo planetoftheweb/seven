@@ -5,7 +5,6 @@ summary: "Everyone talks about getting a lot of followers in social media, but w
 hero: /images/posts/rightsocialmedia.png
 thumb: /images/posts/rightsocialmedia_tn.png
 tags:
-  - post
   - social media
 ---
 

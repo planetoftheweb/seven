@@ -8,9 +8,6 @@ eleventyNavigation:
   title: 'Features'
   parent: rayveal
   order: 2
-tags:
-  - project
-  - rayveal
 ---
 
 # Features

@@ -5,7 +5,6 @@ summary: "A lot of data visualizations use the SVG format to create graphics, so
 hero: /images/posts/svggraphics.png
 thumb: /images/posts/svggraphics_tn.png
 tags:
-  - post
   - data visualization
   - svg
 ---

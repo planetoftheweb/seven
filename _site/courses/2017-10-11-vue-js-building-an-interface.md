@@ -7,7 +7,6 @@ links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fvue-js-building-an-interface%2Fcreating-a-named-component
   - repo: https://github.com/planetoftheweb/vueinterface
 tags:
-  - course
   - video tutorial
   - css
   - sass

@@ -7,7 +7,6 @@ links:
   - lil: https://www.linkedin.com/learning/angular-building-an-interface/building-an-interface-with-angular
   - repo: https://github.com/planetoftheweb/angularinterface
 tags:
-  - course
   - angular
   - javascript
   - frameworks

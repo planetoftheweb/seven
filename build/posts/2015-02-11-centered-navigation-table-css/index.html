@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Raybo.org</title>
+    <title>Seven</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,69 +20,63 @@
     
 
     <script src="/js/script.js"></script>
-  <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
+  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a> 
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
         <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
-          <a class="nav-item nav-link" href="/posts/0/">Posts</a>
+        
+          <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
-          <a class="nav-item nav-link" href="/courses/0/">Courses</a>
+          <a class="nav-item nav-link" href="/posts/0/">posts</a>
           <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+
+
+
+
+          <a class="dropdown-item text-capitalize text-normal" href="/projects/seven/"><i class="fas fa-atom"></i> seven</a><a class="dropdown-item text-capitalize text-normal" href="/projects/rayveal/"><i class="fas fa-atom"></i> rayveal</a></div>
+        </div>
+        <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div>
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-                  <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
-                  <i class="fab fa-github text-secondary mr-2"></i>Github
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
-                  <i class="fab fa-twitter text-secondary mr-2"></i>Twitter
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-                  <i class="fab fa-youtube text-secondary mr-2"></i>YouTube
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
-                  <i class="fab fa-dribbble text-secondary mr-2"></i>Dribbble
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-                  <i class="fab fa-flickr text-secondary mr-2"></i>Flickr
-                </a>
-              
-              
-          </div>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
+            <i class="fab fa-github text-secondary mr-2"></i>github
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
+            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
+            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.instagram.com/iviewsource">
+            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
+          </a></div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -113,81 +106,65 @@
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
+    
+  <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(/images/posts/horizontally.png); height: 100%; width: 100%;  filter: blur(3px);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h2 class="page-section-title text-light">Horizontally Centered Navigation Menu with CSS</h2>
-        <p class="page-section-text lead text-light display-1">
+        <p class="page-section-text text-light d-none d-md-block">
           Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.
         </p>
       </div>
     </div>
   </div>
 </div>
-</header>
+</header> 
 
-<article id="main-content" class="site-main container mt-3 mb-5">
-<h1 class="text-primary mt-5 mb-3">Horizontally Centered Navigation Menu with CSS</h1>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="px-3 px-sm-0">
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" width="700" height="450" src="https://www.youtube.com/embed/RT64aSNXnzY" frameborder="0" allowfullscreen></iframe>
 </div>
 <p>One of the first things you try to do when you learn CSS is to create a centered navigation menu, but it's not as straightforward as it should be. You'd think that there was some sort of center command and in the future, something like <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a> will make it a lot easier. But even flexbox is no magic bullet with poor browser support in older browsers and frankly, a somewhat confusing syntax.</p>
 <p>My current approach is to do something that ends up looking like this.</p>
 <p><a class="jsbin-embed" href="http://jsbin.com/popalu/11/embed?output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
-<h2 id="the-trick">The Trick <a class="direct-link" href="#the-trick" aria-hidden="true">#</a></h2>
+<h2 id="the-trick">The Trick <a class="direct-link" href="#the-trick"> </a></h2>
 <p>Since you can just read the code above or watch the video, I'll give you the highlights so you can catch the critical part.</p>
 <pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>sitemenu<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>navwrapper<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> MySite<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> Home<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>about us<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> contact us<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">></span></span></span></code></pre>
 <p>I've simplified it a bit here for clarity. The key extra item here is the addition of a wrapper div with a class navwrapper. In order to get this to work you'll need this extra piece of HTML.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">.sitemenu</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">background</span><span class="token punctuation">:</span> #a2cea5<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"Droid Sans"</span>, serif<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">border-top</span><span class="token punctuation">:</span> 8px solid #126758<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">.sitemenu</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">background</span><span class="token punctuation">:</span> #a2cea5<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"Droid Sans"</span><span class="token punctuation">,</span> serif<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">border-top</span><span class="token punctuation">:</span> 8px solid #126758<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
 <p>##Set the width of main container<br>
 The main thing here is the <code>width: 100%;</code> on the nav with the sitemenu class. You should have a container here that makes the width of the navigation container go full width. If you examine the code (by clicking on the HTML tab in the code window).</p>
-<h2 id="enter-the-table-style">Enter the table style <a class="direct-link" href="#enter-the-table-style" aria-hidden="true">#</a></h2>
+<h2 id="enter-the-table-style">Enter the table style <a class="direct-link" href="#enter-the-table-style"> </a></h2>
 <p>next, you need to have another container inside the first one that sets its display to show up as if it were a table.</p>
 <pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">.sitemenu > .navwrapper</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">display</span><span class="token punctuation">:</span> table<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
 <p>The code that actually centers the table is the <code>margin: 0 auto;</code> line. This item will be the width of the menus, regardless of their size. Normally to center an element, you have to know its width, but setting the display to table here bypasses that.</p>
 <p>Honestly, the rest is just window dressing and pretty easy to follow from the code, so <a href="http://jsbin.com/popalu/9/">take a look at the jsbin</a> to learn more.</p>
 
+</main>
 </article>
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
 
-  
-    <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-      <i class="fab fa-linkedin"></i>
-    </a>
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
+
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://github.com/planetoftheweb">
-      <i class="fab fa-github"></i>
-    </a>
+
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://twitter.com/planetoftheweb">
-      <i class="fab fa-twitter"></i>
-    </a>
-  
 
   
-    <a class="text-light px-2" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-      <i class="fab fa-youtube"></i>
-    </a>
-  
 
-  
-    <a class="text-light px-2" target="_blank" href="https://dribbble.com/planetoftheweb">
-      <i class="fab fa-dribbble"></i>
-    </a>
-  
-
-  
-    <a class="text-light px-2" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-      <i class="fab fa-flickr"></i>
-    </a>
   
 
   

@@ -7,7 +7,6 @@ links:
   - lil: https://www.linkedin.com/learning/angularjs-1-form-validation?u=104
   - repo: https://github.com/planetoftheweb/angularformvalidation
 tags:
-  - course
   - css
   - javascript
   - html

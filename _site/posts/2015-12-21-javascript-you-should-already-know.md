@@ -5,7 +5,6 @@ summary: "Life's tough for a front end developer because the pace of learning mo
 hero: /images/posts/jsfrontend.png
 thumb: /images/posts/jsfrontend_tn.png
 tags:
-  - post
   - web design
   - web development
   - javascript

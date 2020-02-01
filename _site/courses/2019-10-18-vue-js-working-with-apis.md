@@ -6,7 +6,6 @@ hero: '/images/courses/vueapis.jpg'
 links:
   - lil: https://www.linkedin.com/learning/vue-js-working-with-apis/lifecycles-and-the-fetch-api
 tags:
-  - course
   - careers
   - full stack
   - web development

@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Raybo.org</title>
+    <title>Seven</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,69 +20,63 @@
     
 
     <script src="/js/script.js"></script>
-  <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
+  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a> 
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
         <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
-          <a class="nav-item nav-link" href="/posts/0/">Posts</a>
+        
+          <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
-          <a class="nav-item nav-link" href="/courses/0/">Courses</a>
+          <a class="nav-item nav-link" href="/posts/0/">posts</a>
           <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+
+
+
+
+          <a class="dropdown-item text-capitalize text-normal" href="/projects/seven/"><i class="fas fa-atom"></i> seven</a><a class="dropdown-item text-capitalize text-normal" href="/projects/rayveal/"><i class="fas fa-atom"></i> rayveal</a></div>
+        </div>
+        <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div>
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-                  <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
-                  <i class="fab fa-github text-secondary mr-2"></i>Github
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
-                  <i class="fab fa-twitter text-secondary mr-2"></i>Twitter
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-                  <i class="fab fa-youtube text-secondary mr-2"></i>YouTube
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
-                  <i class="fab fa-dribbble text-secondary mr-2"></i>Dribbble
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-                  <i class="fab fa-flickr text-secondary mr-2"></i>Flickr
-                </a>
-              
-              
-          </div>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
+            <i class="fab fa-github text-secondary mr-2"></i>github
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
+            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
+            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.instagram.com/iviewsource">
+            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
+          </a></div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -113,23 +106,12 @@
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header position-relative mt-5 site-header" style="width: 100vw; ">
+    
 
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
-        <h2 class="page-section-title text-light"></h2>
-        <p class="page-section-text lead text-light display-1">
-          
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
-
-<article id="main-content" class="site-main container mt-3 mb-5">
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+style="padding-top: 80px"
+>
 <p>See <a href="/tags/">all tags</a>.</p>
 <h2 class="text-secondary mb-5">Tagged <small>“data visualization”</small></h2>
   
@@ -294,43 +276,19 @@
   </div>
 </article>
 
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
 
-  
-    <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-      <i class="fab fa-linkedin"></i>
-    </a>
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://github.com/planetoftheweb">
-      <i class="fab fa-github"></i>
-    </a>
+
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://twitter.com/planetoftheweb">
-      <i class="fab fa-twitter"></i>
-    </a>
-  
 
   
-    <a class="text-light px-2" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-      <i class="fab fa-youtube"></i>
-    </a>
-  
 
-  
-    <a class="text-light px-2" target="_blank" href="https://dribbble.com/planetoftheweb">
-      <i class="fab fa-dribbble"></i>
-    </a>
-  
-
-  
-    <a class="text-light px-2" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-      <i class="fab fa-flickr"></i>
-    </a>
   
 
   

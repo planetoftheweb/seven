@@ -5,7 +5,6 @@ summary: "Google Chrome Extensions can help you take care of certain tasks quick
 hero: /images/posts/chromeextensions.png
 thumb: /images/posts/chromeextensions_tn.png
 tags:
-  - post
   - web designer
   - web developer
 ---

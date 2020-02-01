@@ -7,7 +7,6 @@ links:
   - lil: 'https://www.linkedin.com/learning/learning-angularjs-1-2?u=104'
   - repo: 'https://github.com/planetoftheweb/learnangular'
 tags:
-  - course
   - css
   - javascript
   - html

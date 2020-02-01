@@ -5,7 +5,6 @@ summary: "In this article, I'll talk about the different graphic formats used fo
 hero: /images/posts/vector.png
 thumb: /images/posts/vector_tn.png
 tags:
-  - post
   - data visualization
   - svg
 ---
@@ -29,8 +28,8 @@ Online graphics are usually served in just a few formats. The most common bitmap
 | Format | Description       |
 | ------ | ----------------- |
 | GIF    | 256 colors max    | Low quality, but only Bitmap format that supports very basic animation |
-| JPEG   | 24-Bit True color | High quality especially on photos, but no animation |
-| PNG    | Up to 64-bit      | Smooth transparency, great compression, no animation |
+| JPEG   | 24-Bit True color | High quality especially on photos, but no animation                    |
+| PNG    | Up to 64-bit      | Smooth transparency, great compression, no animation                   |
 
 ## Vector Graphics Online
 

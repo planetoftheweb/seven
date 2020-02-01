@@ -7,7 +7,6 @@ links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-angularjs-2
   - demo: https://github.com/planetoftheweb/angular2
 tags:
-  - course
   - css
   - javascript
   - html

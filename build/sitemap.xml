@@ -67,11 +67,6 @@
   </url>
   
   <url>
-    <loc>/courses/2014-06-23-gulp-js-git-browserify/</loc>
-    <lastmod>2014-06-23</lastmod>
-  </url>
-  
-  <url>
     <loc>/posts/2015-02-07-chrome-developer-extensions/</loc>
     <lastmod>2015-02-07</lastmod>
   </url>
@@ -184,11 +179,6 @@
   <url>
     <loc>/courses/2016-09-29-npm-tooling-with-scripts/</loc>
     <lastmod>2016-09-29</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/2016-11-17-electron-building-cross-platform-desktop-apps/</loc>
-    <lastmod>2016-11-17</lastmod>
   </url>
   
   <url>
@@ -337,11 +327,6 @@
   </url>
   
   <url>
-    <loc>/courses/2018-12-13-github-actions-first-look/</loc>
-    <lastmod>2018-12-13</lastmod>
-  </url>
-  
-  <url>
     <loc>/courses/2019-01-11-angular-building-an-interface/</loc>
     <lastmod>2019-01-11</lastmod>
   </url>
@@ -352,42 +337,142 @@
   </url>
   
   <url>
-    <loc>/courses/0/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/0/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/course/</loc>
-    <lastmod>2019-02-19</lastmod>
-  </url>
-  
-  <url>
     <loc>/courses/2019-03-20-vue-js-essential-training/</loc>
     <lastmod>2019-03-20</lastmod>
   </url>
   
   <url>
+    <loc>/courses/2019-04-19-bootstrap-4-with-sass/</loc>
+    <lastmod>2019-04-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-05-28-electron-building-cross-platform-desktop-apps/</loc>
+    <lastmod>2019-05-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-06-30</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
-    <lastmod>2019-03-21</lastmod>
+    <lastmod>2019-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/0/</loc>
+    <lastmod>2019-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/0/</loc>
+    <lastmod>2019-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/course/</loc>
+    <lastmod>2019-06-30</lastmod>
   </url>
   
   <url>
     <loc>/js/data.js</loc>
-    <lastmod>2019-03-21</lastmod>
+    <lastmod>2019-07-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2019-07-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/rayveal/04_Templates/</loc>
+    <lastmod>2019-07-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-08-15-vue-js-building-an-interface/</loc>
+    <lastmod>2019-08-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-09-11-succeeding-in-web-development/</loc>
+    <lastmod>2019-09-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-09-11-vue-js-full-stack-applications-with-firebase/</loc>
+    <lastmod>2019-09-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/rayveal/02_Instructions/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/rayveal/03_Features/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/rayveal/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/seven/02_Styles/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/seven/03_Scripts/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/seven/04_Site/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/seven/05_Configuration/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/seven/06_Building/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/seven/</loc>
+    <lastmod>2019-09-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-10-18-vue-js-working-with-apis/</loc>
+    <lastmod>2019-10-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-10-31-gulp-js-web-project-workflow/</loc>
+    <lastmod>2019-10-31</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-11-08-github-actions-first-look/</loc>
+    <lastmod>2019-11-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2019-12-09-svelte-first-look/</loc>
+    <lastmod>2019-12-09</lastmod>
   </url>
 </urlset>

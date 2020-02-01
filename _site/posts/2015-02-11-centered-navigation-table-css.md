@@ -8,7 +8,6 @@ resources:
   - video: https://www.youtube.com/watch?v=RT64aSNXnzY
   - code: http://jsbin.com/popalu/12/edit?html,css,output
 tags:
-  - post
   - web design
   - css
 ---

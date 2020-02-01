@@ -1,29 +1,29 @@
 $(document).ready(function() {
-  $(window).on("activate.bs.scrollspy", function() {
-    var hash = $(".site-nav")
-      .find("a.active")
-      .attr("href");
+  $(window).on('activate.bs.scrollspy', function() {
+    var hash = $('.site-nav')
+      .find('a.active')
+      .attr('href')
 
-    $(".site-nav").removeClass("inbody");
+    $('.site-nav').removeClass('inbody')
 
-    if (hash == "#main-content") {
-      $(".site-nav").addClass("inbody");
+    if (hash == '#main-content') {
+      $('.site-nav').addClass('inbody')
     } else {
-      $(".site-nav").removeClass("inbody");
+      $('.site-nav').removeClass('inbody')
     }
-  });
+  })
 
-  $(window).trigger("scroll");
+  $(window).trigger('scroll')
 
-  $(window).on("scroll", function() {
-    var top = $(window).scrollTop();
-    $(".layout-hero, .layout-hero-content")
-      .css("transform", "translate3d(0px, " + top / 2 + "px, 0px)")
-      .css("opacity", 1 - Math.max(top / (window.innerHeight * 0.6), 0));
-  });
+  $(window).on('scroll', function() {
+    var top = $(window).scrollTop()
+    $('.layout-hero, .layout-hero-content')
+      .css('transform', 'translate3d(0px, ' + top / 2 + 'px, 0px)')
+      .css('opacity', 1 - Math.max(top / (window.innerHeight * 0.6), 0))
+  })
 
   var app = new Vue({
-    el: ".searchbox",
+    el: '.searchbox',
     data: {
       query: null,
       content: [],
@@ -32,10 +32,10 @@ $(document).ready(function() {
     methods: {
       handleBlur: function(e) {
         if (e.relatedTarget !== null) {
-          console.log(e.relatedTarget.href);
-          window.location = e.relatedTarget.href;
+          console.log(e.relatedTarget.href)
+          window.location = e.relatedTarget.href
         }
-        this.isActive = false;
+        this.isActive = false
       },
       handleClick: function(e) {}
     },
@@ -44,18 +44,17 @@ $(document).ready(function() {
         return this.content.filter(item => {
           return (
             item.title.toLowerCase().match(this.query.toLowerCase()) ||
-            item.summary.toLowerCase().match(this.query.toLowerCase()) ||
             item.tags.toLowerCase().match(this.query.toLowerCase())
-          );
-        });
+          )
+        })
       }
     },
     mounted: function() {
-      fetch("/js/data.js")
+      fetch('/js/data.js')
         .then(response => response.json())
         .then(data => {
-          this.content = data;
-        });
+          this.content = data
+        })
     }
-  });
-});
+  })
+})

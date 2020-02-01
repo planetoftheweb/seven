@@ -7,7 +7,6 @@ thumb: /images/posts/express_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/5-reasons-you-should-develop-your-next-site-using-node-ray-villalobos
 tags:
-  - post
   - external
   - web design
   - web development

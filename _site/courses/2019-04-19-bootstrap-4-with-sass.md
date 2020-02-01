@@ -6,7 +6,6 @@ hero: "/images/courses/bootstrap-4-with-sass.jpg"
 links:
   - lil: https://www.linkedin.com/learning/bootstrap-4-with-sass/
 tags:
-  - course
   - bootstrap
   - bootstrap4
   - sass

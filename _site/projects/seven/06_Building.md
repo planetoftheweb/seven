@@ -2,6 +2,7 @@
 layout: layouts/post-sidebar.njk
 title: Building
 sidebar: seven
+summary: 
 eleventyNavigation:
   key: building
   title: 'Building'

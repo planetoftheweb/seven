@@ -7,7 +7,6 @@ links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fangularjs-1-building-a-data-driven-app-2
   - repo: https://github.com/planetoftheweb/angulardata
 tags:
-  - course
   - css
   - javascript
   - html

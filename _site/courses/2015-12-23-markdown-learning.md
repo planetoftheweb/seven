@@ -6,7 +6,6 @@ hero: '/images/courses/markdown.jpg'
 links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-markdown%2Fwhat-is-markdown
 tags:
-  - course
   - css
   - javascript
   - html

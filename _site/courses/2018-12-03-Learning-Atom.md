@@ -7,7 +7,6 @@ hero: "/images/courses/learnatom.jpg"
 links:
   - lil: https://www.linkedin.com/learning/learning-atom-2/editing-with-atom?u=104
 tags:
-  - course
   - css
   - javascript
   - html

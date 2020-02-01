@@ -5,7 +5,6 @@ summary: "Javascript has grown from a way to add interactivity on your page, to 
 hero: /images/posts/json.png
 thumb: /images/posts/jsonarticle_tn.png
 tags:
-  - post
   - careers
   - web development
   - data visualization

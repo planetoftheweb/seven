@@ -7,7 +7,6 @@ thumb: /images/posts/threethings_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/three-things-i-learned-from-six-years-teacher-ray-villalobos
 tags:
-  - post
   - external
   - Teaching
   - Learning

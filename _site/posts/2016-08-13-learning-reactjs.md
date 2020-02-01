@@ -7,7 +7,6 @@ thumb: /images/posts/react_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/getting-love-learning-reactjs-ray-villalobos
 tags:
-  - post
   - external
   - web design
   - web development

@@ -7,7 +7,6 @@ links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjquery-building-an-interface
   - demo: https://github.com/LinkedInLearning/jquery-interface-645062-
 tags:
-  - course
   - css
   - javascript
   - html

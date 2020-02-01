@@ -6,7 +6,6 @@ hero: '/images/courses/gulp.jpg'
 links:
   - lil: https://www.linkedin.com/learning/gulp-js-web-project-workflows/
 tags:
-  - course
   - careers
   - full stack
   - web development

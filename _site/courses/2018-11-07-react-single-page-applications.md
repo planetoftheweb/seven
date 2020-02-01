@@ -7,7 +7,6 @@ links:
   - lil: https://www.linkedin.com/learning/react-spas/working-with-exercises
   - repo: https://github.com/planetoftheweb/react-spas-774920
 tags:
-  - course
   - react
   - javascript
   - firebase

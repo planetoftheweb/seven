@@ -2,6 +2,7 @@
 layout: layouts/post-sidebar.njk
 title: 'Seven: Styles'
 sidebar: seven
+summary: 
 eleventyNavigation:
   key: seven-styles
   title: 'Seven: Styles'

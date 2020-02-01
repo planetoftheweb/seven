@@ -6,7 +6,6 @@ hero: "/images/courses/vueinterface.jpg"
 links:
   - lil: https://www.linkedin.com/learning/vue-js-building-an-interface-2/
 tags:
-  - course
   - frameworks
   - vue.js
   - javascript

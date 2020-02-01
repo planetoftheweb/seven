@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     
 
-    <title>Raybo.org</title>
+    <title>Seven</title>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  </head>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -21,69 +20,63 @@
     
 
     <script src="/js/script.js"></script>
-  <body data-spy="scroll" data-target=".site-nav" data-offset="55" style="position: relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark fixed-top py-0">
+  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
   <div class="container-fluid">
-    <button type="button" class="navbar-toggler mt-2" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-brand text-uppercase">
-      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Raybo.org</a> 
+      <a class="text-light" href="/"><i class="fas fa-cube mr-2"></i>Seven</a> 
     </div>
 
-    <div class="collapse navbar-collapse text-center" id="myTogglerNav">
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
         <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
-          <a class="nav-item nav-link" href="/posts/0/">Posts</a>
+        
+          <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
-          <a class="nav-item nav-link" href="/courses/0/">Courses</a>
+          <a class="nav-item nav-link" href="/posts/0/">posts</a>
           <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+
+
+
+
+          <a class="dropdown-item text-capitalize text-normal" href="/projects/seven/"><i class="fas fa-atom"></i> seven</a><a class="dropdown-item text-capitalize text-normal" href="/projects/rayveal/"><i class="fas fa-atom"></i> rayveal</a></div>
+        </div>
+        <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user"></i>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
             <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div>
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-                  <i class="fab fa-linkedin text-secondary mr-2"></i>LinkedIn
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
-                  <i class="fab fa-github text-secondary mr-2"></i>Github
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
-                  <i class="fab fa-twitter text-secondary mr-2"></i>Twitter
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-                  <i class="fab fa-youtube text-secondary mr-2"></i>YouTube
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
-                  <i class="fab fa-dribbble text-secondary mr-2"></i>Dribbble
-                </a>
-              
-              
-                <a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-                  <i class="fab fa-flickr text-secondary mr-2"></i>Flickr
-                </a>
-              
-              
-          </div>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" target="_blank" href="https://github.com/planetoftheweb">
+            <i class="fab fa-github text-secondary mr-2"></i>github
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://linkedin.com/in/planetoftheweb">
+            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://twitter.com/planetoftheweb">
+            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://dribbble.com/planetoftheweb">
+            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
+            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
+          </a><a class="dropdown-item text-capitalize" target="_blank" href="https://www.instagram.com/iviewsource">
+            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
+          </a></div>
         </div>
       </div>
-      <div class="searchbox pl-2 pb-2">
+      <div class="searchbox pl-2 py-2">
     <input
       type="text"
       v-model="query"
@@ -113,31 +106,37 @@
   </div>
 </nav>
 
-    <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
+    
+  <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 50vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(/images/posts/vector.png); height: 100%; width: 100%;  filter: blur(3px);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
         <h2 class="page-section-title text-light">Vector Graphic Formats Used for data visualizations</h2>
-        <p class="page-section-text lead text-light display-1">
+        <p class="page-section-text text-light d-none d-md-block">
           In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead.
         </p>
       </div>
     </div>
   </div>
 </div>
-</header>
+</header> 
 
-<article id="main-content" class="site-main container mt-3 mb-5">
-<h1 class="text-primary mt-5 mb-3">Vector Graphic Formats Used for data visualizations</h1>
-<h2 id="vector-graphics">Vector Graphics <a class="direct-link" href="#vector-graphics" aria-hidden="true">#</a></h2>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="px-3 px-sm-0">
+<h2 id="vector-graphics">Vector Graphics <a class="direct-link" href="#vector-graphics"> </a></h2>
 <p>Vector graphics are different than bitmaps because instead of storing information for each pixel in an image, mathematical formulas for each element in an image is stored in a programming language that can rebuild the image on any screen at the best resolution available.</p>
 <p>A mathematical calculation is often smaller than a bitmap. Take a look at the graphic below and scroll through the code. You can see that it isn't just a series of pixels, but a mathematical definition of the lines, strokes and colors of shapes.</p>
 <p><a class="jsbin-embed" href="http://jsbin.com/hotaqe/2/embed?html,output"></a><script src="http://static.jsbin.com/js/embed.js"></script></p>
 <p>Because they're mathematical definitions instead of pixels, it means that no matter what size or the resolution of the device, the image will always look the same. This image is only 3k...a fraction of what it would take a bitmap of a similar size.</p>
 <p>This, of course, is a huge advantage over bitmaps, but vectors are only good for certain types of images. They're not great for representing photographic images or things that can best be expressed solely as bitmaps. However, they are excellent for interactive web graphics and even better for web animations, especially data visualizations.</p>
-<h2 id="common-web-formats-and-visualization">Common Web formats and visualization <a class="direct-link" href="#common-web-formats-and-visualization" aria-hidden="true">#</a></h2>
+<h2 id="common-web-formats-and-visualization">Common Web formats and visualization <a class="direct-link" href="#common-web-formats-and-visualization"> </a></h2>
 <p>Online graphics are usually served in just a few formats. The most common bitmap formats are GIF, JPEG and PNG. Because these formats are, for the most part, static (with the exception of GIF), they are not best for representing data for visualizations. In addition to being difficult to animate, individual data points or elements are not accessible through JavaScript.</p>
 <table>
 <thead>
@@ -161,13 +160,13 @@
 </tr>
 </tbody>
 </table>
-<h2 id="vector-graphics-online">Vector Graphics Online <a class="direct-link" href="#vector-graphics-online" aria-hidden="true">#</a></h2>
+<h2 id="vector-graphics-online">Vector Graphics Online <a class="direct-link" href="#vector-graphics-online"> </a></h2>
 <p>For vector graphics on web projects and visualizations, there's three options available. Using HTML/CSS, HTML/Canvas or SVG.</p>
-<h3 id="html%2Fcss-vector-graphics">HTML/CSS Vector Graphics <a class="direct-link" href="#html%2Fcss-vector-graphics" aria-hidden="true">#</a></h3>
+<h3 id="html%2Fcss-vector-graphics">HTML/CSS Vector Graphics <a class="direct-link" href="#html%2Fcss-vector-graphics"> </a></h3>
 <p>The first, CSS, is probably the easiest to get started with, but also the most complex and least flexible. CSS has very few primitives (simple shapes) and lets you create rectangles with rounded edges that you can draw with as well as some lines, but that's not nearly enough primitives for complex graphics. Although some people have managed to create fairly complex images with CSS (see figure below) it's not considered a viable option for anything other than simple visualizations.</p>
 <p data-height="268" data-theme-id="0" data-slug-hash="faJpv" data-default-tab="result" data-user="jacksaidwhat" class='codepen'>See the Pen <a href='http://codepen.io/jacksaidwhat/pen/faJpv/'>Pure CSS Totoro</a> by Jack Parsons (<a href='http://codepen.io/jacksaidwhat'>@jacksaidwhat</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<h3 id="the-html-%3Ccanvas%3E-element">The HTML <code>&lt;canvas&gt;</code> Element <a class="direct-link" href="#the-html-%3Ccanvas%3E-element" aria-hidden="true">#</a></h3>
+<h3 id="the-html-%3Ccanvas%3E-element">The HTML <code>&lt;canvas&gt;</code> Element <a class="direct-link" href="#the-html-%3Ccanvas%3E-element"> </a></h3>
 <p>Second, there's a way to create graphics through an HTML element called <code>&lt;canvas&gt;</code>. Canvas is part of the HTML5 specification, the language that makes up modern web pages. To create a graphic, you create a <code>&lt;canvas&gt;</code> tag in your HTML, give it an ID and then use javascript to write with a rich graphics language.</p>
 <p><a class="jsbin-embed" href="http://jsbin.com/zoxoke/2/embed?js,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script></p>
 <p>The browser will take that data, and convert it to a bitmap that renders within a specified area.</p>
@@ -175,7 +174,7 @@
 <p>The commands for drawing are also more like commands than objects. Here's an example of what it would take to draw a rectangle on the screen.</p>
 <pre class="language-javascript"><code class="language-javascript"><span class="highlight-line"><span class="token keyword">function</span> <span class="token function">drawRect</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token keyword">var</span> canvas <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"rect"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token keyword">var</span> context <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">"2d"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line">  context<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> <span class="token string">"rgb(233,192,117)"</span><span class="token punctuation">;</span></span><br><span class="highlight-line">  context<span class="token punctuation">.</span><span class="token function">fillRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
 <p>Using canvas feels more like programming and is very fast. Most of the time this language is too difficult to use for visualizations manually. Some sort of compiler will generate the code for you. This is a very good format in a lot of cases and performs better when you have a lot of elements in your visualization because it will be faster, but it's definitely a bit harder to work with the original elements.</p>
-<h3 id="svg-graphics">SVG Graphics <a class="direct-link" href="#svg-graphics" aria-hidden="true">#</a></h3>
+<h3 id="svg-graphics">SVG Graphics <a class="direct-link" href="#svg-graphics"> </a></h3>
 <p>SVG Stands for Scalable Vector Graphics and it is an XML based format for drawing two dimensional graphics. Because it is based on XML, it's very similar to the language that most people use to create webpages.</p>
 <p>The fact that it is XML gives it another advantage over other formats. The graphic becomes part of the DOM (the Document Object Model that the browser generates when it reads an HTML page.)</p>
 <p>That means that every element in an SVG file is accessible as an individual item after it gets drawn. It's easier to get to these elements with JavaScript because they are each a node in the DOM just like any other HTML element. Take a look at some sample code for generating a square in SVG.</p>
@@ -209,44 +208,22 @@
 </tbody>
 </table>
 
+</main>
 </article>
-    <footer class="site-footer bg-transparent">
-      <div class="layout-social container py-5 d-flex justify-content-center">
 
-  
-    <a class="text-light px-2" target="_blank" href="https://linkedin.com/in/planetoftheweb">
-      <i class="fab fa-linkedin"></i>
-    </a>
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
+
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://github.com/planetoftheweb">
-      <i class="fab fa-github"></i>
-    </a>
+
   
 
   
-    <a class="text-light px-2" target="_blank" href="https://twitter.com/planetoftheweb">
-      <i class="fab fa-twitter"></i>
-    </a>
-  
 
   
-    <a class="text-light px-2" target="_blank" href="https://www.youtube.com/user/planetoftheweb">
-      <i class="fab fa-youtube"></i>
-    </a>
-  
 
-  
-    <a class="text-light px-2" target="_blank" href="https://dribbble.com/planetoftheweb">
-      <i class="fab fa-dribbble"></i>
-    </a>
-  
-
-  
-    <a class="text-light px-2" target="_blank" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-      <i class="fab fa-flickr"></i>
-    </a>
   
 
   

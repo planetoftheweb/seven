@@ -8,7 +8,6 @@ links:
   - repo: https://github.com/LinkedInLearning/bootstrap4-layouts-417642
   - demo: http://www.raybo.org/bootstrap4-layouts-417642/demo/
 tags:
-  - course
   - css
   - javascript
   - html

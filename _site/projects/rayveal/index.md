@@ -2,12 +2,10 @@
 layout: layouts/post-sidebar.njk
 title: 'RavVeal: Introduction'
 summary: A markdown first slide framework based on the awesome reveal.js, with multiple presentations, custom layouts and a whole lot more."
+sidebar: rayveal
 eleventyNavigation:
   key: rayveal
   parent: projects
-tags:
-  - project
-  - rayveal
 ---
 
 # RayVeal.js
