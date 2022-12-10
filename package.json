@@ -48,7 +48,7 @@
     "clean-webpack-plugin": "^2.0.2",
     "css-loader": "^2.1.1",
     "eleventy-plugin-nesting-toc": "^1.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.2.5",
